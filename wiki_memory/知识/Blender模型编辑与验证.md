@@ -23,6 +23,7 @@ sources:
   - "docs/model_build_verification.json"
   - "docs/native_reconstruction_comparison.json"
   - "docs/native_reference_signature.json"
+  - "docs/remote_build_verification.json"
 ---
 
 # Blender 模型编辑与验证
@@ -74,7 +75,7 @@ build_model.cmd "F:\Blender\blender.exe"
 
 ## 证据与限制
 
-2026-10-13 读取当前脚本、迁移初始重开及本轮原生/未压缩/Draco JSON（17:26:18/17:26:27/17:26:37 +08:00，均 pass）。检查发生在资产基线提交前，含本轮脚本本地变更；之后资产提交为 `20d98f7` / `a2c1521`，脚本尚未提交。主文件和两份 GLB SHA 未变。
+2026-10-13 核心 JSON 均 pass，检查时含本地脚本变更；构建代码/资产实测基线已发布 main `5e89e6985503086582095aa5453f82436010c129`，历史无主文件，本地原件/GLB未变。该 revision 是代码基线，不是后续最终证据文档 HEAD；最新提交接续时重查。
 
 原生已有 Head/Jaw/Tail、左右 Eye/Ear 共 7 个 LOCAL LimitRotation，含 42 次越界钳制与回中性测试。严格 Draco 检查实际解码 230 个 primitive / 3,524,821 个三角形，最大逐来源部件边界差 5.960464477539062e-7 设计单位，零错误/三个格式警告；仍不证明绑定变形、碰撞安全、舞动或眨眼。
 
@@ -82,4 +83,8 @@ build_model.cmd "F:\Blender\blender.exe"
 
 两文件实际比较了 256 对象、4,553 数组字段、15 材质语义与 10 图像内容语义，零错误/警告/不支持项。来源几何、UV、自定义法线、全部曲线控制数据、变换、控制、着色图与解码像素覆盖；生成基本体的边/多边形存储重排已证等价。仅已准确对应的生成法线和 11 颗牙齿 UV 接受明确 float32 舍入，最大分别 1.1920929e-7 / 5.9604645e-8；来源 UV/自定义法线和曲线仍精确一致，不是统一放宽阈值。
 
-可移植参考签名为 `docs/native_reference_signature.json`。语义比较排除场景灯光/相机/render-view、UI、路径、保存字节及无关运行元数据；不能据此声称新渲染、绑定或艺术质量提高。本轮是在本机隔离目录验证，另一物理机器及 Git 远端新克隆仍未受测。最新结果写报告与单份日志。
+便携参考为 `docs/native_reference_signature.json`；`compare_native_reconstruction.py` 可用 `--expected-signature` 比较生成文件，无需未上传的旧主文件。它排除灯光/相机/render-view、UI、路径、保存字节及无关元数据，不证明艺术、渲染或绑定提升。
+
+真实 GitHub 新克隆的默认命令 `build_model.cmd "F:\Blender\blender.exe"` 也实测 pass，115.556 秒，原生重开/便携对照零差异、错误、警告和不支持项。结果 194,718,146 字节，SHA `58e62e9f47c8b505c0d9086b38a127257514688174a6f27a2c2431ed9e4fc88f`，忽略且未跟踪；便携指纹 `f50759a15f927d335ddbb3743fbcddb5ea72a09300a83d64cec04e07971c1ce2`。29 个源/配方哈希保全，14 图片 packed/relative，无活动库；未复制旧主文件。
+
+网络范围要保留：8 所需 LFS 文件实际 GitHub 获取 74,736,126 字节；慢速传输中止后，2 大阶段用发布 OID 精确匹配缓存 207,910,241 字节，全部10项哈希/尺寸匹配。其他190实验 LFS路径未水化。报告明确 `full_remote_hydration_completed=false`，不能说完全冷下载通过；另一个物理计算机/OS/Blender版本也未实测。缓存克隆的残余索引提示不影响原工程或受测结果。最新证据见 `docs/remote_build_verification.json` 和唯一维护日志。

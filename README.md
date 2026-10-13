@@ -43,6 +43,7 @@ Brocade uses a 1254 x 1254 reference-inspired synthetic tile at a 0.20 m repeat 
 Install Git, Git LFS and Blender 5.0.0. Clone without initially downloading every large experiment, then run this in Windows CMD:
 
 ```bat
+git lfs install
 set "GIT_LFS_SKIP_SMUDGE=1"
 git clone https://github.com/DewMysimple/Lion-Model.git
 cd Lion-Model

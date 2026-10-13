@@ -1,0 +1,145 @@
+{
+  "schema": "lion-project.remote-build-verification/v1",
+  "verified_at_utc": "2026-10-13T11:23:35.702665+00:00",
+  "status": "pass",
+  "scope": "Actual GitHub clone, targeted LFS checkout, default native reconstruction and portable semantic comparison; two large checkpoints were supplied from checksum-verified local cache after an intentionally interrupted slow transfer.",
+  "repository": "https://github.com/DewMysimple/Lion-Model.git",
+  "cloned_revision": "5e89e6985503086582095aa5453f82436010c129",
+  "clone_path": "cache/remote_verification",
+  "environment": {
+    "os": "Windows",
+    "entry": "CMD / Windows PowerShell 5.1",
+    "blender": "5.0.0",
+    "git": "2.54.0.windows.1",
+    "git_lfs": "3.7.1"
+  },
+  "clone": {
+    "command": "git clone --branch main --single-branch https://github.com/DewMysimple/Lion-Model.git cache/remote_verification",
+    "environment_override": {"GIT_LFS_SKIP_SMUDGE": "1"},
+    "exit_code": 0,
+    "elapsed_seconds": 4.6157824,
+    "tracked_files": 383,
+    "initial_master_present": false,
+    "initial_master_tracked": false,
+    "initial_master_history_entries": 0,
+    "initial_lfs_pointers": 200,
+    "initial_cached_lfs_objects": 0
+  },
+  "hydration": {
+    "full_remote_hydration_completed": false,
+    "targeted_data_inputs": 12,
+    "required_lfs_inputs": 10,
+    "remotely_completed_objects": 8,
+    "remotely_completed_payload_bytes": 74736126,
+    "remotely_completed_paths": [
+      "blender/checkpoints/Lion_Detailed_Parts.blend",
+      "docs/trim_cloth_recovery_mask.npy",
+      "docs/trim_cloth_recovery_source_ids.npy",
+      "docs/trim_geometry_features.npz",
+      "generated/Lux3D_Lion_Base_glb.glb",
+      "generated/candidates/head_highdetail/Lion_head_highdetail_glb.glb",
+      "textures/brocade_new/body_micro_weave_normal_2048.png",
+      "textures/brocade_new/brocade_reference_synthesis.png"
+    ],
+    "locally_seeded_objects": 2,
+    "locally_seeded_payload_bytes": 207910241,
+    "locally_seeded_checkpoints": [
+      {
+        "path": "blender/checkpoints/Lion_Body_Quality_Stage.blend",
+        "published_oid": "f451b9fbc30f4671c456c552a0cbdc833dbc92d84cd196deac9df2ea953c96a1",
+        "bytes": 113453657,
+        "original_source_unchanged": true,
+        "source_and_seeded_copy_match_published_oid": true
+      },
+      {
+        "path": "blender/checkpoints/Lion_Head_Quality_Stage_v2.blend",
+        "published_oid": "519c5acd480367ecf7058e32b9337d6e12e244e5cfccd56ff8c624a2cfdd7c60",
+        "bytes": 94456584,
+        "original_source_unchanged": true,
+        "source_and_seeded_copy_match_published_oid": true
+      }
+    ],
+    "first_attempt": {
+      "command": "build_model.cmd \"F:\\Blender\\blender.exe\"",
+      "automatic_lfs_pull": true,
+      "result": "intentionally_interrupted",
+      "exit_code": 1,
+      "started_at_utc": "2026-10-13T11:01:37.4466355Z",
+      "interrupted_at_utc": "2026-10-13T11:16:56.5837804Z",
+      "elapsed_seconds": 919.137145,
+      "reason": "Observed large-object throughput around 32 KB/s; scoped interruption authorized to avoid a prolonged optional network test. No functional build error was observed.",
+      "last_observed_partial_checkpoint_bytes": {
+        "head": 14035348,
+        "body": 25026733
+      },
+      "termination_scope": "Only the exact cloned build_model.ps1 process and its verified descendant tree."
+    },
+    "all_ten_hydrated_input_hashes_and_sizes_match_published_lfs_oids_and_reference": true,
+    "two_text_json_inputs": "Git checkout normalized CRLF to LF; decoded JSON and exact LF-normalized bytes match original inputs.",
+    "remaining_optional_lfs_pointers": 190,
+    "only_required_lfs_objects_materialized": true,
+    "final_lfs_object_count": 10,
+    "final_lfs_payload_bytes": 282646367,
+    "network_wire_bytes": "Not instrumented; payload totals exclude incomplete transfers and protocol overhead."
+  },
+  "build": {
+    "command": "build_model.cmd \"F:\\Blender\\blender.exe\"",
+    "automatic_lfs_pull_enabled": true,
+    "no_no_lfs_pull_flag": true,
+    "exit_code": 0,
+    "status": "pass",
+    "elapsed_seconds": 115.5563923,
+    "output": "blender/Lion_Final_Master.blend",
+    "output_bytes": 194718146,
+    "output_sha256": "58e62e9f47c8b505c0d9086b38a127257514688174a6f27a2c2431ed9e4fc88f",
+    "original_master_not_copied": true,
+    "generated_master_remains_ignored_and_untracked": true,
+    "input_and_recipe_hashes_preserved": 29,
+    "staging_removed_before_published_reopen": true,
+    "native_verification": {
+      "status": "pass",
+      "errors": 0,
+      "warnings": 0,
+      "native_strands": 980957,
+      "control_points": 3121088,
+      "source_parts": 20,
+      "asset_objects": 256,
+      "source_faces": 528398,
+      "all_referenced_images_packed": true
+    },
+    "packed_resource_verification": {
+      "images": 14,
+      "all_images_packed": true,
+      "all_image_paths_relative": true,
+      "libraries": [],
+      "linked_ids": []
+    },
+    "evidence": "cache/remote_verification/cache/builds/20261013-191916-b494ca13/build_result.json"
+  },
+  "portable_comparison": {
+    "command": "blender.exe --background --factory-startup --python-exit-code 1 --python scripts/compare_native_reconstruction.py -- --expected-signature docs/native_reference_signature.json --rebuilt blender/Lion_Final_Master.blend --report cache/remote_signature_verification.json",
+    "exit_code": 0,
+    "status": "pass",
+    "asset_objects": 256,
+    "array_fields": 4553,
+    "material_semantics": 15,
+    "image_semantics": 10,
+    "differences": 0,
+    "errors": 0,
+    "warnings": 0,
+    "unsupported_expected": 0,
+    "unsupported_actual": 0,
+    "asset_fingerprint": "f50759a15f927d335ddbb3743fbcddb5ea72a09300a83d64cec04e07971c1ce2",
+    "rebuilt_file_preserved": true,
+    "evidence": "cache/remote_verification/cache/remote_signature_verification.json"
+  },
+  "test_artifacts_and_limits": {
+    "nonfatal_lfs_index_message": "The resumed LFS pull reported Error updating the Git index but returned 0 and hydrated every required working-tree file.",
+    "cause": "The intentionally terminated first checkout left a zero-byte cache-clone .git/index.lock dated 2026-10-13 19:01:43.",
+    "cache_only_index_lock_retained": true,
+    "lock_removal_review": "Automatic approval review rejected removing the cache-only lock with 'blocked by policy'. It was retained; no alternate deletion was attempted.",
+    "original_repository_untouched_by_clone_lock": true,
+    "complete_cold_network_download": "Not established for the two locally seeded checkpoints.",
+    "other_operating_systems_or_blender_versions": "Not tested."
+  }
+}
