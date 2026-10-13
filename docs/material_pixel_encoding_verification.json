@@ -1,0 +1,86 @@
+{
+  "conclusion": "Blender source sRGB pixels match encoded PNG channels; do not decode for RGB appearance classification",
+  "max_absolute_difference": 7.246054856135942e-08,
+  "samples": [
+    {
+      "x": 100,
+      "y_bottom_origin": 100,
+      "png_bytes": [
+        150,
+        91,
+        75,
+        255
+      ],
+      "blender_pixels": [
+        0.5882353186607361,
+        0.35686275362968445,
+        0.29411765933036804,
+        1.0
+      ]
+    },
+    {
+      "x": 900,
+      "y_bottom_origin": 1400,
+      "png_bytes": [
+        152,
+        101,
+        77,
+        255
+      ],
+      "blender_pixels": [
+        0.5960784554481506,
+        0.3960784673690796,
+        0.3019607961177826,
+        1.0
+      ]
+    },
+    {
+      "x": 1100,
+      "y_bottom_origin": 1700,
+      "png_bytes": [
+        203,
+        200,
+        201,
+        255
+      ],
+      "blender_pixels": [
+        0.7960785031318665,
+        0.7843137979507446,
+        0.7882353663444519,
+        1.0
+      ]
+    },
+    {
+      "x": 1000,
+      "y_bottom_origin": 1500,
+      "png_bytes": [
+        204,
+        205,
+        208,
+        255
+      ],
+      "blender_pixels": [
+        0.8000000715255737,
+        0.803921639919281,
+        0.8156863451004028,
+        1.0
+      ]
+    },
+    {
+      "x": 500,
+      "y_bottom_origin": 1200,
+      "png_bytes": [
+        179,
+        125,
+        124,
+        255
+      ],
+      "blender_pixels": [
+        0.7019608020782471,
+        0.4901961088180542,
+        0.4862745404243469,
+        1.0
+      ]
+    }
+  ]
+}

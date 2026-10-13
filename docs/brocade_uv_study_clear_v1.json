@@ -1,0 +1,44 @@
+{
+  "changedObject": "Lion_Body",
+  "materialName": "Brocade_Clear_Tile_Cloth_Study",
+  "newUV": "BrocadeCylinder_0p2m",
+  "selectedClothFaceCount": 100454,
+  "excludedFaceCount": 22986,
+  "tileMetersAlongY": 0.2,
+  "circumferenceEquivalentRadius": 0.2531797780234432,
+  "cylinderCenterZ": 0.45,
+  "texturePath": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\brocade_new\\brocade_reference_synthesis.png",
+  "textureSha256": "75b4c86681f9363c622f8ec33b537efa8d08e8a282523a7d8a70ba37a705496c",
+  "textureDimensions": [
+    1254,
+    1254
+  ],
+  "originalUVAndFaceProvenancePreserved": true,
+  "originalBuffers": {
+    "uvName": "UVMap",
+    "uvSha256": "4c203ea6f9763a5c5fb0d028fd2d54ec605cc02653c96b36bb979c20aa02ad35",
+    "sourceFaceSha256": "7827a9974b0dd16a76bbf4fda9988d2c29dadb03c363ef0b3997552fd975f198",
+    "faceCount": 123440,
+    "uvLoopCount": 370320
+  },
+  "normalTexture": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\brocade_new\\body_micro_weave_normal_2048.png",
+  "normalTextureSha256": "05e235ab9f36ac80f09c3bb74625edad708faefe1e8fd482533c599baa4b62ea",
+  "normalDimensions": [
+    2048,
+    2048
+  ],
+  "normalStrength": 0.18,
+  "threadsPerTile": 128,
+  "selectionLimits": "Body garment Y[-.38,.79], Z[.18,.78], only near-pure white corner classification excluded; printed red cloth is included. Actual image review is required at boundaries.",
+  "textureSource": "New supplied tile experiment; not a recovery of the exact original reference motif.",
+  "trimMaterialAssignmentsPreserved": true,
+  "recordedAt": "2026-10-11T15:58:12.197189+00:00",
+  "studyBlend": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\blender\\Lion_Brocade_UV_Study_clear_v1.blend",
+  "bodyOnlyGlb": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\exports\\Lion_Brocade_UV_Study_clear_v1.glb",
+  "renders": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\renders\\brocade_uv_study_clear_v1",
+  "protectedMasterShaBefore": "37dc72d10c886e5bc43f1a0aed54c1c1f55ab627758d212c159dfdc054a4a627",
+  "protectedMasterShaAfter": "37dc72d10c886e5bc43f1a0aed54c1c1f55ab627758d212c159dfdc054a4a627",
+  "protectedMasterPreserved": true,
+  "visualAcceptance": "Pending actual comparison inspection",
+  "glbReimportAcceptance": "Pending separate real reimport"
+}

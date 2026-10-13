@@ -1,0 +1,55 @@
+{
+  "saved_study": {
+    "vertices": 289321,
+    "polygons": 286200,
+    "uv_loops": 858600,
+    "position_hash": "99ac1114851d9d27f4d7033eac06ff45ad9b1fd01d3d038cb0d5ec7cb8d3da0f",
+    "topology_hash": "fa32d39f5342e0e32c5b62230d274f2476938b2ca7a3bd3da784155eb2c63363",
+    "uv_hash": "bb51bd6991d92db83d32305e5048e36d0ba010d7449ec5f3cd000db6d6dd01ad"
+  },
+  "original_source": {
+    "vertices": 289321,
+    "polygons": 286200,
+    "uv_loops": 858600,
+    "position_hash": "99ac1114851d9d27f4d7033eac06ff45ad9b1fd01d3d038cb0d5ec7cb8d3da0f",
+    "topology_hash": "fa32d39f5342e0e32c5b62230d274f2476938b2ca7a3bd3da784155eb2c63363",
+    "uv_hash": "bb51bd6991d92db83d32305e5048e36d0ba010d7449ec5f3cd000db6d6dd01ad"
+  },
+  "geometry_and_uv_exactly_preserved": true,
+  "saved_material": "Lion_Atlas_PBR_Refined",
+  "saved_map_images": [
+    {
+      "name": "Lion_Atlas_Color_Refined",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "Lion_Color_Derived_Roughness",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "Lion_Color_Derived_Metallic",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "Lion_Weave_Appearance_Mask",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "all_maps_packed": true
+}

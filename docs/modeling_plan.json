@@ -1,0 +1,64 @@
+{
+  "subject": "Reference-matched Cantonese lion dance costume",
+  "status": "references-uploaded-live-quote-ready-awaiting-spending-decision",
+  "quotedCredits": 20,
+  "quoteExpiresAt": "2026-10-11T21:34:58.953503951+08:00",
+  "region": "cn",
+  "generation": {
+    "operation": "image-to-3d",
+    "distinctAssets": 1,
+    "version": "G1",
+    "faceCount": 300000,
+    "outputFormat": [
+      "zip",
+      "glb"
+    ],
+    "fourViewEnhancement": false,
+    "inputOrder": [
+      "left",
+      "front",
+      "back",
+      "top"
+    ],
+    "purpose": "Generate a reference-driven full-body base; preserve the raw source unchanged."
+  },
+  "localBlender": {
+    "executable": "F:/Blender/blender.exe",
+    "versionVerified": "5.0.0",
+    "tasks": [
+      "Inspect generated silhouette, materials, limbs, mouth, paws and tail in all major views.",
+      "Separate major anatomical and costume parts using actual mesh structure; rebuild missing independently editable features where feasible.",
+      "Preserve editable eyes, jaw, ears, ornaments and hair as separate objects, not just collection labels.",
+      "Add genuine editable fibers where generated hair has only been baked into surface appearance.",
+      "Pack textures, save editable Blender source, export a separate web model and render validation views.",
+      "Reopen the saved file and report measured geometry, material, texture and visual inspection results."
+    ],
+    "generationCreditCharge": "No Lux3D generation charge for local Blender operations."
+  },
+  "deliverables": [
+    "blender/Lion_Final_Master.blend",
+    "exports/Lion_Web.glb",
+    "renders/",
+    "scripts/",
+    "textures/",
+    "docs/Final_Model_Report.md",
+    "delivery/preview.html",
+    "delivery/lux3d-delivery.json"
+  ],
+  "acceptanceLimits": [
+    "Target face count is not evidence of reference fidelity or art quality.",
+    "Generation alone does not guarantee separate parts, rigging, true hair, clean topology or invisible embroidery recovery.",
+    "Do not declare the full high-precision brief fulfilled until actual multi-view results pass inspection.",
+    "Any new paid generation or retry requires the applicable approval and a fresh matching quote."
+  ],
+  "referencePrompt": "A single complete highly detailed Cantonese lion dance costume matching the reference: oversized ornate red-and-gold head, protruding glossy eyes with layered painted rings, thick curved red plush eyebrows, wide round ears, open mouth with decorative white teeth, flowing white beard, central gold forehead mirror and short tiered crown. Elongated embroidered brocade cloth body with layered irregular red plush scalloped trims, four stout cloth-covered legs, white furry paws with ankle bells, and a full white fan-shaped tail with red tuft. Preserve traditional floral embroidery, hanging gold ornaments and red tassels. Realistic crafted materials, coherent full-body geometry, symmetrical features.",
+  "promptUse": "The image-to-3D endpoint accepts images rather than a prompt. This prompt and the original brief guide planning, local refinement and visual acceptance.",
+  "localProgress": {
+    "cloudSubmission": "not-started-pending-original-spending-decision",
+    "renderedStudy": "renders/components/eye_and_bell_study.png",
+    "fullLionComplete": false,
+    "componentBlend": "blender/components/Lion_Editable_Components.blend",
+    "reopenAudit": "docs/editable_components_reopen_check.json",
+    "componentGlb": "exports/components/Lion_Editable_Components.glb"
+  }
+}

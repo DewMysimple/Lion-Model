@@ -1,0 +1,147 @@
+{
+  "parts": [
+    {
+      "name": "Lion_Body_Red_Trim",
+      "source_part": "Lion_Body",
+      "triangles": 24753,
+      "pivot": "Pivot_Body_Red_Trim",
+      "parent_pivot": "Pivot_Body",
+      "bbox": {
+        "min": [
+          -0.3081314265727997,
+          -0.2724246680736542,
+          0.3057231158018112
+        ],
+        "max": [
+          0.308478981256485,
+          0.5489936470985413,
+          0.7878578901290894
+        ]
+      },
+      "mean_srgb": [
+        0.6592022776603699,
+        0.21810519695281982,
+        0.19039510190486908
+      ]
+    },
+    {
+      "name": "Lion_Body",
+      "status": "mother surface after removal",
+      "triangles": 123440
+    },
+    {
+      "name": "Lion_Brow_L",
+      "source_part": "Lion_Head",
+      "triangles": 1361,
+      "pivot": "Pivot_Brow_L",
+      "parent_pivot": "Pivot_Head",
+      "bbox": {
+        "min": [
+          0.03444872051477432,
+          -0.6756427586078644,
+          0.7188564985990524
+        ],
+        "max": [
+          0.2951459288597107,
+          -0.4155053645372391,
+          0.9210212528705597
+        ]
+      },
+      "mean_srgb": [
+        0.6237732172012329,
+        0.23056234419345856,
+        0.1984626054763794
+      ]
+    },
+    {
+      "name": "Lion_Brow_R",
+      "source_part": "Lion_Head",
+      "triangles": 1595,
+      "pivot": "Pivot_Brow_R",
+      "parent_pivot": "Pivot_Head",
+      "bbox": {
+        "min": [
+          -0.2948910892009735,
+          -0.6755677461624146,
+          0.7152699530124664
+        ],
+        "max": [
+          -0.03514660522341728,
+          -0.4216471165418625,
+          0.9221599996089935
+        ]
+      },
+      "mean_srgb": [
+        0.6312143802642822,
+        0.2409289926290512,
+        0.20494142174720764
+      ]
+    },
+    {
+      "name": "Lion_Nose",
+      "source_part": "Lion_Head",
+      "triangles": 244,
+      "pivot": "Pivot_Nose",
+      "parent_pivot": "Pivot_Head",
+      "bbox": {
+        "min": [
+          -0.047819834202528,
+          -0.8015119731426239,
+          0.5939559247344732
+        ],
+        "max": [
+          0.0487181581556797,
+          -0.7045371830463409,
+          0.6729749515652657
+        ]
+      },
+      "mean_srgb": [
+        0.6131949424743652,
+        0.3703470826148987,
+        0.335872620344162
+      ]
+    },
+    {
+      "name": "Lion_Head",
+      "status": "mother surface after removal",
+      "triangles": 21645
+    }
+  ],
+  "face_conservation": {
+    "input_triangles": 286200,
+    "output_triangles": 286200,
+    "every_input_source_face_present_once": true
+  },
+  "positions_preserved_within_1e_7": true,
+  "max_world_position_delta_m": 0.0,
+  "uv_loop_values_exactly_preserved": true,
+  "max_corner_normal_delta": 0.004513800144195557,
+  "max_corner_normal_angle_degrees": 0.37167707085609436,
+  "source_corner_normal_float32_attribute_exactly_preserved": true,
+  "selection": "Actual original atlas RGB centroid and 3 in-triangle samples, plus normalized world coordinates",
+  "component_filter": "Body red face components smaller than 140 shared-edge-connected triangles and brow red components smaller than 35 triangles remain in their mother surfaces",
+  "limitations": [
+    "These are conservative source-surface appearance regions, not complete or watertight anatomical components.",
+    "Color may confuse red embroidery with fur; torso selection excludes gold-colored pixels but cannot prove every selected face is fur.",
+    "Brow selections exclude white eye rings and central gold forehead but do not restore complete brow attachment loops.",
+    "Only the small central protruding nose surface is isolated; neighbouring painted ornaments remain in Head.",
+    "Uncapped boundaries remain and require retopology before deforming the detail independently.",
+    "Native custom normals are re-encoded in Blender's changed loop-fan basis; source normals remain exact in source_corner_normal CORNER FLOAT_VECTOR attributes, and native shading error is measured separately."
+  ],
+  "diagnostic_renders": [
+    "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\docs\\detail_parts_diagnostics\\front.png",
+    "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\docs\\detail_parts_diagnostics\\side.png",
+    "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\docs\\detail_parts_diagnostics\\head_front_close.png",
+    "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\docs\\detail_parts_diagnostics\\body_side_close.png"
+  ],
+  "diagnostic_palette": {
+    "remaining": "gray blue",
+    "brows": "yellow",
+    "nose": "green",
+    "body red trim": "red"
+  },
+  "diagnostic_review": "Reviewed front, side and close head/body images. Small central nose patch is correctly located; brows contain only conservative portions of original red arches. Largest red trim regions follow raised torso bands but some red embroidered pixels cannot be categorically separated from fur. No complete anatomical or watertight-detail claim.",
+  "blend": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\blender\\Lion_Detailed_Parts.blend",
+  "source_blend": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\blender\\Lion_Parts_Working.blend",
+  "source_blend_preserved": true
+}

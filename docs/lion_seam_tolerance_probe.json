@@ -1,0 +1,58 @@
+[
+  {
+    "eps": 0,
+    "vertices": 289321,
+    "faces": 286200,
+    "boundaries": 236379,
+    "overconnected_edges": 1,
+    "inconsistent": 0
+  },
+  {
+    "eps": 1e-10,
+    "vertices": 131861,
+    "faces": 284514,
+    "boundaries": 2682,
+    "overconnected_edges": 6115,
+    "inconsistent": 26
+  },
+  {
+    "eps": 1e-09,
+    "vertices": 131861,
+    "faces": 284514,
+    "boundaries": 2682,
+    "overconnected_edges": 6115,
+    "inconsistent": 26
+  },
+  {
+    "eps": 1e-08,
+    "vertices": 131861,
+    "faces": 284514,
+    "boundaries": 2682,
+    "overconnected_edges": 6115,
+    "inconsistent": 26
+  },
+  {
+    "eps": 5e-08,
+    "vertices": 131861,
+    "faces": 284514,
+    "boundaries": 2682,
+    "overconnected_edges": 6115,
+    "inconsistent": 26
+  },
+  {
+    "eps": 1e-07,
+    "vertices": 131861,
+    "faces": 284514,
+    "boundaries": 2682,
+    "overconnected_edges": 6115,
+    "inconsistent": 26
+  },
+  {
+    "eps": 1e-06,
+    "vertices": 131861,
+    "faces": 284514,
+    "boundaries": 2682,
+    "overconnected_edges": 6115,
+    "inconsistent": 26
+  }
+]

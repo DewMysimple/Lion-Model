@@ -1,0 +1,121 @@
+{
+  "checked_at_utc": "2026-10-11T14:17:23.072805+00:00",
+  "blender": "5.0.0",
+  "source_blend": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\blender\\components\\Lion_Editable_Components.blend",
+  "source_sha256": "644cc34d93ac0e29cf8ad9e859f090b4b7c60d0441029a75b79bae738d7b2ef4",
+  "blend": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\blender\\components\\Lion_Fiber_Component_Test.blend",
+  "render": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\renders\\components\\red_velvet_fiber_test.png",
+  "render_dimensions": [
+    512,
+    512
+  ],
+  "actual_curve_objects": 2,
+  "actual_strands": 32000,
+  "checks": {
+    "source_mesh_counts_preserved": true,
+    "all_native_3d_curve_objects": true,
+    "per_emitter_parent_preserved": true,
+    "all_strands_editable_bezier_3_to_6_points": true,
+    "all_tips_finer_than_roots": true,
+    "requested_count_created": true,
+    "lengths_and_radii_vary": true,
+    "emitter_transform_moves_fibers": true,
+    "original_file_hash_unchanged": true
+  },
+  "results": [
+    {
+      "seed": 173,
+      "requested": 16000,
+      "actual": 16000,
+      "accepted_triangles": 2048,
+      "emitter_area_world": 1.1787560050780945,
+      "editable_splines": true,
+      "geometry_type": "CURVE",
+      "world_units": true,
+      "limitations": [
+        "Transform parenting only; regenerate after mesh deformation.",
+        "Native curves require conversion on an export copy for GLB.",
+        "Area sampling alone is not a reference-fidelity acceptance check."
+      ],
+      "sampling_attempts": 16000,
+      "object_names": [
+        "Outer_Red_Growth_Base_L_Fine_Fibers_1"
+      ],
+      "curve_object_count": 1,
+      "length_requested_range": [
+        0.012002650498341785,
+        0.02999920899928318
+      ],
+      "length_control_polygon_range": [
+        0.0107781325188996,
+        0.037191052599874895
+      ],
+      "radius_root_range": [
+        0.00012000268566288092,
+        0.00019999881025638302
+      ],
+      "radius_tip_range": [
+        7.200161139772855e-06,
+        1.199992861538298e-05
+      ],
+      "control_point_range": [
+        3,
+        6
+      ],
+      "clump": 0.22,
+      "clump_radius": 0.05,
+      "material": "Component_Test_Crimson_Fine_Fibers"
+    },
+    {
+      "seed": 1182,
+      "requested": 16000,
+      "actual": 16000,
+      "accepted_triangles": 2048,
+      "emitter_area_world": 1.1787560047863965,
+      "editable_splines": true,
+      "geometry_type": "CURVE",
+      "world_units": true,
+      "limitations": [
+        "Transform parenting only; regenerate after mesh deformation.",
+        "Native curves require conversion on an export copy for GLB.",
+        "Area sampling alone is not a reference-fidelity acceptance check."
+      ],
+      "sampling_attempts": 16000,
+      "object_names": [
+        "Outer_Red_Growth_Base_R_Fine_Fibers_1"
+      ],
+      "curve_object_count": 1,
+      "length_requested_range": [
+        0.012000267372261671,
+        0.0299997790092741
+      ],
+      "length_control_polygon_range": [
+        0.010777626734881897,
+        0.03725474115387861
+      ],
+      "radius_root_range": [
+        0.00012002616999178076,
+        0.00019999599745388588
+      ],
+      "radius_tip_range": [
+        7.201570199506846e-06,
+        1.1999759847233153e-05
+      ],
+      "control_point_range": [
+        3,
+        6
+      ],
+      "clump": 0.22,
+      "clump_radius": 0.05,
+      "material": "Component_Test_Crimson_Fine_Fibers"
+    }
+  ],
+  "scope": "Native editable fibers on two eye-ring red bases; not a complete lion.",
+  "limitations": [
+    "Static surface sampling: regeneration or binding required after mesh deformation.",
+    "GLB export requires curve conversion on an export copy; original native curves stay editable.",
+    "Component scale is a fitting study; model surface masks/density need adjustment after fitting.",
+    "This 512px render checks actual curve geometry but cannot prove full-lion fur fidelity.",
+    "length describes initial growth vector; bending/droop changes arc length."
+  ]
+}

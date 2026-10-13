@@ -1,0 +1,26 @@
+{
+  "basecolor": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\generated\\lion_basecolor_scarlet.png",
+  "soft_mask": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\generated\\lion_scarlet_color_mask.png",
+  "source_pixels_space": "Encoded sRGB, bottom-left origin",
+  "loaded_image_source": "FILE",
+  "loaded_image_is_float": false,
+  "loaded_color_space": "sRGB",
+  "saved_png_max_encoded_error": 0.0019608139991760254,
+  "strong_mask_pixel_fraction": 0.5668184757232666,
+  "strong_mask_mean_before_srgb": [
+    0.6243828535079956,
+    0.22616633772850037,
+    0.19849549233913422
+  ],
+  "strong_mask_mean_after_srgb": [
+    0.5640092492103577,
+    0.11899614334106445,
+    0.10368926078081131
+  ],
+  "limits": [
+    "Color/hue inference only; red embroidered yarn pixels may be adjusted alongside red fur.",
+    "Yellow/gold hues and near-neutral white/gray are protected by hue and saturation gates.",
+    "All atlas UV positions and baked motifs remain; this does not recover embroidery detail.",
+    "Actual Cycles/Standard emission-chip testing found no double-gamma in the previous create_png output."
+  ]
+}

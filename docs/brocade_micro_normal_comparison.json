@@ -1,0 +1,23 @@
+{
+  "recordedAt": "2026-10-11T16:05:35.350132+00:00",
+  "tileMeters": 0.2,
+  "macroHorizontalWidthMeters": 0.06,
+  "threadsPerTile": 128,
+  "geometryAndBlendSaved": false,
+  "normalSource": "Real exported periodic synthetic tangent normal PNG, not photometric",
+  "evidence": [
+    {
+      "strength": 0,
+      "path": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\renders\\brocade_uv_study_clear_v2\\micro_normal_strength_0.png"
+    },
+    {
+      "strength": 0.18,
+      "path": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\renders\\brocade_uv_study_clear_v2\\micro_normal_strength_0p18.png"
+    },
+    {
+      "strength": 0.25,
+      "path": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\renders\\brocade_uv_study_clear_v2\\micro_normal_strength_0p25.png"
+    }
+  ],
+  "visualAcceptance": "Pending actual rendered-image inspection"
+}

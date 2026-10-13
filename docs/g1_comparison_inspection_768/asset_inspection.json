@@ -1,0 +1,182 @@
+{
+  "recorded_at_utc": "2026-10-11T15:19:54.601246+00:00",
+  "blender_version": "5.0.0",
+  "input": {
+    "path": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\generated\\Lux3D_Lion_Base_glb.glb",
+    "bytes": 20796400,
+    "sha256_before": "10868714d52a4a4dbea9511ea4986738fdac4b39ba19ad858393f13b7255c3d4",
+    "sha256_after": "10868714d52a4a4dbea9511ea4986738fdac4b39ba19ad858393f13b7255c3d4",
+    "preserved": true
+  },
+  "scope": "Original imported datablocks; modifiers are listed but not applied. World-axis camera labels do not establish the asset's semantic front. Topology statistics alone do not establish visual fidelity, separated parts, hair, rig quality or animation acceptance.",
+  "bounding_box_world": {
+    "min": [
+      -0.8999999761581421,
+      -1.5958577394485474,
+      -0.9955295324325562
+    ],
+    "max": [
+      0.8999999761581421,
+      1.5958577394485474,
+      0.9955295324325562
+    ],
+    "dimensions": [
+      1.7999999523162842,
+      3.1917154788970947,
+      1.9910590648651123
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "object_type_counts": {
+    "MESH": 1
+  },
+  "objects": [
+    {
+      "name": "geometry_0",
+      "type": "MESH",
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          -0.8999999761581421,
+          -1.5958577394485474,
+          -0.9955295324325562
+        ],
+        "max": [
+          0.8999999761581421,
+          1.5958577394485474,
+          0.9955295324325562
+        ],
+        "dimensions": [
+          1.7999999523162842,
+          3.1917154788970947,
+          1.9910590648651123
+        ],
+        "center": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "materials": [
+        "Designer_Logic_PBR"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "geometry_0",
+        "vertices": 289321,
+        "edges": 547489,
+        "polygons": 286200,
+        "triangles": 286200,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 236380,
+          "boundary": 236379,
+          "non_manifold_excluding_boundary": 1,
+          "wire": 0,
+          "more_than_two_incident_faces": 1,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": [
+          {
+            "name": "UVMap",
+            "loops": 858600,
+            "active_render": true
+          }
+        ]
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "Designer_Logic_PBR",
+      "uses_nodes": true,
+      "image_texture_nodes": [
+        {
+          "node": "Image Texture",
+          "image": "Image_0",
+          "interpolation": "Linear",
+          "extension": "REPEAT"
+        },
+        {
+          "node": "Image Texture.001",
+          "image": "Image_1",
+          "interpolation": "Linear",
+          "extension": "REPEAT"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Image_0",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "source": "FILE",
+      "filepath": "",
+      "packed": true,
+      "color_space": "sRGB"
+    },
+    {
+      "name": "Image_1",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "source": "FILE",
+      "filepath": "",
+      "packed": true,
+      "color_space": "Non-Color"
+    }
+  ],
+  "render": {
+    "requested": true,
+    "status": "completed_unreviewed",
+    "files": [
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\g1_comparison_inspection_768\\renders\\front_minus_y.png",
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\g1_comparison_inspection_768\\renders\\back_plus_y.png",
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\g1_comparison_inspection_768\\renders\\left_minus_x.png",
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\g1_comparison_inspection_768\\renders\\right_plus_x.png",
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\g1_comparison_inspection_768\\renders\\top_plus_z.png",
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\g1_comparison_inspection_768\\renders\\bottom_minus_z.png"
+    ]
+  },
+  "blend": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\g1_comparison_inspection_768\\导入检查.blend"
+}

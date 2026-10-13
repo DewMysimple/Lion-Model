@@ -1,0 +1,25 @@
+{
+  "image": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\references\\head_refined_three_quarter.png",
+  "size": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "bytes": 2455595,
+  "sha256": "6c1e0a46c40e03c090404dc2540011b3c359252e395789cecc3c4c66dd3bd113",
+  "tool": "built-in image_gen",
+  "source_tool_image": "exec-1562bb61-3331-42a8-8618-47ddc96bc192.png",
+  "actual_visual_checks": {
+    "single_head": true,
+    "body_legs_paws_tail_absent": true,
+    "ears_crown_beard_tips_in_frame": true,
+    "near_eye_coherent_far_eye_foreshortened": true,
+    "separate_ivory_block_teeth_visible": true,
+    "scarlet_fur_gold_fittings_visible": true,
+    "angle": "substantial three-quarter, approximately requested 45 degrees visually; not calibrated"
+  },
+  "limitations": [
+    "Synthesized reference, not final 3D asset",
+    "Minor pattern and bead details are interpretive, not a measured reconstruction"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "createdAt": "2026-10-11T13:29:05.530203+00:00",
+  "sourceImage": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\references\\reference_original.jpg",
+  "sourceSha256": "57c0d049d4a39a95fdce284f0a292c9bacd76c939539a73beed19a9ac1b3cd5e",
+  "views": [
+    {
+      "view": "left",
+      "path": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\references\\left.png",
+      "crop": [
+        615,
+        83,
+        1528,
+        678
+      ],
+      "backgroundLabelMask": null,
+      "size": [
+        913,
+        595
+      ],
+      "sha256": "7ee1f40cd68a5bb24149b6629c8330d073de5f464460c4ef66ca58e5a9f11ef2"
+    },
+    {
+      "view": "front",
+      "path": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\references\\front.png",
+      "crop": [
+        60,
+        64,
+        580,
+        677
+      ],
+      "backgroundLabelMask": [
+        60,
+        64,
+        224,
+        91
+      ],
+      "size": [
+        520,
+        613
+      ],
+      "sha256": "842133a63716e33bc5554707ecc36cbb845bce9216d2294f2aa7667ea3649334"
+    },
+    {
+      "view": "back",
+      "path": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\references\\back.png",
+      "crop": [
+        1542,
+        70,
+        2048,
+        678
+      ],
+      "backgroundLabelMask": [
+        1542,
+        70,
+        1740,
+        88
+      ],
+      "size": [
+        506,
+        608
+      ],
+      "sha256": "bea2e7ff01b4b704cede4dfb28227e285672b4d748a8ec786961d59ff4af8612"
+    },
+    {
+      "view": "top",
+      "path": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\references\\top.png",
+      "crop": [
+        60,
+        741,
+        1060,
+        1135
+      ],
+      "backgroundLabelMask": [
+        60,
+        741,
+        152,
+        765
+      ],
+      "size": [
+        1000,
+        394
+      ],
+      "sha256": "cd855c5f59e57ac7c5e006b9955ead12617333dd26ab958d133c71a94df8c1bc"
+    }
+  ],
+  "inputOrder": [
+    "left",
+    "front",
+    "back",
+    "top"
+  ],
+  "notes": [
+    "The views are an artistic montage, not calibrated orthographic projections.",
+    "No subject repainting, rescaling, AI image generation or mirroring was used.",
+    "Only small background title remnants were masked in front, back and top crops.",
+    "Detail panels are inspection references, not additional whole-object inputs."
+  ]
+}

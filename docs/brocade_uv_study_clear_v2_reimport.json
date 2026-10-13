@@ -1,0 +1,196 @@
+{
+  "recordedAt": "2026-10-11T16:03:36.984955+00:00",
+  "scope": "Actual Body-only exported GLB, independently reimported into factory-empty Blender scene; different studio illumination than native study.",
+  "artifact": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\exports\\Lion_Brocade_UV_Study_clear_v2.glb",
+  "sha256": "ed845a91d82fbe98fcbf726444165167450d61e93c18f4d31157fd40fec5eff0",
+  "standardGlbCoreImagesAndBuffersEmbedded": true,
+  "baseColorTexCoord": 1,
+  "normalTexCoord": 1,
+  "normalScale": 0.18000000715255737,
+  "actualImportedImages": [
+    {
+      "image": "brocade_reference_synthesis",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "colorSpace": "sRGB",
+      "packed": true
+    },
+    {
+      "image": "body_micro_weave_normal_2048",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "colorSpace": "Non-Color",
+      "packed": true
+    }
+  ],
+  "actualImportedTriangleCount": 123427,
+  "originalSourceTriangleCount": 123440,
+  "nativeSourceFaceIdsPreserved": true,
+  "glbTriangleCountPreserved": false,
+  "expectedValidatedCopyTriangleCount": 123427,
+  "actualReimportCountMatchesValidatedNativeCopy": true,
+  "validatedNativeCopyChanged": true,
+  "exactSourceDuplicateTrianglesRemovedByExporter": 13,
+  "sourceDuplicateGroups": [
+    {
+      "sourceFaceIds": [
+        107963,
+        107964
+      ],
+      "sameNativeVertexSet": [
+        21084,
+        30664,
+        30680
+      ]
+    },
+    {
+      "sourceFaceIds": [
+        115737,
+        140777
+      ],
+      "sameNativeVertexSet": [
+        33322,
+        33323,
+        33324
+      ]
+    },
+    {
+      "sourceFaceIds": [
+        117008,
+        117014
+      ],
+      "sameNativeVertexSet": [
+        33435,
+        33436,
+        33437
+      ]
+    },
+    {
+      "sourceFaceIds": [
+        117983,
+        117984
+      ],
+      "sameNativeVertexSet": [
+        33453,
+        33835,
+        33974
+      ]
+    },
+    {
+      "sourceFaceIds": [
+        142212,
+        142257
+      ],
+      "sameNativeVertexSet": [
+        40395,
+        40396,
+        40397
+      ]
+    },
+    {
+      "sourceFaceIds": [
+        143235,
+        143244
+      ],
+      "sameNativeVertexSet": [
+        33829,
+        33834,
+        41045
+      ]
+    },
+    {
+      "sourceFaceIds": [
+        151535,
+        151536
+      ],
+      "sameNativeVertexSet": [
+        45833,
+        45838,
+        45839
+      ]
+    },
+    {
+      "sourceFaceIds": [
+        170326,
+        170330
+      ],
+      "sameNativeVertexSet": [
+        24472,
+        40581,
+        40836
+      ]
+    },
+    {
+      "sourceFaceIds": [
+        175737,
+        175747
+      ],
+      "sameNativeVertexSet": [
+        36343,
+        52283,
+        52320
+      ]
+    },
+    {
+      "sourceFaceIds": [
+        205070,
+        205071
+      ],
+      "sameNativeVertexSet": [
+        52013,
+        52191,
+        60520
+      ]
+    },
+    {
+      "sourceFaceIds": [
+        205138,
+        205139
+      ],
+      "sameNativeVertexSet": [
+        61267,
+        61268,
+        61269
+      ]
+    },
+    {
+      "sourceFaceIds": [
+        205184,
+        205185
+      ],
+      "sameNativeVertexSet": [
+        52666,
+        61315,
+        61318
+      ]
+    },
+    {
+      "sourceFaceIds": [
+        280026,
+        280027
+      ],
+      "sameNativeVertexSet": [
+        81081,
+        81168,
+        81169
+      ]
+    }
+  ],
+  "actualImportedMeshes": [
+    {
+      "name": "Lion_Body",
+      "uvLayers": [
+        "UVMap",
+        "UVMap.001"
+      ]
+    }
+  ],
+  "render": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\renders\\brocade_uv_study_clear_v2\\reimport_cloth_detail.png",
+  "glbStructuralAndReimportChecks": "passed",
+  "visualAcceptance": "Actual rendered image inspected: new motif remains visible in Body-only reimport; separate Trim gaps are expected and complete scene acceptance remains pending",
+  "limits": "Synthesized motif differs from the exact reference. Native Body geometry and provenance are preserved. Standard GLB export removes exact source duplicate triangles; source face IDs are not standard GLB attributes."
+}

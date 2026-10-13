@@ -1,0 +1,304 @@
+{
+  "recorded_at_utc": "2026-10-11T15:21:39.591651+00:00",
+  "scope": "Actual Blender 5.0 import statistics and manual visual review of all six 768px renders for each raw source. Same inspection script, axis cameras, relative-scale lights and framing. No mesh splitting, source edits or added decoration. Visual judgments are qualitative, not computed fidelity scores.",
+  "reference": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\references\\reference_original.jpg",
+  "g1": {
+    "source": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\generated\\Lux3D_Lion_Base_glb.glb",
+    "sha256": "10868714d52a4a4dbea9511ea4986738fdac4b39ba19ad858393f13b7255c3d4",
+    "source_preserved_by_inspection": true,
+    "bytes": 20796400,
+    "mesh_count": 1,
+    "material_count": 1,
+    "triangles": 286200,
+    "vertices": 289321,
+    "bbox_world": {
+      "min": [
+        -0.8999999761581421,
+        -1.5958577394485474,
+        -0.9955295324325562
+      ],
+      "max": [
+        0.8999999761581421,
+        1.5958577394485474,
+        0.9955295324325562
+      ],
+      "dimensions": [
+        1.7999999523162842,
+        3.1917154788970947,
+        1.9910590648651123
+      ],
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "normalized_width_over_height": 0.9040414642034882,
+    "normalized_length_over_height": 1.603024006278449,
+    "image_datablocks": [
+      {
+        "name": "Image_0",
+        "size": [
+          2048,
+          2048
+        ],
+        "channels": 4,
+        "source": "FILE",
+        "filepath": "",
+        "packed": true,
+        "color_space": "sRGB"
+      },
+      {
+        "name": "Image_1",
+        "size": [
+          2048,
+          2048
+        ],
+        "channels": 4,
+        "source": "FILE",
+        "filepath": "",
+        "packed": true,
+        "color_space": "Non-Color"
+      }
+    ],
+    "glb_material_definitions": [
+      {
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metallicFactor": 1.0,
+          "roughnessFactor": 1.0,
+          "baseColorTexture": {
+            "index": 0,
+            "texCoord": 0
+          },
+          "metallicRoughnessTexture": {
+            "index": 1,
+            "texCoord": 0
+          }
+        },
+        "emissiveFactor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alphaMode": "OPAQUE",
+        "doubleSided": false,
+        "name": "Designer_Logic_PBR"
+      }
+    ],
+    "material_texture_roles": [
+      "Image_0 / texture 0 is base color (sRGB)",
+      "Image_1 / texture 1 is packed metallic/roughness (Non-Color)",
+      "Neither GLB declares a normalTexture; Non-Color alone must not be reported as a normal map"
+    ],
+    "mesh_edge_statistics": [
+      {
+        "non_manifold_including_boundary": 236380,
+        "boundary": 236379,
+        "non_manifold_excluding_boundary": 1,
+        "wire": 0,
+        "more_than_two_incident_faces": 1,
+        "manifold_with_inconsistent_winding": 0,
+        "isolated_vertices": 0
+      }
+    ],
+    "view_resolution": [
+      768,
+      768
+    ],
+    "actual_reviewed_views": [
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\g1_comparison_inspection_768\\renders\\front_minus_y.png",
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\g1_comparison_inspection_768\\renders\\back_plus_y.png",
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\g1_comparison_inspection_768\\renders\\left_minus_x.png",
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\g1_comparison_inspection_768\\renders\\right_plus_x.png",
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\g1_comparison_inspection_768\\renders\\top_plus_z.png",
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\g1_comparison_inspection_768\\renders\\bottom_minus_z.png"
+    ],
+    "semantic_orientation_reviewed": {
+      "front": "-Y",
+      "up": "+Z"
+    }
+  },
+  "turbo": {
+    "source": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\generated\\candidates\\turbo_multiview\\Lion_turbo_multiview_glb.glb",
+    "sha256": "1eb9d81573f414725eba46133fafc9036307d4770815ed4dd486200978543eab",
+    "source_preserved_by_inspection": true,
+    "bytes": 24257352,
+    "mesh_count": 1,
+    "material_count": 1,
+    "triangles": 299810,
+    "vertices": 258325,
+    "bbox_world": {
+      "min": [
+        -0.2801482379436493,
+        -0.5013489723205566,
+        -0.31342029571533203
+      ],
+      "max": [
+        0.2797895669937134,
+        0.4981592893600464,
+        0.3121880888938904
+      ],
+      "dimensions": [
+        0.5599378347396851,
+        0.999508261680603,
+        0.6256083846092224
+      ],
+      "center": [
+        -0.00017933547496795654,
+        -0.001594841480255127,
+        -0.0006161034107208252
+      ]
+    },
+    "normalized_width_over_height": 0.8950293003017255,
+    "normalized_length_over_height": 1.5976580337952664,
+    "image_datablocks": [
+      {
+        "name": "Image_0",
+        "size": [
+          2048,
+          2048
+        ],
+        "channels": 4,
+        "source": "FILE",
+        "filepath": "",
+        "packed": true,
+        "color_space": "sRGB"
+      },
+      {
+        "name": "Image_1",
+        "size": [
+          2048,
+          2048
+        ],
+        "channels": 4,
+        "source": "FILE",
+        "filepath": "",
+        "packed": true,
+        "color_space": "Non-Color"
+      }
+    ],
+    "glb_material_definitions": [
+      {
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "baseColorFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "roughnessFactor": 1.0,
+          "metallicFactor": 1.0,
+          "metallicRoughnessTexture": {
+            "index": 1
+          }
+        },
+        "alphaMode": "OPAQUE",
+        "doubleSided": true
+      }
+    ],
+    "material_texture_roles": [
+      "Image_0 / texture 0 is base color (sRGB)",
+      "Image_1 / texture 1 is packed metallic/roughness (Non-Color)",
+      "Neither GLB declares a normalTexture; Non-Color alone must not be reported as a normal map"
+    ],
+    "mesh_edge_statistics": [
+      {
+        "non_manifold_including_boundary": 186524,
+        "boundary": 186524,
+        "non_manifold_excluding_boundary": 0,
+        "wire": 0,
+        "more_than_two_incident_faces": 0,
+        "manifold_with_inconsistent_winding": 0,
+        "isolated_vertices": 0
+      }
+    ],
+    "view_resolution": [
+      768,
+      768
+    ],
+    "actual_reviewed_views": [
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\turbo_candidate_inspection\\renders\\front_minus_y.png",
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\turbo_candidate_inspection\\renders\\back_plus_y.png",
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\turbo_candidate_inspection\\renders\\left_minus_x.png",
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\turbo_candidate_inspection\\renders\\right_plus_x.png",
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\turbo_candidate_inspection\\renders\\top_plus_z.png",
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\turbo_candidate_inspection\\renders\\bottom_minus_z.png"
+    ],
+    "semantic_orientation_reviewed": {
+      "front": "-Y",
+      "up": "+Z"
+    }
+  },
+  "comparisons": [
+    {
+      "feature": "Whole silhouette",
+      "observation": "Both preserve a broad lion head, long layered cloth body, four short legs, white beard and raised fan tail. Global width/height and length/height ratios are very close. Turbo does not show a major silhouette improvement.",
+      "preference": "No clear winner",
+      "confidence": "high"
+    },
+    {
+      "feature": "Eye frame",
+      "observation": "G1 retains several alternating red/white/dark rings; Turbo reduces the visible eye to a large dark glossy oval with a thin white border. Neither provides the reference's precise concentric iris construction.",
+      "preference": "G1 closer to reference",
+      "confidence": "high"
+    },
+    {
+      "feature": "Brows and upper lip",
+      "observation": "Turbo has larger, smoother solid red masses, particularly the two eyebrow lobes. G1 has more irregular corrugation but baked bright highlights. Neither has actual dense short fibers in the raw mesh.",
+      "preference": "G1 retains more source surface detail; both require editable fibers",
+      "confidence": "high"
+    },
+    {
+      "feature": "Mouth and teeth",
+      "observation": "Turbo shows a more legible red mouth opening than G1's dark/gold lump, but the white areas are blended streaks. Neither source shows the reference's clean repeated rectangular white upper/lower teeth as distinct geometry.",
+      "preference": "Turbo slightly clearer mouth aperture, neither acceptable tooth structure",
+      "confidence": "high"
+    },
+    {
+      "feature": "Brocade motifs",
+      "observation": "G1 side cloth retains blurred dark red/black scrolling motifs across gold panels. Turbo replaces much of this with broad almost blank pale gold/yellow stripes; this loss is especially obvious on the top view. Neither reaches the crisp reference embroidery.",
+      "preference": "G1 clearly preferable",
+      "confidence": "high"
+    },
+    {
+      "feature": "Metal ornaments",
+      "observation": "Turbo has a visibly gold central forehead sphere/dome and gold side medallions, compared with G1's washed/neutral forehead cap. Some hanging bells are more legible in Turbo. These are localized gains rather than a whole-model quality improvement.",
+      "preference": "Turbo for localized gold appearance",
+      "confidence": "medium-high"
+    },
+    {
+      "feature": "Beard and tail",
+      "observation": "Both raw sources reconstruct white fur as thick irregular plates/strips. Turbo tail has larger individually visible strips, but neither source contains editable native hair strands or realistic fiber density.",
+      "preference": "No decisive quality gain",
+      "confidence": "high"
+    },
+    {
+      "feature": "Raw materials",
+      "observation": "Turbo red areas have fewer baked bright patches and read more matte under the same studio lighting; G1 raw reds have obvious bright highlights. Both use only two 2048px textures, and both need distinct material regions for fur, cloth and metal.",
+      "preference": "Turbo cleaner raw red appearance; G1 local material refinement already addresses this",
+      "confidence": "medium-high"
+    },
+    {
+      "feature": "Raw topology",
+      "observation": "Turbo imports as one mesh with no >2-incidence edges in raw inspection, but has many boundary edges from separate vertices/UV seams. Higher triangle count does not prove separated components, clean topology, watertightness or fidelity. No seam weld or component partition has been attempted on Turbo.",
+      "preference": "Not a quality decision from counts alone",
+      "confidence": "high"
+    }
+  ],
+  "recommendation": "Retain Turbo as a documented candidate, do not replace the current G1 basis for the whole lion. Prioritize clearer head/teeth/embroidery source data and local editable reconstruction; retain the existing G1 stage work. Turbo is useful as a local gold-ornament reference, but loses eye-frame and cloth pattern fidelity.",
+  "limitations": [
+    "Current G1 stage technical verification is not artistic acceptance of the high-fidelity target.",
+    "No image similarity score, pixel-sharpness metric, deformation rig, watertightness or physical scale measurement is asserted.",
+    "This report is based on raw sources; it does not compare all additions in the current G1 master against unrefined Turbo.",
+    "Canonical G1 extraction thresholds and eye/metal positions have not been applied to Turbo."
+  ]
+}

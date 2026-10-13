@@ -1,0 +1,23 @@
+{
+  "schema": "lux3d.scene-execution/v1",
+  "kind": "external-tool",
+  "toolName": "exec_command",
+  "callId": "68fe22",
+  "recordRef": "exec_command/session88872/chunkca9ad9",
+  "executedAt": "2026-10-12T00:48:41.057501+08:00",
+  "exportSha256": "45749d94450a21139cabfe4ac940be35ddeba5cb63926096090aa8dec3ce1e26",
+  "sources": [
+    {
+      "itemId": "lion-base",
+      "attemptId": "lion-base-generation",
+      "artifactId": "lion-base-generation:glb",
+      "sha256": "10868714d52a4a4dbea9511ea4986738fdac4b39ba19ad858393f13b7255c3d4"
+    },
+    {
+      "itemId": "lion-head",
+      "attemptId": "lion-head-generation",
+      "artifactId": "lion-head-generation:glb",
+      "sha256": "a32adcf39afbf971106d0ad6661ea32eee4dc783cfa2e45e11a7643e82a6fe13"
+    }
+  ]
+}

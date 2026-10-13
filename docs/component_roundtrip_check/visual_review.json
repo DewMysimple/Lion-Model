@@ -1,0 +1,21 @@
+{
+  "recorded_at_utc": "2026-10-11T13:40:21Z",
+  "scope": "Actual rendered views of the local eye/ring/bell component GLB. Not cloud-generation or complete-lion acceptance.",
+  "method": "All six PNGs opened with view_image and visually inspected.",
+  "view_names": [
+    "front_minus_y",
+    "back_plus_y",
+    "left_minus_x",
+    "right_plus_x",
+    "top_plus_z",
+    "bottom_minus_z"
+  ],
+  "framing": "All objects fit within the images with margin. No clipping observed. Side projections overlap the two eyes as expected for this layout.",
+  "appearance": "Distinct red and ivory rings, dark glossy eyes and brass-colored iris/bell surfaces are visible. Bell slit appears in the front/bottom views.",
+  "status": "component_import_views_reviewed",
+  "limitations": [
+    "No full-lion geometry is present.",
+    "No native procedural micro-bump is included in this GLB.",
+    "Views do not validate fur, rigging, animation or fitting to the future lion base."
+  ]
+}

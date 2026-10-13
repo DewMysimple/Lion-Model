@@ -1,0 +1,33 @@
+{
+  "study": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\blender\\Lion_Trim_Cloth_Recovery_Study.blend",
+  "source": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\blender\\Lion_Body_Quality_Stage.blend",
+  "reopenedActualFile": true,
+  "exactSourceBuffersPreserved": {
+    "Lion_Body": {
+      "vertices": true,
+      "faces": true,
+      "uv0": true,
+      "normals": true,
+      "sourceIds": true,
+      "sourceNormals": true
+    },
+    "Lion_Body_Red_Trim": {
+      "vertices": true,
+      "faces": true,
+      "uv0": true,
+      "normals": true,
+      "sourceIds": true,
+      "sourceNormals": true
+    }
+  },
+  "maskFaceAttributeMatchesSavedNpy": true,
+  "recoveredFaceCount": 2394,
+  "selectedMaterialNames": [
+    "Brocade_Clear_Tile_Cloth_Study.001"
+  ],
+  "allUnselectedTrimMaterialIndicesPreserved": true,
+  "curveObjectAndSplineCountsPreserved": true,
+  "originalTriangleCount": 286200,
+  "uniqueOriginalSourceFaceIds": 286200,
+  "original286200FacesPresentOnce": true
+}

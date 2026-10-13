@@ -1,0 +1,20 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.ps1 text eol=lf
+*.cmd text eol=crlf
+*.json text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Native projects, model exchange assets and raster/selection data use LFS.
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.npy filter=lfs diff=lfs merge=lfs -text
+*.npz filter=lfs diff=lfs merge=lfs -text

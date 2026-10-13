@@ -1,0 +1,29 @@
+{
+  "recordedAt": "2026-10-11T15:38:25.701987+00:00",
+  "sourceStudy": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\blender\\Lion_Cloth_Projection_Study_v2.blend",
+  "sourceShaBefore": "10ec3dc96362c10d8fbfa440217f643d0d04cf4568bcd725963d9a0cc9d4f255",
+  "sourceShaAfter": "10ec3dc96362c10d8fbfa440217f643d0d04cf4568bcd725963d9a0cc9d4f255",
+  "sourcePreserved": true,
+  "bakedStudy": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\blender\\Lion_Cloth_Projection_Baked_Study_v3.blend",
+  "texture": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\cloth_projection\\lion_body_reference_projection_4096_v3.png",
+  "textureSha256": "77ab5db2b47a311018d4adc69dbaa0b87f0aa6719418751684f8eb4cb031c12a",
+  "bakedObject": "Lion_Body",
+  "uvMap": "UVMap",
+  "resolution": [
+    4096,
+    4096
+  ],
+  "bakeType": "EMIT",
+  "clear": false,
+  "marginPixels": 8,
+  "materials": [
+    "Lion_Atlas_PBR_Refined_Conservative_Reference_Cloth_Study"
+  ],
+  "scope": "Actual existing study colors baked to original Body UV, with independent persisted PNG loading. Dimensions were confirmed after reopening, but visual parity did not pass.",
+  "reopenStatus": "dimensions-passed-visual-parity-failed",
+  "observedReopenedImageResolution": [4096, 4096],
+  "observedReopenedImagePacked": true,
+  "reopenExecutionChunk": "bff661",
+  "observedFailure": "Lower-side reference motif in the unbaked projection is attenuated or different in the persisted baked material. Cause unresolved; final use is not recommended.",
+  "finalUseRecommended": false
+}

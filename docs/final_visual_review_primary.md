@@ -1,0 +1,15 @@
+# Final visual review: primary reviewer
+
+Reviewed on 2026-10-12 after the completed final render process. The reviewer opened the actual final image files, not the draft or revision comparisons. This is an artistic inspection; the independent native and GLB reports cover file and geometry checks separately.
+
+Images inspected: `hero.png`, `front.png`, `left.png`, `right.png`, `back.png`, `top.png`, `head.png`, `eye.png`, `mouth.png`, `crown.png`, `body_trim.png`, `brocade.png`, `paw.png`, `tail.png`, `clay_front.png`, `clay_left.png`, `clay_right.png`, `clay_back.png`, and `clay_top.png`, all under `renders/final/`.
+
+The complete lion is recognizable from front, both sides, rear and top. Its stance, layered body trim, four paws, raised tail and enlarged head are represented. The separate generated head and added eyes provide a clearer face than the rejected whole-lion Turbo candidate. These images do not establish exact reference proportions, costume construction or the correctness of unseen surfaces.
+
+The body brocade has legible floral motifs in the body and fabric closeups. Red fiber trim and white beard, paw and tail curves add actual silhouette strands rather than only painted fur. The eyes show distinct glossy black surfaces and narrow metal rings. The mouth closeup resolves eleven separate bevelled ivory teeth. Brass caps, bead rings, floral wire and bell details have independent geometry and reflective response.
+
+Remaining defects are visible and material to quality: the crown and nose retain blurry source atlas detail and irregular generated surfaces. Rear head artwork is an inferred, pale source texture rather than a faithful reconstruction. Some large triangular or sheet-like source fur fragments remain visible through the new fibers at brows, ears, beard sides and tail. The brocade-to-trim boundaries contain ragged geometry and isolated red triangles. The legs retain softer source artwork and coarse surface shapes compared with the new body cloth. The new forehead pattern meets the old source motif at a visible boundary. The underlying source teeth and painted metal detail can remain behind the added details. Synthetic fabric is clearer but is not the exact photographed embroidery.
+
+The clay views show the retained generated shell and open or irregular boundaries. Their material override does not display the full colored native grooming and therefore must not be used alone to judge strand density. Added source partitions and rigid controls do not imply watertight topology, a working jaw mechanism, a skinned dance rig or accurate internal costume anatomy.
+
+Conclusion: a materially improved, editable generated model is delivered. These views support improved cloth readability, real fiber detail, separate teeth and metallic additions. They do not support a claim of ultra-high-precision physical replication or uniformly clean closeup geometry. Crown, nose, leg surfaces and remaining sheet-like fur would require further manual surface reconstruction and rebaking for that standard.

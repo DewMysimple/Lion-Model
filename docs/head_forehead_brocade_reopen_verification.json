@@ -1,0 +1,14 @@
+{
+  "study": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\blender\\Lion_Head_Forehead_Brocade_Study.blend",
+  "inputCopy": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\blender\\Lion_Head_Cloth_Input_Copy.blend",
+  "reopenedActualFile": true,
+  "allModelMeshWorldPositionsTopologyNormalsUV0AndSourceIdsExact": true,
+  "modelMeshObjectCount": 60,
+  "allOtherPartMaterialIndicesExact": true,
+  "allUnselectedHeadMaterialIndicesExact": true,
+  "selectedHeadFaceCount": 371,
+  "maskMatchesFaceBooleanAttribute": true,
+  "allCurveObjectsAndSplineCountsPreserved": true,
+  "originalHeadAtlasPixelsExactlyPreserved": true,
+  "originalAtlasPixelSha256": "c45ec50949a23c3e360c56e5618dda9983e93b8af1da0a52a76a2373bb6f6eb0"
+}

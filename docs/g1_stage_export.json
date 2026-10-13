@@ -1,0 +1,316 @@
+{
+  "export_started_at": "2026-10-11T23:14:21.472632+08:00",
+  "export_completed_at": "2026-10-11T23:14:30.275424+08:00",
+  "tool": "Blender 5 glTF exporter",
+  "path": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\exports\\scene.glb",
+  "bytes": 69957560,
+  "sha256": "275dd565f71ff12e54c00bafb4d0c7bfd6a5de1a16faa7331b43902dea268215",
+  "source_sha256": "10868714d52a4a4dbea9511ea4986738fdac4b39ba19ad858393f13b7255c3d4",
+  "export_objects": [
+    "Lion_Beard",
+    "Lion_Beard_WhiteFiber_1_WebMesh",
+    "Lion_Body",
+    "Lion_Body_Red_Trim",
+    "Lion_Body_Red_Trim_RedFiber_1_WebMesh",
+    "Lion_Body_Red_Trim_RedFiber_2_WebMesh",
+    "Lion_Body_Red_Trim_RedFiber_3_WebMesh",
+    "Lion_Body_RedFiber_1_WebMesh",
+    "Lion_Brow_L",
+    "Lion_Brow_L_RedFiber_1_WebMesh",
+    "Lion_Brow_R",
+    "Lion_Brow_R_RedFiber_1_WebMesh",
+    "Lion_CheekBell_L_Clapper",
+    "Lion_CheekBell_L_Loop",
+    "Lion_CheekBell_L_Shell",
+    "Lion_CheekBell_R_Clapper",
+    "Lion_CheekBell_R_Loop",
+    "Lion_CheekBell_R_Shell",
+    "Lion_Crown",
+    "Lion_Crown_RedFiber_1_WebMesh",
+    "Lion_Ear_L",
+    "Lion_Ear_L_RedFiber_1_WebMesh",
+    "Lion_Ear_L_WhiteFiber_1_WebMesh",
+    "Lion_Ear_R",
+    "Lion_Ear_R_RedFiber_1_WebMesh",
+    "Lion_Ear_R_WhiteFiber_1_WebMesh",
+    "Lion_EyeBall_L",
+    "Lion_EyeBall_R",
+    "Lion_Forehead_Bead_00",
+    "Lion_Forehead_Bead_01",
+    "Lion_Forehead_Bead_02",
+    "Lion_Forehead_Bead_03",
+    "Lion_Forehead_Bead_04",
+    "Lion_Forehead_Bead_05",
+    "Lion_Forehead_Bead_06",
+    "Lion_Forehead_Bead_07",
+    "Lion_Forehead_Bead_08",
+    "Lion_Forehead_Bead_09",
+    "Lion_Forehead_Bead_10",
+    "Lion_Forehead_Bead_11",
+    "Lion_Forehead_Bead_12",
+    "Lion_Forehead_Bead_13",
+    "Lion_Forehead_Bead_14",
+    "Lion_Forehead_Bead_15",
+    "Lion_Forehead_Bead_16",
+    "Lion_Forehead_Bead_17",
+    "Lion_Forehead_Bead_18",
+    "Lion_Forehead_Bead_19",
+    "Lion_Forehead_Bead_20",
+    "Lion_Forehead_Bead_21",
+    "Lion_Forehead_Bead_22",
+    "Lion_Forehead_Bead_23",
+    "Lion_Forehead_Bead_24",
+    "Lion_Forehead_Bead_25",
+    "Lion_Forehead_Bead_26",
+    "Lion_Forehead_Bead_27",
+    "Lion_Forehead_Bead_28",
+    "Lion_Forehead_Bead_29",
+    "Lion_Forehead_Bead_30",
+    "Lion_Forehead_Bead_31",
+    "Lion_Forehead_Brass_Rim",
+    "Lion_Forehead_Convex_Brass",
+    "Lion_Foreleg_L",
+    "Lion_Foreleg_L_RedFiber_1_WebMesh",
+    "Lion_Foreleg_R",
+    "Lion_Foreleg_R_RedFiber_1_WebMesh",
+    "Lion_Forepaw_L",
+    "Lion_Forepaw_L_RedFiber_1_WebMesh",
+    "Lion_Forepaw_L_WhiteFiber_1_WebMesh",
+    "Lion_Forepaw_R",
+    "Lion_Forepaw_R_RedFiber_1_WebMesh",
+    "Lion_Forepaw_R_WhiteFiber_1_WebMesh",
+    "Lion_Head",
+    "Lion_Head_RedFiber_1_WebMesh",
+    "Lion_Hindleg_L",
+    "Lion_Hindleg_L_RedFiber_1_WebMesh",
+    "Lion_Hindleg_R",
+    "Lion_Hindleg_R_RedFiber_1_WebMesh",
+    "Lion_Hindpaw_L",
+    "Lion_Hindpaw_L_RedFiber_1_WebMesh",
+    "Lion_Hindpaw_L_WhiteFiber_1_WebMesh",
+    "Lion_Hindpaw_R",
+    "Lion_Hindpaw_R_RedFiber_1_WebMesh",
+    "Lion_Hindpaw_R_WhiteFiber_1_WebMesh",
+    "Lion_Iris_Copper_L",
+    "Lion_Iris_Copper_R",
+    "Lion_Iris_InnerGold_L",
+    "Lion_Iris_InnerGold_R",
+    "Lion_Jaw",
+    "Lion_Jaw_RedFiber_1_WebMesh",
+    "Lion_Nose",
+    "Lion_Nose_RedFiber_1_WebMesh",
+    "Lion_Pupil_L",
+    "Lion_Pupil_R",
+    "Lion_Root",
+    "Lion_SideMedallion_Rim_L",
+    "Lion_SideMedallion_Rim_R",
+    "Lion_Tail",
+    "Lion_Tail_RedFiber_1_WebMesh",
+    "Lion_Tail_WhiteFiber_1_WebMesh",
+    "Lion_TailBell_L_Clapper",
+    "Lion_TailBell_L_Loop",
+    "Lion_TailBell_L_Shell",
+    "Lion_TailBell_R_Clapper",
+    "Lion_TailBell_R_Loop",
+    "Lion_TailBell_R_Shell",
+    "Lion_Tassel_Collar_L",
+    "Lion_Tassel_Collar_R",
+    "Lion_Tassel_L_RedFiber_1_WebMesh",
+    "Lion_Tassel_R_RedFiber_1_WebMesh",
+    "Pivot_Beard",
+    "Pivot_Body",
+    "Pivot_Body_Red_Trim",
+    "Pivot_Brow_L",
+    "Pivot_Brow_R",
+    "Pivot_CheekBell_L",
+    "Pivot_CheekBell_R",
+    "Pivot_Crown",
+    "Pivot_Ear_L",
+    "Pivot_Ear_R",
+    "Pivot_Eye_L",
+    "Pivot_Eye_R",
+    "Pivot_Forehead_Metal",
+    "Pivot_Foreleg_L",
+    "Pivot_Foreleg_R",
+    "Pivot_Forepaw_L",
+    "Pivot_Forepaw_R",
+    "Pivot_Head",
+    "Pivot_Hindleg_L",
+    "Pivot_Hindleg_R",
+    "Pivot_Hindpaw_L",
+    "Pivot_Hindpaw_R",
+    "Pivot_Jaw",
+    "Pivot_Nose",
+    "Pivot_SideMedallion_L",
+    "Pivot_SideMedallion_R",
+    "Pivot_Tail",
+    "Pivot_TailBell_L",
+    "Pivot_TailBell_R",
+    "Pivot_Tassel_L",
+    "Pivot_Tassel_R"
+  ],
+  "fiber_proxies": [
+    {
+      "name": "Lion_Beard_WhiteFiber_1_WebMesh",
+      "strands": 3200,
+      "polygons": 51132
+    },
+    {
+      "name": "Lion_Body_Red_Trim_RedFiber_1_WebMesh",
+      "strands": 4000,
+      "polygons": 55928
+    },
+    {
+      "name": "Lion_Body_Red_Trim_RedFiber_2_WebMesh",
+      "strands": 4000,
+      "polygons": 55936
+    },
+    {
+      "name": "Lion_Body_Red_Trim_RedFiber_3_WebMesh",
+      "strands": 1200,
+      "polygons": 16840
+    },
+    {
+      "name": "Lion_Body_RedFiber_1_WebMesh",
+      "strands": 600,
+      "polygons": 8312
+    },
+    {
+      "name": "Lion_Brow_L_RedFiber_1_WebMesh",
+      "strands": 2400,
+      "polygons": 33456
+    },
+    {
+      "name": "Lion_Brow_R_RedFiber_1_WebMesh",
+      "strands": 2400,
+      "polygons": 33676
+    },
+    {
+      "name": "Lion_Crown_RedFiber_1_WebMesh",
+      "strands": 280,
+      "polygons": 3960
+    },
+    {
+      "name": "Lion_Ear_L_RedFiber_1_WebMesh",
+      "strands": 1200,
+      "polygons": 16848
+    },
+    {
+      "name": "Lion_Ear_L_WhiteFiber_1_WebMesh",
+      "strands": 300,
+      "polygons": 4804
+    },
+    {
+      "name": "Lion_Ear_R_RedFiber_1_WebMesh",
+      "strands": 1200,
+      "polygons": 16844
+    },
+    {
+      "name": "Lion_Ear_R_WhiteFiber_1_WebMesh",
+      "strands": 300,
+      "polygons": 4864
+    },
+    {
+      "name": "Lion_Foreleg_L_RedFiber_1_WebMesh",
+      "strands": 800,
+      "polygons": 11132
+    },
+    {
+      "name": "Lion_Foreleg_R_RedFiber_1_WebMesh",
+      "strands": 800,
+      "polygons": 11240
+    },
+    {
+      "name": "Lion_Forepaw_L_RedFiber_1_WebMesh",
+      "strands": 240,
+      "polygons": 3372
+    },
+    {
+      "name": "Lion_Forepaw_L_WhiteFiber_1_WebMesh",
+      "strands": 520,
+      "polygons": 8328
+    },
+    {
+      "name": "Lion_Forepaw_R_RedFiber_1_WebMesh",
+      "strands": 240,
+      "polygons": 3312
+    },
+    {
+      "name": "Lion_Forepaw_R_WhiteFiber_1_WebMesh",
+      "strands": 520,
+      "polygons": 8260
+    },
+    {
+      "name": "Lion_Head_RedFiber_1_WebMesh",
+      "strands": 2000,
+      "polygons": 27920
+    },
+    {
+      "name": "Lion_Hindleg_L_RedFiber_1_WebMesh",
+      "strands": 800,
+      "polygons": 11236
+    },
+    {
+      "name": "Lion_Hindleg_R_RedFiber_1_WebMesh",
+      "strands": 800,
+      "polygons": 11232
+    },
+    {
+      "name": "Lion_Hindpaw_L_RedFiber_1_WebMesh",
+      "strands": 240,
+      "polygons": 3356
+    },
+    {
+      "name": "Lion_Hindpaw_L_WhiteFiber_1_WebMesh",
+      "strands": 520,
+      "polygons": 8452
+    },
+    {
+      "name": "Lion_Hindpaw_R_RedFiber_1_WebMesh",
+      "strands": 240,
+      "polygons": 3328
+    },
+    {
+      "name": "Lion_Hindpaw_R_WhiteFiber_1_WebMesh",
+      "strands": 520,
+      "polygons": 8336
+    },
+    {
+      "name": "Lion_Jaw_RedFiber_1_WebMesh",
+      "strands": 1400,
+      "polygons": 19520
+    },
+    {
+      "name": "Lion_Nose_RedFiber_1_WebMesh",
+      "strands": 440,
+      "polygons": 6192
+    },
+    {
+      "name": "Lion_Tail_RedFiber_1_WebMesh",
+      "strands": 800,
+      "polygons": 11220
+    },
+    {
+      "name": "Lion_Tail_WhiteFiber_1_WebMesh",
+      "strands": 4000,
+      "polygons": 64364
+    },
+    {
+      "name": "Lion_Tassel_L_RedFiber_1_WebMesh",
+      "strands": 360,
+      "polygons": 5036
+    },
+    {
+      "name": "Lion_Tassel_R_RedFiber_1_WebMesh",
+      "strands": 360,
+      "polygons": 5072
+    }
+  ],
+  "proxy_strands": 36680,
+  "native_master_unchanged": true,
+  "limitations": [
+    "Sparse fibers for browser performance; native master has five times the strands.",
+    "Procedural weave bump is not baked into this GLB; atlas basecolor and PBR maps are embedded.",
+    "Transform hierarchy is exported; no skinned dance animation was created."
+  ]
+}

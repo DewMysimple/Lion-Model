@@ -1,0 +1,28 @@
+{
+  "image": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\brocade_new\\brocade_reference_synthesis.png",
+  "size": [
+    1254,
+    1254
+  ],
+  "sha256": "75b4c86681f9363c622f8ec33b537efa8d08e8a282523a7d8a70ba37a705496c",
+  "tool": "built-in image_gen",
+  "source": "New AI-synthesized design guided by reference_original.jpg and left.png; not exact pattern recovery",
+  "encoded_edge_mae_horizontal_seam": 0.09078921377658844,
+  "encoded_edge_mae_vertical_seam": 0.125120148062706,
+  "interior_mean_x_step": 0.07409520447254181,
+  "interior_mean_y_step": 0.08353591710329056,
+  "repeat_check": "Actual 3x3 Blender emission repeat inspected. No blank border or major continuous contrast band. Some fine vine outlines slightly misalign at repeat boundaries; approximate visual tiling, not mathematically exact seamlessness.",
+  "physical_tile_m": {
+    "suggested_range": [
+      0.18,
+      0.25
+    ],
+    "initial_recommendation": 0.2,
+    "at_0_25m_major_motifs_m": [
+      0.06,
+      0.08
+    ]
+  },
+  "repeat_render": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\brocade_new\\brocade_three_by_three_repeat.png",
+  "prompt_document": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\docs\\brocade_texture_generation.md"
+}

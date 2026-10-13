@@ -1,0 +1,46 @@
+{
+  "schema": "lion-project.source-file-inspection/v1",
+  "checkedAt": "2026-10-11T14:16:47Z",
+  "tool": "core/runtime/artifact_delivery.py inspect",
+  "taskId": "4054240",
+  "timingSource": {
+    "localStartMeaning": "Actual generation submission start, excluding earlier planning and quote preparation.",
+    "submissionStartedAt": "2026-10-11T22:07:04.377677+08:00",
+    "providerSucceededAt": "2026-10-11T22:13:10.599883+08:00",
+    "downloadCompletedAt": "2026-10-11T22:13:12.673822+08:00",
+    "source": "Actual local submission, polling and download records supplied by the root agent."
+  },
+  "artifacts": [
+    {
+      "path": "../generated/Lux3D_Lion_Base_glb.glb",
+      "format": "glb",
+      "size": 20796400,
+      "sha256": "10868714d52a4a4dbea9511ea4986738fdac4b39ba19ad858393f13b7255c3d4",
+      "executionChunkId": "1a5202",
+      "exitCode": 0,
+      "validation": {
+        "valid": true,
+        "glbVersion": 2,
+        "assetVersion": "2.0",
+        "scenes": 1,
+        "nodes": 1,
+        "meshes": 1,
+        "materials": 1
+      }
+    },
+    {
+      "path": "../generated/Lux3D_Lion_Base_zip.zip",
+      "format": "zip",
+      "size": 19048671,
+      "sha256": "b2a3f3bfb1f63a4f3fa5fb7944f1eb26a180ecfc2153b633fac031534f78cecc",
+      "executionChunkId": "12ee13",
+      "exitCode": 0,
+      "validation": {
+        "valid": true,
+        "zipEntries": 7,
+        "modelEntries": ["MODEL.glb"]
+      }
+    }
+  ],
+  "scope": "Container inspection and byte identity only; geometry, likeness and materials are assessed separately in Blender."
+}

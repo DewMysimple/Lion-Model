@@ -1,0 +1,64 @@
+{
+  "sourceObject": "Lion_Head",
+  "sourceAsset": "head_highdetail_4055287",
+  "originalAtlasImageName": "Lion_Atlas_Color_Refined",
+  "originalAtlasSize": [
+    2048,
+    2048
+  ],
+  "allHeadSourceFaces": 213479,
+  "frontWindowFaces": 822,
+  "selectedForeheadClothFaces": 371,
+  "excludedBadgeFacesInWindow": 414,
+  "excludedNeutralWhiteFacesInWindow": 37,
+  "excludedRaisedRedEyeRimFacesInWindow": 0,
+  "badgeMeasuredCenterWorld": [
+    6.771594116380355e-06,
+    -0.7175609447969264,
+    0.7500580941940141
+  ],
+  "badgeGuardRadiusMeters": 0.057,
+  "window": "|world X|<.105, world Z[.705,.915], world Y<-.56, normal Y<-.35; actual Lion_Head only",
+  "limitations": [
+    "Conservative source-triangle appearance window; not a recovered stitch layout.",
+    "Atlas color protects near-neutral white only in the lower side-edge geometry adjoining the eye frame, and the geometrically constrained lower red eye rim; pale printed motifs in the upper cloth remain selected.",
+    "No side/back shell expansion; a new-versus-old motif boundary may be visible at the window edge.",
+    "Source circular metal/decorative region is protected by measured location, not exact anatomy."
+  ],
+  "material": "Forehead_ReferenceInspired_Brocade_Study",
+  "newUV": "ForeheadPlane_XZ_0p2m",
+  "tileMetersWorldXZ": 0.2,
+  "planeOffsetCenterXZ": [
+    0,
+    0.83
+  ],
+  "normalStrength": 0.18,
+  "normalPath": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\brocade_new\\body_micro_weave_normal_2048.png",
+  "normalSize": [
+    2048,
+    2048
+  ],
+  "texturePath": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\brocade_new\\brocade_reference_synthesis.png",
+  "textureSize": [
+    1254,
+    1254
+  ],
+  "textureSha256": "75b4c86681f9363c622f8ec33b537efa8d08e8a282523a7d8a70ba37a705496c",
+  "textureProvenance": "New synthesized reference-inspired brocade; original source atlas is preserved.",
+  "originalUV0AndFaceIdsPreserved": true,
+  "sourceBuffers": {
+    "uvName": "UVMap",
+    "uvSha256": "6da170f7374492db6018e21959e24edfbe84e7a15e73be37e35d70ba41275c7a",
+    "sourceFaceSha256": "5a949f0ba5be706e60400ed0b868f78815f3c29b07273cb04b6705d0ba7bc037",
+    "faceCount": 213479,
+    "uvLoopCount": 640437
+  },
+  "inputStableCopy": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\blender\\Lion_Head_Cloth_Input_Copy.blend",
+  "inputCopySha256": "46987a6a521059fbe424a330a164578185ec7b4d1c8ce0c46d74cfd49455f329",
+  "inputCopyPreserved": true,
+  "masterWrittenByUtility": false,
+  "studyBlend": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\blender\\Lion_Head_Forehead_Brocade_Study.blend",
+  "comparisonImages": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\renders\\head_forehead_brocade",
+  "visualAcceptance": "Actually inspected the unchanged-camera before/after. Central forehead motif is substantially sharper and clearly repeat-patterned at physical .20m X/Z scale. Brass center medallion, eyes, white eye frames and independent brows remain visible and unchanged. A partial new-versus-old pattern boundary remains at the narrow window sides; crown and nose source textures remain blurred. New pattern is design synthesis, not original stitch recovery.",
+  "actualReopenVerification": "docs/head_forehead_brocade_reopen_verification.json"
+}

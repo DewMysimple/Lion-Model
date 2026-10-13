@@ -1,0 +1,26 @@
+{
+  "schema": "lux3d.workflow-state/v2",
+  "taskId": "4055287",
+  "status": "succeeded",
+  "lastKnownProviderStatus": 3,
+  "createdAt": "2026-10-11T15:40:17.930422+00:00",
+  "updatedAt": "2026-10-11T16:10:03Z",
+  "localCompletedAt": "2026-10-11T15:47:00.233348+00:00",
+  "request": {
+    "operation": "image-to-3d",
+    "region": "cn",
+    "version": "G1",
+    "faceCount": 300000
+  },
+  "expectedFormats": ["zip", "glb"],
+  "downloadedArtifacts": [
+    {
+      "path": "../generated/candidates/head_highdetail/Lion_head_highdetail_zip.zip",
+      "format": "zip"
+    },
+    {
+      "path": "../generated/candidates/head_highdetail/Lion_head_highdetail_glb.glb",
+      "format": "glb"
+    }
+  ]
+}

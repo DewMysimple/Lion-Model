@@ -1,0 +1,27 @@
+# Local delivery archives and regenerated export/render caches
+/delivery/
+/cache/
+
+# The editable main scene is rebuilt locally with build_model.cmd.
+/blender/Lion_Final_Master.blend
+
+# Blender recovery files and process output
+*.blend[0-9]*
+*.before-build-*.blend
+*.log
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Private account configuration must remain outside this project
+.env
+.env.*
+credentials.json
+secrets/
+*.pem
+*.key
+
+# Removed webpage previews are not project deliverables
+previewbundle*/
+offline_preview*/

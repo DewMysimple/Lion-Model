@@ -1,0 +1,2261 @@
+{
+  "recorded_at_utc": "2026-10-11T13:38:04.113317+00:00",
+  "blender_version": "5.0.0",
+  "input": {
+    "path": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\exports\\components\\Lion_Editable_Components.glb",
+    "bytes": 1551416,
+    "sha256_before": "3103a3b07c1d8dc506f53b4514230c9772f71123b3b51486c9c433d1a5fd2c18",
+    "sha256_after": "3103a3b07c1d8dc506f53b4514230c9772f71123b3b51486c9c433d1a5fd2c18",
+    "preserved": true
+  },
+  "scope": "Original imported datablocks; modifiers are listed but not applied. World-axis camera labels do not establish the asset's semantic front. Topology statistics alone do not establish visual fidelity, separated parts, hair, rig quality or animation acceptance.",
+  "bounding_box_world": {
+    "min": [
+      -1.7130000591278076,
+      -0.5556399822235107,
+      0.29295241832733154
+    ],
+    "max": [
+      1.7130000591278076,
+      0.2899664342403412,
+      2.5515999794006348
+    ],
+    "dimensions": [
+      3.4260001182556152,
+      0.8456064462661743,
+      2.2586474418640137
+    ],
+    "center": [
+      0.0,
+      -0.13283677399158478,
+      1.422276258468628
+    ]
+  },
+  "object_type_counts": {
+    "EMPTY": 5,
+    "MESH": 25
+  },
+  "objects": [
+    {
+      "name": "Bell_Assembly",
+      "type": "EMPTY",
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.5699999928474426
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": null,
+      "materials": [],
+      "modifiers": [],
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Bell_Internal_Clapper",
+      "type": "MESH",
+      "parent": "Bell_Assembly",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.3799999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          -0.059999968856573105,
+          -0.0599999763071537,
+          0.3199999928474426
+        ],
+        "max": [
+          0.0599999837577343,
+          0.05999995768070221,
+          0.4399999976158142
+        ],
+        "dimensions": [
+          0.1199999526143074,
+          0.11999993026256561,
+          0.12000000476837158
+        ],
+        "center": [
+          7.450580596923828e-09,
+          -9.313225746154785e-09,
+          0.3799999952316284
+        ]
+      },
+      "materials": [
+        "Copper_Red_Eye_Ring"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Sphere.004",
+        "vertices": 2143,
+        "edges": 6110,
+        "polygons": 3968,
+        "triangles": 3968,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 316,
+          "boundary": 316,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": [
+          {
+            "name": "UVMap",
+            "loops": 11904,
+            "active_render": true
+          }
+        ]
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Bell_Suspension_Loop",
+      "type": "MESH",
+      "parent": "Bell_Assembly",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          -0.0832500010728836,
+          -0.023000000044703484,
+          0.8090000152587891
+        ],
+        "max": [
+          0.0832500010728836,
+          0.023000000044703484,
+          1.031000018119812
+        ],
+        "dimensions": [
+          0.1665000021457672,
+          0.04600000008940697,
+          0.22200000286102295
+        ],
+        "center": [
+          0.0,
+          0.0,
+          0.9200000166893005
+        ]
+      },
+      "materials": [
+        "Brass_Warm_Polished"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Bell_Suspension_Loop_Mesh",
+        "vertices": 768,
+        "edges": 2304,
+        "polygons": 1536,
+        "triangles": 1536,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 0,
+          "boundary": 0,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": []
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Bell_Thin_Brass_Shell",
+      "type": "MESH",
+      "parent": "Bell_Assembly",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          -0.2899664342403412,
+          -0.2899664342403412,
+          0.29295241832733154
+        ],
+        "max": [
+          0.2899664342403412,
+          0.2899664342403412,
+          0.8598223924636841
+        ],
+        "dimensions": [
+          0.5799328684806824,
+          0.5799328684806824,
+          0.5668699741363525
+        ],
+        "center": [
+          0.0,
+          0.0,
+          0.5763874053955078
+        ]
+      },
+      "materials": [
+        "Brass_Warm_Polished"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Bell_Thin_Brass_Shell_Mesh",
+        "vertices": 3718,
+        "edges": 10910,
+        "polygons": 7192,
+        "triangles": 7192,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 244,
+          "boundary": 244,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": []
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Black_Inner_Eye_Socket_L",
+      "type": "MESH",
+      "parent": "Eye_Assembly_L",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          -1.4213999509811401,
+          -0.16500000655651093,
+          1.238319993019104
+        ],
+        "max": [
+          -0.6186000108718872,
+          -0.11500000208616257,
+          2.2016799449920654
+        ],
+        "dimensions": [
+          0.8027999401092529,
+          0.05000000447034836,
+          0.9633599519729614
+        ],
+        "center": [
+          -1.0199999809265137,
+          -0.14000000059604645,
+          1.7200000286102295
+        ]
+      },
+      "materials": [
+        "Black_Lacquer"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Black_Inner_Eye_Socket_L_Mesh",
+        "vertices": 2048,
+        "edges": 6144,
+        "polygons": 4096,
+        "triangles": 4096,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 0,
+          "boundary": 0,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": []
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Black_Inner_Eye_Socket_R",
+      "type": "MESH",
+      "parent": "Eye_Assembly_R",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          0.6186000108718872,
+          -0.16500000655651093,
+          1.238319993019104
+        ],
+        "max": [
+          1.4213999509811401,
+          -0.11500000208616257,
+          2.2016799449920654
+        ],
+        "dimensions": [
+          0.8027999401092529,
+          0.05000000447034836,
+          0.9633599519729614
+        ],
+        "center": [
+          1.0199999809265137,
+          -0.14000000059604645,
+          1.7200000286102295
+        ]
+      },
+      "materials": [
+        "Black_Lacquer"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Black_Inner_Eye_Socket_R_Mesh",
+        "vertices": 2048,
+        "edges": 6144,
+        "polygons": 4096,
+        "triangles": 4096,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 0,
+          "boundary": 0,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": []
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Black_Outer_Eye_Outline_L",
+      "type": "MESH",
+      "parent": "Eye_Assembly_L",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          -1.524899959564209,
+          -0.10000000149011612,
+          1.1141200065612793
+        ],
+        "max": [
+          -0.5151000022888184,
+          -0.05000000074505806,
+          2.3258800506591797
+        ],
+        "dimensions": [
+          1.0097999572753906,
+          0.05000000074505806,
+          1.2117600440979004
+        ],
+        "center": [
+          -1.0199999809265137,
+          -0.07500000298023224,
+          1.7200000286102295
+        ]
+      },
+      "materials": [
+        "Black_Lacquer"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Black_Outer_Eye_Outline_L_Mesh",
+        "vertices": 2048,
+        "edges": 6144,
+        "polygons": 4096,
+        "triangles": 4096,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 0,
+          "boundary": 0,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": []
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Black_Outer_Eye_Outline_R",
+      "type": "MESH",
+      "parent": "Eye_Assembly_R",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          0.5151000022888184,
+          -0.10000000149011612,
+          1.1141200065612793
+        ],
+        "max": [
+          1.524899959564209,
+          -0.05000000074505806,
+          2.3258800506591797
+        ],
+        "dimensions": [
+          1.0097999572753906,
+          0.05000000074505806,
+          1.2117600440979004
+        ],
+        "center": [
+          1.0199999809265137,
+          -0.07500000298023224,
+          1.7200000286102295
+        ]
+      },
+      "materials": [
+        "Black_Lacquer"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Black_Outer_Eye_Outline_R_Mesh",
+        "vertices": 2048,
+        "edges": 6144,
+        "polygons": 4096,
+        "triangles": 4096,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 0,
+          "boundary": 0,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": []
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Copper_Iris_L",
+      "type": "MESH",
+      "parent": "EyeBall_Rotation_L",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          -1.2089999914169312,
+          -0.4690000116825104,
+          1.4609999656677246
+        ],
+        "max": [
+          -0.6909999847412109,
+          -0.42899999022483826,
+          1.9789999723434448
+        ],
+        "dimensions": [
+          0.5180000066757202,
+          0.04000002145767212,
+          0.5180000066757202
+        ],
+        "center": [
+          -0.949999988079071,
+          -0.4490000009536743,
+          1.7200000286102295
+        ]
+      },
+      "materials": [
+        "Copper_Red_Eye_Ring"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Copper_Iris_L_Mesh",
+        "vertices": 2048,
+        "edges": 6144,
+        "polygons": 4096,
+        "triangles": 4096,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 0,
+          "boundary": 0,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": []
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Copper_Iris_R",
+      "type": "MESH",
+      "parent": "EyeBall_Rotation_R",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          0.6909999847412109,
+          -0.4690000116825104,
+          1.4609999656677246
+        ],
+        "max": [
+          1.2089999914169312,
+          -0.42899999022483826,
+          1.9789999723434448
+        ],
+        "dimensions": [
+          0.5180000066757202,
+          0.04000002145767212,
+          0.5180000066757202
+        ],
+        "center": [
+          0.949999988079071,
+          -0.4490000009536743,
+          1.7200000286102295
+        ]
+      },
+      "materials": [
+        "Copper_Red_Eye_Ring"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Copper_Iris_R_Mesh",
+        "vertices": 2048,
+        "edges": 6144,
+        "polygons": 4096,
+        "triangles": 4096,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 0,
+          "boundary": 0,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": []
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Eye_Assembly_L",
+      "type": "EMPTY",
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.0199999809265137
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.7200000286102295
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": null,
+      "materials": [],
+      "modifiers": [],
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Eye_Assembly_R",
+      "type": "EMPTY",
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0199999809265137
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.7200000286102295
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": null,
+      "materials": [],
+      "modifiers": [],
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "EyeBall_L",
+      "type": "MESH",
+      "parent": "EyeBall_Rotation_L",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.949999988079071
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.15000000596046448
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.7200000286102295
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          -1.3399999141693115,
+          -0.5399999618530273,
+          1.3300000429153442
+        ],
+        "max": [
+          -0.5600000619888306,
+          0.23999997973442078,
+          2.1100001335144043
+        ],
+        "dimensions": [
+          0.779999852180481,
+          0.7799999713897705,
+          0.7800000905990601
+        ],
+        "center": [
+          -0.949999988079071,
+          -0.14999999105930328,
+          1.7200000286102295
+        ]
+      },
+      "materials": [
+        "Black_Polished_Eye"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Sphere",
+        "vertices": 2143,
+        "edges": 6110,
+        "polygons": 3968,
+        "triangles": 3968,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 316,
+          "boundary": 316,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": [
+          {
+            "name": "UVMap",
+            "loops": 11904,
+            "active_render": true
+          }
+        ]
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "EyeBall_R",
+      "type": "MESH",
+      "parent": "EyeBall_Rotation_R",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.949999988079071
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.15000000596046448
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.7200000286102295
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          0.5600000023841858,
+          -0.5399999618530273,
+          1.3300000429153442
+        ],
+        "max": [
+          1.3399999141693115,
+          0.23999997973442078,
+          2.1100001335144043
+        ],
+        "dimensions": [
+          0.7799999117851257,
+          0.7799999713897705,
+          0.7800000905990601
+        ],
+        "center": [
+          0.9499999284744263,
+          -0.14999999105930328,
+          1.7200000286102295
+        ]
+      },
+      "materials": [
+        "Black_Polished_Eye"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Sphere.002",
+        "vertices": 2143,
+        "edges": 6110,
+        "polygons": 3968,
+        "triangles": 3968,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 316,
+          "boundary": 316,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": [
+          {
+            "name": "UVMap",
+            "loops": 11904,
+            "active_render": true
+          }
+        ]
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "EyeBall_Rotation_L",
+      "type": "EMPTY",
+      "parent": "Eye_Assembly_L",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.0199999809265137
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.15000000596046448
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.7200000286102295
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": null,
+      "materials": [],
+      "modifiers": [],
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "EyeBall_Rotation_R",
+      "type": "EMPTY",
+      "parent": "Eye_Assembly_R",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0199999809265137
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.15000000596046448
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.7200000286102295
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": null,
+      "materials": [],
+      "modifiers": [],
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Glossy_Black_Pupil_L",
+      "type": "MESH",
+      "parent": "EyeBall_Rotation_L",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.949999988079071
+        ],
+        [
+          0.0,
+          0.5799999833106995,
+          0.0,
+          -0.4350000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.7200000286102295
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          -1.157999873161316,
+          -0.5556399822235107,
+          1.5120000839233398
+        ],
+        "max": [
+          -0.7420000433921814,
+          -0.3143600821495056,
+          1.9279999732971191
+        ],
+        "dimensions": [
+          0.4159998297691345,
+          0.24127990007400513,
+          0.4159998893737793
+        ],
+        "center": [
+          -0.9499999284744263,
+          -0.4350000321865082,
+          1.7200000286102295
+        ]
+      },
+      "materials": [
+        "Black_Polished_Eye"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Sphere.001",
+        "vertices": 2143,
+        "edges": 6110,
+        "polygons": 3968,
+        "triangles": 3968,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 316,
+          "boundary": 316,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": [
+          {
+            "name": "UVMap",
+            "loops": 11904,
+            "active_render": true
+          }
+        ]
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Glossy_Black_Pupil_R",
+      "type": "MESH",
+      "parent": "EyeBall_Rotation_R",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.949999988079071
+        ],
+        [
+          0.0,
+          0.5799999833106995,
+          0.0,
+          -0.4350000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.7200000286102295
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          0.7420001029968262,
+          -0.5556399822235107,
+          1.5120000839233398
+        ],
+        "max": [
+          1.1579999923706055,
+          -0.3143600821495056,
+          1.9279999732971191
+        ],
+        "dimensions": [
+          0.4159998893737793,
+          0.24127990007400513,
+          0.4159998893737793
+        ],
+        "center": [
+          0.9500000476837158,
+          -0.4350000321865082,
+          1.7200000286102295
+        ]
+      },
+      "materials": [
+        "Black_Polished_Eye"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Sphere.003",
+        "vertices": 2143,
+        "edges": 6110,
+        "polygons": 3968,
+        "triangles": 3968,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 316,
+          "boundary": 316,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": [
+          {
+            "name": "UVMap",
+            "loops": 11904,
+            "active_render": true
+          }
+        ]
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Inner_Brass_Iris_L",
+      "type": "MESH",
+      "parent": "EyeBall_Rotation_L",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          -1.1749999523162842,
+          -0.4830000102519989,
+          1.4950000047683716
+        ],
+        "max": [
+          -0.7250000238418579,
+          -0.453000009059906,
+          1.9450000524520874
+        ],
+        "dimensions": [
+          0.44999992847442627,
+          0.030000001192092896,
+          0.4500000476837158
+        ],
+        "center": [
+          -0.949999988079071,
+          -0.46799999475479126,
+          1.7200000286102295
+        ]
+      },
+      "materials": [
+        "Brass_Warm_Polished"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Inner_Brass_Iris_L_Mesh",
+        "vertices": 2048,
+        "edges": 6144,
+        "polygons": 4096,
+        "triangles": 4096,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 0,
+          "boundary": 0,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": []
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Inner_Brass_Iris_R",
+      "type": "MESH",
+      "parent": "EyeBall_Rotation_R",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          0.7250000238418579,
+          -0.4830000102519989,
+          1.4950000047683716
+        ],
+        "max": [
+          1.1749999523162842,
+          -0.453000009059906,
+          1.9450000524520874
+        ],
+        "dimensions": [
+          0.44999992847442627,
+          0.030000001192092896,
+          0.4500000476837158
+        ],
+        "center": [
+          0.949999988079071,
+          -0.46799999475479126,
+          1.7200000286102295
+        ]
+      },
+      "materials": [
+        "Brass_Warm_Polished"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Inner_Brass_Iris_R_Mesh",
+        "vertices": 2048,
+        "edges": 6144,
+        "polygons": 4096,
+        "triangles": 4096,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 0,
+          "boundary": 0,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": []
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Outer_Brass_Iris_L",
+      "type": "MESH",
+      "parent": "EyeBall_Rotation_L",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          -1.25600004196167,
+          -0.4399999976158142,
+          1.4140000343322754
+        ],
+        "max": [
+          -0.6439999938011169,
+          -0.3840000033378601,
+          2.0260000228881836
+        ],
+        "dimensions": [
+          0.612000048160553,
+          0.0559999942779541,
+          0.6119999885559082
+        ],
+        "center": [
+          -0.9500000476837158,
+          -0.41200000047683716,
+          1.7200000286102295
+        ]
+      },
+      "materials": [
+        "Brass_Warm_Polished"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Outer_Brass_Iris_L_Mesh",
+        "vertices": 2048,
+        "edges": 6144,
+        "polygons": 4096,
+        "triangles": 4096,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 0,
+          "boundary": 0,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": []
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Outer_Brass_Iris_R",
+      "type": "MESH",
+      "parent": "EyeBall_Rotation_R",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          0.6439999938011169,
+          -0.4399999976158142,
+          1.4140000343322754
+        ],
+        "max": [
+          1.25600004196167,
+          -0.3840000033378601,
+          2.0260000228881836
+        ],
+        "dimensions": [
+          0.612000048160553,
+          0.0559999942779541,
+          0.6119999885559082
+        ],
+        "center": [
+          0.9500000476837158,
+          -0.41200000047683716,
+          1.7200000286102295
+        ]
+      },
+      "materials": [
+        "Brass_Warm_Polished"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Outer_Brass_Iris_R_Mesh",
+        "vertices": 2048,
+        "edges": 6144,
+        "polygons": 4096,
+        "triangles": 4096,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 0,
+          "boundary": 0,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": []
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Outer_Red_Growth_Base_L",
+      "type": "MESH",
+      "parent": "Eye_Assembly_L",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          -1.7130000591278076,
+          -0.05000000074505806,
+          0.8884000182151794
+        ],
+        "max": [
+          -0.3269999921321869,
+          0.12999999523162842,
+          2.5515999794006348
+        ],
+        "dimensions": [
+          1.3860000371932983,
+          0.17999999225139618,
+          1.6631999015808105
+        ],
+        "center": [
+          -1.0199999809265137,
+          0.03999999910593033,
+          1.7200000286102295
+        ]
+      },
+      "materials": [
+        "Red_Velour_Growth_Base"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Outer_Red_Growth_Base_L_Mesh",
+        "vertices": 2048,
+        "edges": 6144,
+        "polygons": 4096,
+        "triangles": 4096,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 0,
+          "boundary": 0,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": []
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Outer_Red_Growth_Base_R",
+      "type": "MESH",
+      "parent": "Eye_Assembly_R",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          0.3269999921321869,
+          -0.05000000074505806,
+          0.8884000182151794
+        ],
+        "max": [
+          1.7130000591278076,
+          0.12999999523162842,
+          2.5515999794006348
+        ],
+        "dimensions": [
+          1.3860000371932983,
+          0.17999999225139618,
+          1.6631999015808105
+        ],
+        "center": [
+          1.0199999809265137,
+          0.03999999910593033,
+          1.7200000286102295
+        ]
+      },
+      "materials": [
+        "Red_Velour_Growth_Base"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Outer_Red_Growth_Base_R_Mesh",
+        "vertices": 2048,
+        "edges": 6144,
+        "polygons": 4096,
+        "triangles": 4096,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 0,
+          "boundary": 0,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": []
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Outer_White_Painted_Rim_L",
+      "type": "MESH",
+      "parent": "Eye_Assembly_L",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          -1.5851999521255493,
+          -0.08399999886751175,
+          1.041759967803955
+        ],
+        "max": [
+          -0.454800009727478,
+          0.004000000189989805,
+          2.398240089416504
+        ],
+        "dimensions": [
+          1.1303999423980713,
+          0.08799999952316284,
+          1.3564801216125488
+        ],
+        "center": [
+          -1.0199999809265137,
+          -0.03999999910593033,
+          1.7200000286102295
+        ]
+      },
+      "materials": [
+        "Ivory_White_Painted_Rim"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Outer_White_Painted_Rim_L_Mesh",
+        "vertices": 2048,
+        "edges": 6144,
+        "polygons": 4096,
+        "triangles": 4096,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 0,
+          "boundary": 0,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": []
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Outer_White_Painted_Rim_R",
+      "type": "MESH",
+      "parent": "Eye_Assembly_R",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          0.454800009727478,
+          -0.08399999886751175,
+          1.041759967803955
+        ],
+        "max": [
+          1.5851999521255493,
+          0.004000000189989805,
+          2.398240089416504
+        ],
+        "dimensions": [
+          1.1303999423980713,
+          0.08799999952316284,
+          1.3564801216125488
+        ],
+        "center": [
+          1.0199999809265137,
+          -0.03999999910593033,
+          1.7200000286102295
+        ]
+      },
+      "materials": [
+        "Ivory_White_Painted_Rim"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Outer_White_Painted_Rim_R_Mesh",
+        "vertices": 2048,
+        "edges": 6144,
+        "polygons": 4096,
+        "triangles": 4096,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 0,
+          "boundary": 0,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": []
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Red_Inner_Eye_Outline_L",
+      "type": "MESH",
+      "parent": "Eye_Assembly_L",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          -1.4888999462127686,
+          -0.1120000034570694,
+          1.1573200225830078
+        ],
+        "max": [
+          -0.5511000156402588,
+          -0.07800000160932541,
+          2.282680034637451
+        ],
+        "dimensions": [
+          0.9377999305725098,
+          0.03400000184774399,
+          1.1253600120544434
+        ],
+        "center": [
+          -1.0199999809265137,
+          -0.0949999988079071,
+          1.7200000286102295
+        ]
+      },
+      "materials": [
+        "Red_Painted_Edge"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Red_Inner_Eye_Outline_L_Mesh",
+        "vertices": 2048,
+        "edges": 6144,
+        "polygons": 4096,
+        "triangles": 4096,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 0,
+          "boundary": 0,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": []
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "Red_Inner_Eye_Outline_R",
+      "type": "MESH",
+      "parent": "Eye_Assembly_R",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          0.5511000156402588,
+          -0.1120000034570694,
+          1.1573200225830078
+        ],
+        "max": [
+          1.4888999462127686,
+          -0.07800000160932541,
+          2.282680034637451
+        ],
+        "dimensions": [
+          0.9377999305725098,
+          0.03400000184774399,
+          1.1253600120544434
+        ],
+        "center": [
+          1.0199999809265137,
+          -0.0949999988079071,
+          1.7200000286102295
+        ]
+      },
+      "materials": [
+        "Red_Painted_Edge"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "Red_Inner_Eye_Outline_R_Mesh",
+        "vertices": 2048,
+        "edges": 6144,
+        "polygons": 4096,
+        "triangles": 4096,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 0,
+          "boundary": 0,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": []
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "White_Inner_Painted_Rim_L",
+      "type": "MESH",
+      "parent": "Eye_Assembly_L",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          -1.461899995803833,
+          -0.13899999856948853,
+          1.1897200345993042
+        ],
+        "max": [
+          -0.5781000256538391,
+          -0.08100000023841858,
+          2.2502799034118652
+        ],
+        "dimensions": [
+          0.8837999701499939,
+          0.057999998331069946,
+          1.060559868812561
+        ],
+        "center": [
+          -1.0199999809265137,
+          -0.10999999940395355,
+          1.7200000286102295
+        ]
+      },
+      "materials": [
+        "Ivory_White_Painted_Rim"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "White_Inner_Painted_Rim_L_Mesh",
+        "vertices": 2048,
+        "edges": 6144,
+        "polygons": 4096,
+        "triangles": 4096,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 0,
+          "boundary": 0,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": []
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    },
+    {
+      "name": "White_Inner_Painted_Rim_R",
+      "type": "MESH",
+      "parent": "Eye_Assembly_R",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounding_box_world": {
+        "min": [
+          0.5781000256538391,
+          -0.13899999856948853,
+          1.1897200345993042
+        ],
+        "max": [
+          1.461899995803833,
+          -0.08100000023841858,
+          2.2502799034118652
+        ],
+        "dimensions": [
+          0.8837999701499939,
+          0.057999998331069946,
+          1.060559868812561
+        ],
+        "center": [
+          1.0199999809265137,
+          -0.10999999940395355,
+          1.7200000286102295
+        ]
+      },
+      "materials": [
+        "Ivory_White_Painted_Rim"
+      ],
+      "modifiers": [],
+      "mesh": {
+        "data_name": "White_Inner_Painted_Rim_R_Mesh",
+        "vertices": 2048,
+        "edges": 6144,
+        "polygons": 4096,
+        "triangles": 4096,
+        "edge_statistics": {
+          "non_manifold_including_boundary": 0,
+          "boundary": 0,
+          "non_manifold_excluding_boundary": 0,
+          "wire": 0,
+          "more_than_two_incident_faces": 0,
+          "manifold_with_inconsistent_winding": 0,
+          "isolated_vertices": 0
+        },
+        "uv_layers": []
+      },
+      "animation": {
+        "action": null,
+        "nla_tracks": 0
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "Black_Lacquer",
+      "uses_nodes": true,
+      "image_texture_nodes": []
+    },
+    {
+      "name": "Black_Polished_Eye",
+      "uses_nodes": true,
+      "image_texture_nodes": []
+    },
+    {
+      "name": "Brass_Warm_Polished",
+      "uses_nodes": true,
+      "image_texture_nodes": []
+    },
+    {
+      "name": "Copper_Red_Eye_Ring",
+      "uses_nodes": true,
+      "image_texture_nodes": []
+    },
+    {
+      "name": "Ivory_White_Painted_Rim",
+      "uses_nodes": true,
+      "image_texture_nodes": []
+    },
+    {
+      "name": "Red_Painted_Edge",
+      "uses_nodes": true,
+      "image_texture_nodes": []
+    },
+    {
+      "name": "Red_Velour_Growth_Base",
+      "uses_nodes": true,
+      "image_texture_nodes": []
+    }
+  ],
+  "images": [],
+  "render": {
+    "requested": true,
+    "status": "completed_unreviewed",
+    "files": [
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\component_roundtrip_check\\renders\\front_minus_y.png",
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\component_roundtrip_check\\renders\\back_plus_y.png",
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\component_roundtrip_check\\renders\\left_minus_x.png",
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\component_roundtrip_check\\renders\\right_plus_x.png",
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\component_roundtrip_check\\renders\\top_plus_z.png",
+      "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\component_roundtrip_check\\renders\\bottom_minus_z.png"
+    ]
+  },
+  "blend": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\component_roundtrip_check\\导入检查.blend"
+}

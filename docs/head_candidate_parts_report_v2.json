@@ -1,0 +1,1116 @@
+{
+  "recorded_at_utc": "2026-10-11T16:00:14.470254+00:00",
+  "source": {
+    "path": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\generated\\candidates\\head_highdetail\\Lion_head_highdetail_glb.glb",
+    "sha256": "a32adcf39afbf971106d0ad6661ea32eee4dc783cfa2e45e11a7643e82a6fe13",
+    "sha256_after": "a32adcf39afbf971106d0ad6661ea32eee4dc783cfa2e45e11a7643e82a6fe13",
+    "source_asset": "head_highdetail_4055287"
+  },
+  "target_reference": {
+    "path": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\blender\\Lion_Detailed_Parts.blend",
+    "parts": {
+      "Lion_Head": {
+        "bbox": {
+          "min": [
+            -0.3666578233242035,
+            -0.8015120029449463,
+            0.3907756507396698
+          ],
+          "max": [
+            0.3655270040035248,
+            -0.22092950344085693,
+            0.9522658586502075
+          ],
+          "dimensions": [
+            0.7321848273277283,
+            0.5805824995040894,
+            0.5614902079105377
+          ]
+        },
+        "triangles": 21645
+      },
+      "Lion_Jaw": {
+        "bbox": {
+          "min": [
+            -0.28042909502983093,
+            -0.7946289777755737,
+            0.41461074352264404
+          ],
+          "max": [
+            0.2812948524951935,
+            -0.462799072265625,
+            0.577228307723999
+          ],
+          "dimensions": [
+            0.5617239475250244,
+            0.33182990550994873,
+            0.16261756420135498
+          ]
+        },
+        "triangles": 6466
+      },
+      "Lion_Beard": {
+        "bbox": {
+          "min": [
+            -0.20328594744205475,
+            -0.7467306852340698,
+            0.16403567790985107
+          ],
+          "max": [
+            0.2042495161294937,
+            -0.5732650756835938,
+            0.47550079226493835
+          ],
+          "dimensions": [
+            0.40753546357154846,
+            0.17346560955047607,
+            0.3114651143550873
+          ]
+        },
+        "triangles": 4222
+      },
+      "Lion_Ear_L": {
+        "bbox": {
+          "min": [
+            0.1439083367586136,
+            -0.4722900986671448,
+            0.7240666747093201
+          ],
+          "max": [
+            0.358428418636322,
+            -0.24204568564891815,
+            0.9562605619430542
+          ],
+          "dimensions": [
+            0.21452008187770844,
+            0.23024441301822662,
+            0.23219388723373413
+          ]
+        },
+        "triangles": 3066
+      },
+      "Lion_Ear_R": {
+        "bbox": {
+          "min": [
+            -0.35912156105041504,
+            -0.4707123637199402,
+            0.7208226323127747
+          ],
+          "max": [
+            -0.14762212336063385,
+            -0.24159938097000122,
+            0.9567754864692688
+          ],
+          "dimensions": [
+            0.2114994376897812,
+            0.22911298274993896,
+            0.23595285415649414
+          ]
+        },
+        "triangles": 3055
+      },
+      "Lion_Brow_L": {
+        "bbox": {
+          "min": [
+            0.03444872051477432,
+            -0.675642728805542,
+            0.7188565135002136
+          ],
+          "max": [
+            0.2951459288597107,
+            -0.4155053496360779,
+            0.9210212230682373
+          ],
+          "dimensions": [
+            0.26069720834493637,
+            0.2601373791694641,
+            0.20216470956802368
+          ]
+        },
+        "triangles": 1361
+      },
+      "Lion_Brow_R": {
+        "bbox": {
+          "min": [
+            -0.2948910892009735,
+            -0.6755677461624146,
+            0.715269923210144
+          ],
+          "max": [
+            -0.03514660522341728,
+            -0.4216471314430237,
+            0.9221600294113159
+          ],
+          "dimensions": [
+            0.25974448397755623,
+            0.25392061471939087,
+            0.20689010620117188
+          ]
+        },
+        "triangles": 1595
+      },
+      "Lion_Nose": {
+        "bbox": {
+          "min": [
+            -0.047819834202528,
+            -0.8015120029449463,
+            0.593955934047699
+          ],
+          "max": [
+            0.0487181581556797,
+            -0.7045371532440186,
+            0.6729749441146851
+          ],
+          "dimensions": [
+            0.0965379923582077,
+            0.09697484970092773,
+            0.07901901006698608
+          ]
+        },
+        "triangles": 244
+      },
+      "Lion_Crown": {
+        "bbox": {
+          "min": [
+            -0.09524441510438919,
+            -0.5643921494483948,
+            0.8762864470481873
+          ],
+          "max": [
+            0.09606476128101349,
+            -0.3528021574020386,
+            1.0
+          ],
+          "dimensions": [
+            0.19130917638540268,
+            0.2115899920463562,
+            0.12371355295181274
+          ]
+        },
+        "triangles": 1754
+      }
+    },
+    "assembly_bbox": {
+      "min": [
+        -0.3666578233242035,
+        -0.8015120029449463,
+        0.16403567790985107
+      ],
+      "max": [
+        0.3655270040035248,
+        -0.22092950344085693,
+        1.0
+      ],
+      "dimensions": [
+        0.7321848273277283,
+        0.5805824995040894,
+        0.8359643220901489
+      ]
+    }
+  },
+  "target_sha256_before": "723e895e39e4a7a3ca33d5f5c0f2425227fc3483f5332218970f8ddd09aff25a",
+  "target_sha256_after": "723e895e39e4a7a3ca33d5f5c0f2425227fc3483f5332218970f8ddd09aff25a",
+  "fit": {
+    "method": "Uniform scale to original head assembly width; X center matched, frontmost Y matched, crown top Z matched. No anisotropic flattening.",
+    "uniform_scale": 0.7766650524110413,
+    "translation": [
+      3.342300365722945e-05,
+      -0.4534166617154698,
+      0.6107966128026463
+    ],
+    "source_bbox": {
+      "min": [
+        -0.47213563323020935,
+        -0.4481923580169678,
+        -0.49910280108451843
+      ],
+      "max": [
+        0.47059357166290283,
+        0.44225013256073,
+        0.5011212825775146
+      ],
+      "dimensions": [
+        0.9427292048931122,
+        0.8904424905776978,
+        1.000224083662033
+      ]
+    },
+    "fitted_bbox": {
+      "min": [
+        -0.3666578233242035,
+        -0.8015120029449463,
+        0.22316090963984125
+      ],
+      "max": [
+        0.3655270040035248,
+        -0.10993643933140046,
+        1.0
+      ],
+      "dimensions": [
+        0.7321848273277283,
+        0.6915755636135459,
+        0.7768390903601587
+      ]
+    },
+    "orientation": {
+      "front": "-Y",
+      "up": "+Z",
+      "anatomical_L": "+X"
+    },
+    "rear_shell_overlap_delta_y": 0.11099306410945647,
+    "beard_bottom_delta_z": 0.05912523172999018,
+    "interpretation": "Closed generated rear shell extends farther into torso; beard is shorter under width-based fit. Verify fusion silhouette; no seamless attachment or physical dimensions asserted."
+  },
+  "source_glb_materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "Designer_Logic_PBR"
+    }
+  ],
+  "normalTexture_declared": false,
+  "albedo": {
+    "name": "Image_0.001",
+    "size": [
+      2048,
+      2048
+    ]
+  },
+  "classifier": {
+    "white_samples": 168849,
+    "red_samples": 133503,
+    "classifier": "New-source geometry + source base-color sampling, reviewed via ID views; anatomical boundaries remain estimates."
+  },
+  "seam_weld": {
+    "method": "Exact coincident-position seam welding, with protected vertex groups at candidate edges with >2 incident faces; no remesh.",
+    "candidate_tolerance_probe": "Historical G1 probes 1e-10 through 1e-6 had identical point grouping. This execution uses exact coincident positions only; no approximation is inferred for a new source.",
+    "actual_position_tolerance": 0.0,
+    "source_vertices": 346983,
+    "coincident_position_groups": 128646,
+    "protected_position_groups": 12372,
+    "protected_source_vertices": 69375,
+    "welded_vertices": 185649,
+    "removed_duplicate_vertices": 161334,
+    "candidate_overconnected_edges": 8579,
+    "candidate_degenerate_faces": 0,
+    "faces_removed": 0,
+    "max_position_displacement_design_units": 0.0,
+    "source_overlap_note": "Protected seams intentionally remain around ambiguous overlapping generated surfaces. This is not a watertight or print-ready repair.",
+    "topology_before": {
+      "vertices": 346983,
+      "edges": 585581,
+      "triangles": 285606,
+      "boundary_edges": 314344,
+      "overconnected_edges": 0,
+      "inconsistent_winding_edges": 0
+    },
+    "topology_after": {
+      "vertices": 185649,
+      "edges": 476359,
+      "triangles": 285606,
+      "boundary_edges": 95900,
+      "overconnected_edges": 0,
+      "inconsistent_winding_edges": 0
+    }
+  },
+  "parts": [
+    {
+      "name": "Lion_Head",
+      "class": "Head",
+      "source_asset": "head_highdetail_4055287",
+      "source_triangles": 213479,
+      "bbox_world": {
+        "min": [
+          -0.36187158297888616,
+          -0.7921888786615254,
+          0.29092879647111214
+        ],
+        "max": [
+          0.36098685641988,
+          -0.10993643933140046,
+          0.9814153209164211
+        ],
+        "dimensions": [
+          0.7228584393987662,
+          0.682252439330125,
+          0.690486524445309
+        ]
+      },
+      "pivot_world": [
+        3.342300365722945e-05,
+        -0.2592068891254301,
+        0.6115804548199206
+      ],
+      "parent": "Pivot_Head.001",
+      "stats": {
+        "vertices": 144171,
+        "edges": 361506,
+        "triangles": 213479,
+        "boundary_edges": 82575,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0
+      }
+    },
+    {
+      "name": "Lion_Jaw",
+      "class": "Jaw",
+      "source_asset": "head_highdetail_4055287",
+      "source_triangles": 9479,
+      "bbox_world": {
+        "min": [
+          -0.21908912742916925,
+          -0.7481811646426202,
+          0.36077224613458214
+        ],
+        "max": [
+          0.21943613773175125,
+          -0.5503413097135043,
+          0.485416667538231
+        ],
+        "dimensions": [
+          0.4385252651609205,
+          0.19783985492911593,
+          0.12464442140364884
+        ]
+      },
+      "pivot_world": [
+        3.342300365722945e-05,
+        -0.523332179847884,
+        0.43290746403708413
+      ],
+      "parent": "Pivot_Jaw.001",
+      "stats": {
+        "vertices": 6130,
+        "edges": 15852,
+        "triangles": 9479,
+        "boundary_edges": 3267,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0
+      }
+    },
+    {
+      "name": "Lion_Beard",
+      "class": "Beard",
+      "source_asset": "head_highdetail_4055287",
+      "source_triangles": 8863,
+      "bbox_world": {
+        "min": [
+          -0.21887951342900872,
+          -0.7430418950647004,
+          0.22316090963984125
+        ],
+        "max": [
+          0.21764076234124202,
+          -0.537740131240846,
+          0.3869524236890838
+        ],
+        "dimensions": [
+          0.43652027577025077,
+          0.20530176382385446,
+          0.16379151404924253
+        ]
+      },
+      "pivot_world": [
+        3.342300365722945e-05,
+        -0.6476264343055095,
+        0.3629919459046698
+      ],
+      "parent": "Pivot_Beard.001",
+      "stats": {
+        "vertices": 5895,
+        "edges": 14864,
+        "triangles": 8863,
+        "boundary_edges": 3139,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0
+      }
+    },
+    {
+      "name": "Lion_Ear_L",
+      "class": "Ear_L",
+      "source_asset": "head_highdetail_4055287",
+      "source_triangles": 17299,
+      "bbox_world": {
+        "min": [
+          0.16051310066034577,
+          -0.5614341168587043,
+          0.7262190713614457
+        ],
+        "max": [
+          0.3655270040035248,
+          -0.22687494225664354,
+          0.9828597039594884
+        ],
+        "dimensions": [
+          0.205013903343179,
+          0.33455917460206075,
+          0.2566406325980427
+        ]
+      },
+      "pivot_world": [
+        0.27192710462971276,
+        -0.4456482708118682,
+        0.8601689637351713
+      ],
+      "parent": "Pivot_Ear_L.001",
+      "stats": {
+        "vertices": 11061,
+        "edges": 28765,
+        "triangles": 17299,
+        "boundary_edges": 5633,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0
+      }
+    },
+    {
+      "name": "Lion_Ear_R",
+      "class": "Ear_R",
+      "source_asset": "head_highdetail_4055287",
+      "source_triangles": 16017,
+      "bbox_world": {
+        "min": [
+          -0.3666578233242035,
+          -0.5622406770894456,
+          0.7278459523709734
+        ],
+        "max": [
+          -0.16141152990134125,
+          -0.22558425145751024,
+          0.9809835938480693
+        ],
+        "dimensions": [
+          0.20524629342286224,
+          0.3366564256319353,
+          0.25313764147709594
+        ]
+      },
+      "pivot_world": [
+        -0.2718602586223983,
+        -0.4456482708118682,
+        0.8601689637351713
+      ],
+      "parent": "Pivot_Ear_R.001",
+      "stats": {
+        "vertices": 9717,
+        "edges": 26120,
+        "triangles": 16017,
+        "boundary_edges": 4189,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0
+      }
+    },
+    {
+      "name": "Lion_Brow_L",
+      "class": "Brow_L",
+      "source_asset": "head_highdetail_4055287",
+      "source_triangles": 7063,
+      "bbox_world": {
+        "min": [
+          0.03174384214140245,
+          -0.7799857839324362,
+          0.6318114636943473
+        ],
+        "max": [
+          0.25910783246509206,
+          -0.5479551797603739,
+          0.8979776996913037
+        ],
+        "dimensions": [
+          0.22736399032368962,
+          0.23203060417206234,
+          0.26616623599695644
+        ]
+      },
+      "pivot_world": [
+        0.13986445926848579,
+        -0.6010160888839,
+        0.7747166637955538
+      ],
+      "parent": "Pivot_Brow_L.001",
+      "stats": {
+        "vertices": 5013,
+        "edges": 12285,
+        "triangles": 7063,
+        "boundary_edges": 3381,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0
+      }
+    },
+    {
+      "name": "Lion_Brow_R",
+      "class": "Brow_R",
+      "source_asset": "head_highdetail_4055287",
+      "source_triangles": 6488,
+      "bbox_world": {
+        "min": [
+          -0.26024846586881717,
+          -0.7781644845489744,
+          0.6300642140557107
+        ],
+        "max": [
+          -0.03044224445099795,
+          -0.5450076333348612,
+          0.8970058277126443
+        ],
+        "dimensions": [
+          0.22980622141781923,
+          0.23315685121411311,
+          0.2669416136569336
+        ]
+      },
+      "pivot_world": [
+        -0.13979761326117135,
+        -0.6010160888839,
+        0.7747166637955538
+      ],
+      "parent": "Pivot_Brow_R.001",
+      "stats": {
+        "vertices": 4888,
+        "edges": 11497,
+        "triangles": 6488,
+        "boundary_edges": 3530,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0
+      }
+    },
+    {
+      "name": "Lion_Nose",
+      "class": "Nose",
+      "source_asset": "head_highdetail_4055287",
+      "source_triangles": 1397,
+      "bbox_world": {
+        "min": [
+          -0.06579039582038282,
+          -0.8015120029449463,
+          0.5039158437379104
+        ],
+        "max": [
+          0.06456479190047075,
+          -0.5908090562018716,
+          0.6181740387027169
+        ],
+        "dimensions": [
+          0.13035518772085358,
+          0.21070294674307466,
+          0.11425819496480649
+        ]
+      },
+      "pivot_world": [
+        3.342300365722945e-05,
+        -0.6864683888235174,
+        0.5727385003019128
+      ],
+      "parent": "Pivot_Nose.001",
+      "stats": {
+        "vertices": 896,
+        "edges": 2284,
+        "triangles": 1397,
+        "boundary_edges": 377,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0
+      }
+    },
+    {
+      "name": "Lion_Crown",
+      "class": "Crown",
+      "source_asset": "head_highdetail_4055287",
+      "source_triangles": 5521,
+      "bbox_world": {
+        "min": [
+          -0.09730876330587185,
+          -0.6930205090734336,
+          0.8902612843103943
+        ],
+        "max": [
+          0.09811349410902526,
+          -0.35955268249523203,
+          1.0
+        ],
+        "dimensions": [
+          0.1954222574148971,
+          0.33346782657820156,
+          0.10973871568960569
+        ]
+      },
+      "pivot_world": [
+        3.342300365722945e-05,
+        -0.5777109161730952,
+        0.9067793091567808
+      ],
+      "parent": "Pivot_Crown.001",
+      "stats": {
+        "vertices": 3784,
+        "edges": 9140,
+        "triangles": 5521,
+        "boundary_edges": 1717,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0
+      }
+    }
+  ],
+  "source_face_conservation": {
+    "source_faces": 285606,
+    "assigned_faces": 285606,
+    "all_present_once": true,
+    "max_post_parent_coordinate_delta": 8.516386362789063e-08
+  },
+  "source_uv_loop_values_preserved_exactly": true,
+  "feature_estimates_fitted_world": {
+    "eyes": {
+      "L": {
+        "status": "measured_surface_region_plus_visual_estimate",
+        "source_asset": "head_highdetail_4055287",
+        "sample_faces": 101,
+        "surface_bbox": {
+          "min": [
+            0.08526692498283696,
+            -0.675246533430184,
+            0.6214342583324796
+          ],
+          "max": [
+            0.16470882176500182,
+            -0.6419441785939471,
+            0.6935604416752158
+          ],
+          "dimensions": [
+            0.07944189678216486,
+            0.03330235483623689,
+            0.07212618334273624
+          ]
+        },
+        "surface_center_area_weighted": [
+          0.12639892547744053,
+          -0.6675948518043946,
+          0.662375173953833
+        ],
+        "mean_face_normal": [
+          0.14159683877528573,
+          -0.9884936661153138,
+          0.05320345194394871
+        ],
+        "confidence": "medium; source pixels and geometric region, not an exact anatomical fit",
+        "recommended_overlay_center_estimate": [
+          0.1227174076692831,
+          -0.6418940164853965,
+          0.6609918842032904
+        ],
+        "recommended_globe_radius_estimate": 0.043,
+        "recommended_iris_radius_estimate": 0.024,
+        "placement_note": "Overlay center is moved inward from measured dark surface by .026 design units; preview depth/occlusion. Existing eye-frame geometry is retained."
+      },
+      "R": {
+        "status": "measured_surface_region_plus_visual_estimate",
+        "source_asset": "head_highdetail_4055287",
+        "sample_faces": 55,
+        "surface_bbox": {
+          "min": [
+            -0.16850648699047613,
+            -0.6778797090060374,
+            0.6274696823962866
+          ],
+          "max": [
+            -0.08182558521785872,
+            -0.6354017111736688,
+            0.6872744288983172
+          ],
+          "dimensions": [
+            0.0866809017726174,
+            0.04247799783236861,
+            0.059804746502030603
+          ]
+        },
+        "surface_center_area_weighted": [
+          -0.14152099874487933,
+          -0.6641330306207133,
+          0.657040740969886
+        ],
+        "mean_face_normal": [
+          -0.32328526326830226,
+          -0.9451031150552833,
+          -0.047610297902286124
+        ],
+        "confidence": "medium; source pixels and geometric region, not an exact anatomical fit",
+        "recommended_overlay_center_estimate": [
+          -0.13311558189990347,
+          -0.6395603496292759,
+          0.6582786087153454
+        ],
+        "recommended_globe_radius_estimate": 0.043,
+        "recommended_iris_radius_estimate": 0.024,
+        "placement_note": "Overlay center is moved inward from measured dark surface by .026 design units; preview depth/occlusion. Existing eye-frame geometry is retained."
+      }
+    },
+    "side_medallions": {
+      "L": {
+        "status": "measured_surface_region_plus_visual_estimate",
+        "source_asset": "head_highdetail_4055287",
+        "sample_faces": 481,
+        "surface_bbox": {
+          "min": [
+            0.24575142095309663,
+            -0.5547015208680874,
+            0.5890283299525917
+          ],
+          "max": [
+            0.34567541321196743,
+            -0.41848259984066,
+            0.7238815758992608
+          ],
+          "dimensions": [
+            0.0999239922588708,
+            0.13621892102742744,
+            0.13485324594666914
+          ]
+        },
+        "surface_center_area_weighted": [
+          0.29342212935147627,
+          -0.4936876087957161,
+          0.6612088901428607
+        ],
+        "mean_face_normal": [
+          0.9356375197550322,
+          -0.3150312089082056,
+          0.15917841889052195
+        ],
+        "confidence": "medium; source pixels and geometric region, not an exact anatomical fit"
+      },
+      "R": {
+        "status": "measured_surface_region_plus_visual_estimate",
+        "source_asset": "head_highdetail_4055287",
+        "sample_faces": 567,
+        "surface_bbox": {
+          "min": [
+            -0.3419882352959618,
+            -0.5559121096151866,
+            0.588364390742678
+          ],
+          "max": [
+            -0.24528283792523012,
+            -0.4188320201602555,
+            0.7240438901854939
+          ],
+          "dimensions": [
+            0.09670539737073167,
+            0.13708008945493105,
+            0.13567949944281588
+          ]
+        },
+        "surface_center_area_weighted": [
+          -0.2956480542572819,
+          -0.49752115781162126,
+          0.6644882977726052
+        ],
+        "mean_face_normal": [
+          -0.9995884767948262,
+          -0.023848201234693247,
+          -0.01594178022896949
+        ],
+        "confidence": "medium; source pixels and geometric region, not an exact anatomical fit"
+      }
+    },
+    "cheek_bells": {
+      "L": {
+        "status": "measured_surface_region_plus_visual_estimate",
+        "source_asset": "head_highdetail_4055287",
+        "sample_faces": 63,
+        "surface_bbox": {
+          "min": [
+            0.22536634370537398,
+            -0.5903541595648183,
+            0.5402316660103111
+          ],
+          "max": [
+            0.30787951225560795,
+            -0.5311024047196776,
+            0.6034272993619217
+          ],
+          "dimensions": [
+            0.08251316855023397,
+            0.05925175484514067,
+            0.0631956333516106
+          ]
+        },
+        "surface_center_area_weighted": [
+          0.25342921417060627,
+          -0.5522057907713573,
+          0.581689944098939
+        ],
+        "mean_face_normal": [
+          0.8943846393898873,
+          -0.40915167792315593,
+          -0.1807512690856891
+        ],
+        "confidence": "medium; source pixels and geometric region, not an exact anatomical fit"
+      },
+      "R": {
+        "status": "measured_surface_region_plus_visual_estimate",
+        "source_asset": "head_highdetail_4055287",
+        "sample_faces": 57,
+        "surface_bbox": {
+          "min": [
+            -0.30826791779715507,
+            -0.596863739776775,
+            0.5327653650819452
+          ],
+          "max": [
+            -0.2254320341120303,
+            -0.5315250699637071,
+            0.6037541272664441
+          ],
+          "dimensions": [
+            0.08283588368512476,
+            0.0653386698130679,
+            0.0709887621844989
+          ]
+        },
+        "surface_center_area_weighted": [
+          -0.25472579990061456,
+          -0.5528157146367432,
+          0.5825720067153252
+        ],
+        "mean_face_normal": [
+          -0.7975484400349837,
+          -0.5010205038632404,
+          -0.3359984233689034
+        ],
+        "confidence": "medium; source pixels and geometric region, not an exact anatomical fit"
+      }
+    },
+    "tassels": {
+      "L": {
+        "status": "measured_surface_region_plus_visual_estimate",
+        "source_asset": "head_highdetail_4055287",
+        "sample_faces": 464,
+        "surface_bbox": {
+          "min": [
+            0.2487463828246482,
+            -0.6171780699848012,
+            0.4418266654289875
+          ],
+          "max": [
+            0.33738423358849484,
+            -0.3835753183764272,
+            0.5804789707950626
+          ],
+          "dimensions": [
+            0.08863785076384664,
+            0.23360275160837396,
+            0.1386523053660751
+          ]
+        },
+        "surface_center_area_weighted": [
+          0.280953908081085,
+          -0.5042656102832146,
+          0.5293116690316518
+        ],
+        "mean_face_normal": [
+          -0.001491790471504616,
+          0.9941197085424947,
+          -0.10827640393259433
+        ],
+        "confidence": "medium; source pixels and geometric region, not an exact anatomical fit"
+      },
+      "R": {
+        "status": "measured_surface_region_plus_visual_estimate",
+        "source_asset": "head_highdetail_4055287",
+        "sample_faces": 430,
+        "surface_bbox": {
+          "min": [
+            -0.35290351709775436,
+            -0.6186966681731697,
+            0.44581768343274325
+          ],
+          "max": [
+            -0.24858052413829737,
+            -0.3837971305411289,
+            0.5804806730215345
+          ],
+          "dimensions": [
+            0.10432299295945699,
+            0.2348995376320408,
+            0.13466298958879125
+          ]
+        },
+        "surface_center_area_weighted": [
+          -0.28080925953886904,
+          -0.5101302538555854,
+          0.531094222520287
+        ],
+        "mean_face_normal": [
+          -0.6533260735661203,
+          -0.10878136630443853,
+          -0.7492206990891375
+        ],
+        "confidence": "medium; source pixels and geometric region, not an exact anatomical fit"
+      }
+    },
+    "forehead_medallion": {
+      "status": "measured_surface_region_plus_visual_estimate",
+      "source_asset": "head_highdetail_4055287",
+      "sample_faces": 566,
+      "surface_bbox": {
+        "min": [
+          -0.04149359442502742,
+          -0.7472636713253688,
+          0.7126899258154547
+        ],
+        "max": [
+          0.04164691739484553,
+          -0.6816140756218244,
+          0.7822238962398403
+        ],
+        "dimensions": [
+          0.08314051181987295,
+          0.06564959570354434,
+          0.0695339704243857
+        ]
+      },
+      "surface_center_area_weighted": [
+        6.771594116380355e-06,
+        -0.7175609447969264,
+        0.7500580941940141
+      ],
+      "mean_face_normal": [
+        0.06467864497723838,
+        -0.9857668105364682,
+        0.15517882628975843
+      ],
+      "confidence": "medium; source pixels and geometric region, not an exact anatomical fit"
+    },
+    "mouth_lower_teeth_band": {
+      "status": "measured_surface_region_plus_visual_estimate",
+      "source_asset": "head_highdetail_4055287",
+      "sample_faces": 6132,
+      "surface_bbox": {
+        "min": [
+          -0.21895062695372455,
+          -0.7211773833751057,
+          0.37077767293847536
+        ],
+        "max": [
+          0.21839528941469974,
+          -0.5777139523664602,
+          0.463948646346805
+        ],
+        "dimensions": [
+          0.4373459163684243,
+          0.14346343100864556,
+          0.09317097340832964
+        ]
+      },
+      "surface_center_area_weighted": [
+        -0.0021290633967803656,
+        -0.6322357398197405,
+        0.4150847618228778
+      ],
+      "mean_face_normal": [
+        -0.015434809751782292,
+        0.9190356032398244,
+        -0.3938722211905003
+      ],
+      "confidence": "medium; source pixels and geometric region, not an exact anatomical fit",
+      "note": "Actual light tooth-band surface region; repeated visible rectangles are not yet separate native tooth objects."
+    },
+    "mouth_jaw_bbox": {
+      "min": [
+        -0.21895062695372455,
+        -0.7452803006931078,
+        0.37465021597979503
+      ],
+      "max": [
+        0.21839528941469974,
+        -0.5622025703629,
+        0.46786278350896043
+      ],
+      "dimensions": [
+        0.4373459163684243,
+        0.1830777303302078,
+        0.0932125675291654
+      ]
+    }
+  },
+  "part_cut_edges": {
+    "Ear_R | Head": {
+      "edge_count": 590,
+      "length": 7.40329736503304
+    },
+    "Brow_R | Head": {
+      "edge_count": 1573,
+      "length": 18.60143820822102
+    },
+    "Brow_R | Ear_R": {
+      "edge_count": 1,
+      "length": 0.014693289717580058
+    },
+    "Crown | Head": {
+      "edge_count": 326,
+      "length": 4.573228722817814
+    },
+    "Brow_L | Head": {
+      "edge_count": 1445,
+      "length": 18.055831512825456
+    },
+    "Ear_L | Head": {
+      "edge_count": 584,
+      "length": 7.187956386512955
+    },
+    "Head | Jaw": {
+      "edge_count": 470,
+      "length": 6.439351848425789
+    },
+    "Head | Nose": {
+      "edge_count": 377,
+      "length": 5.588053781964429
+    },
+    "Beard | Head": {
+      "edge_count": 123,
+      "length": 1.892426855684476
+    },
+    "Beard | Jaw": {
+      "edge_count": 463,
+      "length": 5.033327830164426
+    },
+    "Brow_L | Ear_L": {
+      "edge_count": 2,
+      "length": 0.031726582579097114
+    }
+  },
+  "candidate_blend": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\blender\\Lion_Head_Candidate_Parts_v2.blend",
+  "diagnostic_views": [
+    "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\head_candidate_parts_diagnostics_v2\\front_minus_y.png",
+    "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\head_candidate_parts_diagnostics_v2\\right_plus_x.png",
+    "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\head_candidate_parts_diagnostics_v2\\back_plus_y.png",
+    "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\head_candidate_parts_diagnostics_v2\\top_plus_z.png"
+  ],
+  "diagnostic_review_status": "pending actual visual review",
+  "adoption_visual_assessment": "New head front is preferable to original full-lion G1: clearer multi-ring eye frames, forehead/cheek pattern and lower white rectangular tooth band. Rear shell contains extrapolated circular pattern/side pieces; fiber plates and washed baked color still need refinement.",
+  "limits": [
+    "Candidate contains only new head source, not retained old head faces. Fusion must document removal/replacement of old head source regions.",
+    "No completed rig, watertight retopology, uncapped attachment repair, hair strands or independent teeth were created by this partition step.",
+    "Feature centers, radii and pivots are estimates from actual surface/color regions; verify overlay depth in fusion renders.",
+    "Raw source images remain packed and source GLB and target part file are preserved."
+  ]
+}

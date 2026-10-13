@@ -1,0 +1,541 @@
+{
+  "executed_at": "2026-10-12T00:12:54.110638+08:00",
+  "source_assets": [
+    {
+      "source_asset": "g1_full_lion_4054240",
+      "path": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\generated\\Lux3D_Lion_Base_glb.glb",
+      "sha256": "10868714d52a4a4dbea9511ea4986738fdac4b39ba19ad858393f13b7255c3d4",
+      "retained_faces": 242792,
+      "removed_head_faces": 43408
+    },
+    {
+      "source_asset": "head_highdetail_4055287",
+      "path": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\generated\\candidates\\head_highdetail\\Lion_head_highdetail_glb.glb",
+      "sha256": "a32adcf39afbf971106d0ad6661ea32eee4dc783cfa2e45e11a7643e82a6fe13",
+      "retained_faces": 285606
+    }
+  ],
+  "source_triangles": 528398,
+  "native_strands": 980957,
+  "cloth": {
+    "changedObject": "Lion_Body",
+    "materialName": "Brocade_Clear_Tile_Cloth_Study",
+    "newUV": "BrocadeCylinder_0p2m",
+    "selectedClothFaceCount": 107869,
+    "excludedFaceCount": 15571,
+    "tileMetersAlongY": 0.2,
+    "circumferenceEquivalentRadius": 0.2531797780234432,
+    "cylinderCenterZ": 0.45,
+    "texturePath": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\brocade_new\\brocade_reference_synthesis.png",
+    "textureSha256": "75b4c86681f9363c622f8ec33b537efa8d08e8a282523a7d8a70ba37a705496c",
+    "textureDimensions": [
+      1254,
+      1254
+    ],
+    "originalUVAndFaceProvenancePreserved": true,
+    "originalBuffers": {
+      "uvName": "UVMap",
+      "uvSha256": "4c203ea6f9763a5c5fb0d028fd2d54ec605cc02653c96b36bb979c20aa02ad35",
+      "sourceFaceSha256": "7827a9974b0dd16a76bbf4fda9988d2c29dadb03c363ef0b3997552fd975f198",
+      "faceCount": 123440,
+      "uvLoopCount": 370320
+    },
+    "normalTexture": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\brocade_new\\body_micro_weave_normal_2048.png",
+    "normalTextureSha256": "05e235ab9f36ac80f09c3bb74625edad708faefe1e8fd482533c599baa4b62ea",
+    "normalDimensions": [
+      2048,
+      2048
+    ],
+    "normalStrength": 0.18,
+    "threadsPerTile": 128,
+    "selectionLimits": "Body garment Y[-.38,.79], Z[.18,.78]; near-pure white excluded only at Z<.24 or Y<-.30 fringe boundaries. Printed red and cream/gold central cloth remain included. Actual image review is required at boundaries.",
+    "textureSource": "New supplied tile experiment; not a recovery of the exact original reference motif."
+  },
+  "head_features": {
+    "landmark_report": "docs/head_candidate_parts_report_v3.json",
+    "fitted_details": "Independent eye globes, ivory tooth objects, brass caps, slit bell shells and hanging curve tassels",
+    "fit_scope": "Measured surface windows with visually estimated overlay depth; original features remain behind overlays."
+  },
+  "master": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\blender\\Lion_Final_Master.blend",
+  "limitations": [
+    "Generated topology and overlapping surfaces remain; not a watertight print or a fully skinned dance rig.",
+    "Brocade tile is reference-guided synthesis, not recovery of exact hidden motifs.",
+    "Sparse GLB strand proxy differs from the dense editable native curves."
+  ],
+  "material_boundary_correction": {
+    "executed_at": "2026-10-12T00:24:37.017183+08:00",
+    "restored_atlas_objects": [
+      "Lion_Head",
+      "Lion_Nose",
+      "Lion_Crown",
+      "Lion_Ear_L",
+      "Lion_Ear_R",
+      "Lion_Foreleg_L",
+      "Lion_Foreleg_R",
+      "Lion_Hindleg_L",
+      "Lion_Hindleg_R",
+      "Lion_Forepaw_L",
+      "Lion_Forepaw_R",
+      "Lion_Hindpaw_L",
+      "Lion_Hindpaw_R",
+      "Lion_Tail"
+    ],
+    "head_groom": [
+      {
+        "part": "Lion_Head",
+        "type": "red",
+        "seed": 20900,
+        "requested": 42000,
+        "actual": 42000,
+        "accepted_triangles": 2238,
+        "emitter_area_world": 0.10913847797556107,
+        "editable_splines": true,
+        "geometry_type": "CURVE",
+        "world_units": true,
+        "limitations": [
+          "Transform parenting only; regenerate after mesh deformation.",
+          "Native curves require conversion on an export copy for GLB.",
+          "Area sampling alone is not a reference-fidelity acceptance check."
+        ],
+        "sampling_attempts": 46198,
+        "object_names": [
+          "Lion_Head_CorrectedRedFiber_1",
+          "Lion_Head_CorrectedRedFiber_2",
+          "Lion_Head_CorrectedRedFiber_3"
+        ],
+        "curve_object_count": 3,
+        "length_requested_range": [
+          0.009000368702404591,
+          0.020999566612996002
+        ],
+        "length_control_polygon_range": [
+          0.00786675352026759,
+          0.026777143689559323
+        ],
+        "radius_root_range": [
+          8.500082982454178e-05,
+          0.0001499982976794664
+        ],
+        "radius_tip_range": [
+          5.100049789472507e-06,
+          8.999897860767983e-06
+        ],
+        "control_point_range": [
+          3,
+          4
+        ],
+        "clump": 0.26,
+        "clump_radius": 0.021,
+        "material": "Fiber_Red_Scarlet"
+      },
+      {
+        "part": "Lion_Head",
+        "type": "white",
+        "seed": 20901,
+        "requested": 120000,
+        "actual": 120000,
+        "accepted_triangles": 31752,
+        "emitter_area_world": 0.5425005749221675,
+        "editable_splines": true,
+        "geometry_type": "CURVE",
+        "world_units": true,
+        "limitations": [
+          "Transform parenting only; regenerate after mesh deformation.",
+          "Native curves require conversion on an export copy for GLB.",
+          "Area sampling alone is not a reference-fidelity acceptance check."
+        ],
+        "sampling_attempts": 124759,
+        "object_names": [
+          "Lion_Head_CorrectedWhiteFiber_1",
+          "Lion_Head_CorrectedWhiteFiber_2",
+          "Lion_Head_CorrectedWhiteFiber_3",
+          "Lion_Head_CorrectedWhiteFiber_4",
+          "Lion_Head_CorrectedWhiteFiber_5",
+          "Lion_Head_CorrectedWhiteFiber_6"
+        ],
+        "curve_object_count": 6,
+        "length_requested_range": [
+          0.0180000377955243,
+          0.06599882568132008
+        ],
+        "length_control_polygon_range": [
+          0.018029161033046123,
+          0.09007411207486998
+        ],
+        "radius_root_range": [
+          8.500019721576171e-05,
+          0.0001499996782895886
+        ],
+        "radius_tip_range": [
+          5.100011832945702e-06,
+          8.999980697375316e-06
+        ],
+        "control_point_range": [
+          3,
+          4
+        ],
+        "clump": 0.26,
+        "clump_radius": 0.021,
+        "material": "Fiber_Warm_Ivory"
+      }
+    ],
+    "reason": "Actual head render showed printed cloth and baked highlight triangles wrongly classified as pure red/white materials."
+  },
+  "audited_trim_recovery": {
+    "executed_at": "2026-10-12T00:36:36.839163+08:00",
+    "selected_cloth_faces": 2394,
+    "retained_fur_faces": 22359,
+    "cloth_material": {
+      "changedObject": "Lion_Body_Red_Trim",
+      "materialName": "Brocade_Clear_Tile_Cloth_Study.001",
+      "newUV": "BrocadeCylinder_0p2m",
+      "selectedClothFaceCount": 2394,
+      "excludedFaceCount": 22359,
+      "tileMetersAlongY": 0.2,
+      "circumferenceEquivalentRadius": 0.2531797780234432,
+      "cylinderCenterZ": 0.45,
+      "texturePath": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\brocade_new\\brocade_reference_synthesis.png",
+      "textureSha256": "75b4c86681f9363c622f8ec33b537efa8d08e8a282523a7d8a70ba37a705496c",
+      "textureDimensions": [
+        1254,
+        1254
+      ],
+      "originalUVAndFaceProvenancePreserved": true,
+      "originalBuffers": {
+        "uvName": "UVMap",
+        "uvSha256": "53160e965fceec82cbf12f66157a152c16be0f6cb5910aaadfac8cae1bd03060",
+        "sourceFaceSha256": "575057e505998c7c51195a2b2788f3901a4ecc51c67e322dff2597b09196b14c",
+        "faceCount": 24753,
+        "uvLoopCount": 74259
+      },
+      "normalTexture": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\brocade_new\\body_micro_weave_normal_2048.png",
+      "normalTextureSha256": "05e235ab9f36ac80f09c3bb74625edad708faefe1e8fd482533c599baa4b62ea",
+      "normalDimensions": [
+        2048,
+        2048
+      ],
+      "normalStrength": 0.18,
+      "threadsPerTile": 128,
+      "selectionLimits": "Explicit independently audited Boolean face_mask; no atlas color exclusion or spatial expansion applied by this helper.",
+      "textureSource": "New supplied tile experiment; not a recovery of the exact original reference motif."
+    },
+    "fibers_regenerated": {
+      "seed": 22917,
+      "requested": 262757,
+      "actual": 262757,
+      "accepted_triangles": 22359,
+      "emitter_area_world": 1.0948217505955677,
+      "editable_splines": true,
+      "geometry_type": "CURVE",
+      "world_units": true,
+      "limitations": [
+        "Transform parenting only; regenerate after mesh deformation.",
+        "Native curves require conversion on an export copy for GLB.",
+        "Area sampling alone is not a reference-fidelity acceptance check."
+      ],
+      "sampling_attempts": 262757,
+      "object_names": [
+        "Lion_Body_Red_Trim_AuditedRedFiber_1",
+        "Lion_Body_Red_Trim_AuditedRedFiber_2",
+        "Lion_Body_Red_Trim_AuditedRedFiber_3",
+        "Lion_Body_Red_Trim_AuditedRedFiber_4",
+        "Lion_Body_Red_Trim_AuditedRedFiber_5",
+        "Lion_Body_Red_Trim_AuditedRedFiber_6",
+        "Lion_Body_Red_Trim_AuditedRedFiber_7",
+        "Lion_Body_Red_Trim_AuditedRedFiber_8",
+        "Lion_Body_Red_Trim_AuditedRedFiber_9",
+        "Lion_Body_Red_Trim_AuditedRedFiber_10",
+        "Lion_Body_Red_Trim_AuditedRedFiber_11",
+        "Lion_Body_Red_Trim_AuditedRedFiber_12",
+        "Lion_Body_Red_Trim_AuditedRedFiber_13",
+        "Lion_Body_Red_Trim_AuditedRedFiber_14"
+      ],
+      "curve_object_count": 14,
+      "length_requested_range": [
+        0.00800003704259071,
+        0.01999988671994695
+      ],
+      "length_control_polygon_range": [
+        0.006868752589736816,
+        0.024359916293318604
+      ],
+      "radius_root_range": [
+        9.500016731835195e-05,
+        0.00015999995814441193
+      ],
+      "radius_tip_range": [
+        5.700010039101117e-06,
+        9.599997488664715e-06
+      ],
+      "control_point_range": [
+        3,
+        3
+      ],
+      "clump": 0.18,
+      "clump_radius": 0.014,
+      "material": "Fiber_Red_Scarlet"
+    }
+  },
+  "rotation_limits_degrees": {
+    "Pivot_Head": [
+      [
+        -12,
+        12
+      ],
+      [
+        -12,
+        12
+      ],
+      [
+        -25,
+        25
+      ]
+    ],
+    "Pivot_Jaw": [
+      [
+        -20,
+        8
+      ],
+      [
+        -3,
+        3
+      ],
+      [
+        -3,
+        3
+      ]
+    ],
+    "Pivot_Tail": [
+      [
+        -15,
+        15
+      ],
+      [
+        -20,
+        20
+      ],
+      [
+        -20,
+        20
+      ]
+    ],
+    "Pivot_Eye_L": [
+      [
+        -18,
+        18
+      ],
+      [
+        -18,
+        18
+      ],
+      [
+        -5,
+        5
+      ]
+    ],
+    "Pivot_Eye_R": [
+      [
+        -18,
+        18
+      ],
+      [
+        -18,
+        18
+      ],
+      [
+        -5,
+        5
+      ]
+    ],
+    "Pivot_Ear_L": [
+      [
+        -12,
+        12
+      ],
+      [
+        -18,
+        18
+      ],
+      [
+        -12,
+        12
+      ]
+    ],
+    "Pivot_Ear_R": [
+      [
+        -12,
+        12
+      ],
+      [
+        -18,
+        18
+      ],
+      [
+        -12,
+        12
+      ]
+    ]
+  },
+  "rotation_limits_scope": "Native rigid pivots with local rotation constraints; no skin deformation or authored dance animation",
+  "final_head_detail": {
+    "executed_at": "2026-10-12T00:44:53.917268+08:00",
+    "forehead_cloth": {
+      "sourceObject": "Lion_Head",
+      "sourceAsset": "head_highdetail_4055287",
+      "originalAtlasImageName": "Lion_Atlas_Color_Refined",
+      "originalAtlasSize": [
+        2048,
+        2048
+      ],
+      "allHeadSourceFaces": 213479,
+      "frontWindowFaces": 822,
+      "selectedForeheadClothFaces": 371,
+      "excludedBadgeFacesInWindow": 414,
+      "excludedNeutralWhiteFacesInWindow": 37,
+      "excludedRaisedRedEyeRimFacesInWindow": 0,
+      "badgeMeasuredCenterWorld": [
+        6.771594116380355e-06,
+        -0.7175609447969264,
+        0.7500580941940141
+      ],
+      "badgeGuardRadiusMeters": 0.057,
+      "window": "|world X|<.105, world Z[.705,.915], world Y<-.56, normal Y<-.35; actual Lion_Head only",
+      "limitations": [
+        "Conservative source-triangle appearance window; not a recovered stitch layout.",
+        "Atlas color protects near-neutral white only in the lower side-edge geometry adjoining the eye frame, and the geometrically constrained lower red eye rim; pale printed motifs in the upper cloth remain selected.",
+        "No side/back shell expansion; a new-versus-old motif boundary may be visible at the window edge.",
+        "Source circular metal/decorative region is protected by measured location, not exact anatomy."
+      ],
+      "material": "Forehead_ReferenceInspired_Brocade_Study",
+      "newUV": "ForeheadPlane_XZ_0p2m",
+      "tileMetersWorldXZ": 0.2,
+      "planeOffsetCenterXZ": [
+        0,
+        0.83
+      ],
+      "normalStrength": 0.18,
+      "normalPath": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\brocade_new\\body_micro_weave_normal_2048.png",
+      "normalSize": [
+        2048,
+        2048
+      ],
+      "texturePath": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\brocade_new\\brocade_reference_synthesis.png",
+      "textureSize": [
+        1254,
+        1254
+      ],
+      "textureSha256": "75b4c86681f9363c622f8ec33b537efa8d08e8a282523a7d8a70ba37a705496c",
+      "textureProvenance": "New synthesized reference-inspired brocade; original source atlas is preserved.",
+      "originalUV0AndFaceIdsPreserved": true,
+      "sourceBuffers": {
+        "uvName": "UVMap",
+        "uvSha256": "6da170f7374492db6018e21959e24edfbe84e7a15e73be37e35d70ba41275c7a",
+        "sourceFaceSha256": "5a949f0ba5be706e60400ed0b868f78815f3c29b07273cb04b6705d0ba7bc037",
+        "faceCount": 213479,
+        "uvLoopCount": 640437
+      }
+    },
+    "metal_ornament_objects": [
+      "Lion_Forehead_Bead_00",
+      "Lion_Forehead_Bead_01",
+      "Lion_Forehead_Bead_02",
+      "Lion_Forehead_Bead_03",
+      "Lion_Forehead_Bead_04",
+      "Lion_Forehead_Bead_05",
+      "Lion_Forehead_Bead_06",
+      "Lion_Forehead_Bead_07",
+      "Lion_Forehead_Bead_08",
+      "Lion_Forehead_Bead_09",
+      "Lion_Forehead_Bead_10",
+      "Lion_Forehead_Bead_11",
+      "Lion_Forehead_Bead_12",
+      "Lion_Forehead_Bead_13",
+      "Lion_Forehead_Bead_14",
+      "Lion_Forehead_Bead_15",
+      "Lion_Forehead_Bead_16",
+      "Lion_Forehead_Bead_17",
+      "Lion_Forehead_Bead_18",
+      "Lion_Forehead_Bead_19",
+      "Lion_Forehead_Bead_20",
+      "Lion_Forehead_Bead_21",
+      "Lion_Forehead_Bead_22",
+      "Lion_Forehead_Bead_23",
+      "Lion_Forehead_Bead_24",
+      "Lion_Forehead_Bead_25",
+      "Lion_Forehead_Bead_26",
+      "Lion_Forehead_Bead_27",
+      "Lion_Forehead_Bead_28",
+      "Lion_Forehead_Bead_29",
+      "Lion_Forehead_Bead_30",
+      "Lion_Forehead_Bead_31",
+      "Lion_Forehead_FloralWire",
+      "Lion_SideMedallion_Convex_L_Bead_00",
+      "Lion_SideMedallion_Convex_L_Bead_01",
+      "Lion_SideMedallion_Convex_L_Bead_02",
+      "Lion_SideMedallion_Convex_L_Bead_03",
+      "Lion_SideMedallion_Convex_L_Bead_04",
+      "Lion_SideMedallion_Convex_L_Bead_05",
+      "Lion_SideMedallion_Convex_L_Bead_06",
+      "Lion_SideMedallion_Convex_L_Bead_07",
+      "Lion_SideMedallion_Convex_L_Bead_08",
+      "Lion_SideMedallion_Convex_L_Bead_09",
+      "Lion_SideMedallion_Convex_L_Bead_10",
+      "Lion_SideMedallion_Convex_L_Bead_11",
+      "Lion_SideMedallion_Convex_L_Bead_12",
+      "Lion_SideMedallion_Convex_L_Bead_13",
+      "Lion_SideMedallion_Convex_L_Bead_14",
+      "Lion_SideMedallion_Convex_L_Bead_15",
+      "Lion_SideMedallion_Convex_L_Bead_16",
+      "Lion_SideMedallion_Convex_L_Bead_17",
+      "Lion_SideMedallion_Convex_L_Bead_18",
+      "Lion_SideMedallion_Convex_L_Bead_19",
+      "Lion_SideMedallion_Convex_L_Bead_20",
+      "Lion_SideMedallion_Convex_L_Bead_21",
+      "Lion_SideMedallion_Convex_L_Bead_22",
+      "Lion_SideMedallion_Convex_L_Bead_23",
+      "Lion_SideMedallion_Convex_L_Bead_24",
+      "Lion_SideMedallion_Convex_L_Bead_25",
+      "Lion_SideMedallion_Convex_L_Bead_26",
+      "Lion_SideMedallion_Convex_L_Bead_27",
+      "Lion_SideMedallion_Convex_L_Bead_28",
+      "Lion_SideMedallion_Convex_L_Bead_29",
+      "Lion_SideMedallion_Convex_L_Bead_30",
+      "Lion_SideMedallion_Convex_L_Bead_31",
+      "Lion_SideMedallion_Convex_L_FloralWire",
+      "Lion_SideMedallion_Convex_R_Bead_00",
+      "Lion_SideMedallion_Convex_R_Bead_01",
+      "Lion_SideMedallion_Convex_R_Bead_02",
+      "Lion_SideMedallion_Convex_R_Bead_03",
+      "Lion_SideMedallion_Convex_R_Bead_04",
+      "Lion_SideMedallion_Convex_R_Bead_05",
+      "Lion_SideMedallion_Convex_R_Bead_06",
+      "Lion_SideMedallion_Convex_R_Bead_07",
+      "Lion_SideMedallion_Convex_R_Bead_08",
+      "Lion_SideMedallion_Convex_R_Bead_09",
+      "Lion_SideMedallion_Convex_R_Bead_10",
+      "Lion_SideMedallion_Convex_R_Bead_11",
+      "Lion_SideMedallion_Convex_R_Bead_12",
+      "Lion_SideMedallion_Convex_R_Bead_13",
+      "Lion_SideMedallion_Convex_R_Bead_14",
+      "Lion_SideMedallion_Convex_R_Bead_15",
+      "Lion_SideMedallion_Convex_R_Bead_16",
+      "Lion_SideMedallion_Convex_R_Bead_17",
+      "Lion_SideMedallion_Convex_R_Bead_18",
+      "Lion_SideMedallion_Convex_R_Bead_19",
+      "Lion_SideMedallion_Convex_R_Bead_20",
+      "Lion_SideMedallion_Convex_R_Bead_21",
+      "Lion_SideMedallion_Convex_R_Bead_22",
+      "Lion_SideMedallion_Convex_R_Bead_23",
+      "Lion_SideMedallion_Convex_R_Bead_24",
+      "Lion_SideMedallion_Convex_R_Bead_25",
+      "Lion_SideMedallion_Convex_R_Bead_26",
+      "Lion_SideMedallion_Convex_R_Bead_27",
+      "Lion_SideMedallion_Convex_R_Bead_28",
+      "Lion_SideMedallion_Convex_R_Bead_29",
+      "Lion_SideMedallion_Convex_R_Bead_30",
+      "Lion_SideMedallion_Convex_R_Bead_31",
+      "Lion_SideMedallion_Convex_R_FloralWire"
+    ],
+    "ornament_scope": "Local floral wire and bead design synthesis; no claim of exact reference engraving."
+  }
+}

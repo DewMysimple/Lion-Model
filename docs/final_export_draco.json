@@ -1,0 +1,694 @@
+{
+  "export_started_at": "2026-10-12T01:00:49.881040+08:00",
+  "export_completed_at": "2026-10-12T01:01:17.931713+08:00",
+  "tool": "Blender 5 glTF exporter",
+  "path": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\exports\\scene_draco.glb",
+  "bytes": 67544592,
+  "sha256": "67402920513a76600a05041e3e1fc880ae1a098794f06d54c00db88b2d42ac10",
+  "source_sha256": "10868714d52a4a4dbea9511ea4986738fdac4b39ba19ad858393f13b7255c3d4",
+  "export_objects": [
+    "Lion_Beard",
+    "Lion_Beard_HighDetailWhiteFiber_1_WebMesh",
+    "Lion_Beard_HighDetailWhiteFiber_2_WebMesh",
+    "Lion_Beard_HighDetailWhiteFiber_3_WebMesh",
+    "Lion_Beard_HighDetailWhiteFiber_4_WebMesh",
+    "Lion_Beard_HighDetailWhiteFiber_5_WebMesh",
+    "Lion_Body",
+    "Lion_Body_Red_Trim",
+    "Lion_Body_Red_Trim_AuditedRedFiber_10_WebMesh",
+    "Lion_Body_Red_Trim_AuditedRedFiber_11_WebMesh",
+    "Lion_Body_Red_Trim_AuditedRedFiber_12_WebMesh",
+    "Lion_Body_Red_Trim_AuditedRedFiber_13_WebMesh",
+    "Lion_Body_Red_Trim_AuditedRedFiber_14_WebMesh",
+    "Lion_Body_Red_Trim_AuditedRedFiber_1_WebMesh",
+    "Lion_Body_Red_Trim_AuditedRedFiber_2_WebMesh",
+    "Lion_Body_Red_Trim_AuditedRedFiber_3_WebMesh",
+    "Lion_Body_Red_Trim_AuditedRedFiber_4_WebMesh",
+    "Lion_Body_Red_Trim_AuditedRedFiber_5_WebMesh",
+    "Lion_Body_Red_Trim_AuditedRedFiber_6_WebMesh",
+    "Lion_Body_Red_Trim_AuditedRedFiber_7_WebMesh",
+    "Lion_Body_Red_Trim_AuditedRedFiber_8_WebMesh",
+    "Lion_Body_Red_Trim_AuditedRedFiber_9_WebMesh",
+    "Lion_Brow_L",
+    "Lion_Brow_L_HighDetailRedFiber_1_WebMesh",
+    "Lion_Brow_L_HighDetailRedFiber_2_WebMesh",
+    "Lion_Brow_L_HighDetailRedFiber_3_WebMesh",
+    "Lion_Brow_R",
+    "Lion_Brow_R_HighDetailRedFiber_1_WebMesh",
+    "Lion_Brow_R_HighDetailRedFiber_2_WebMesh",
+    "Lion_Brow_R_HighDetailRedFiber_3_WebMesh",
+    "Lion_CheekBell_L_Clapper",
+    "Lion_CheekBell_L_Loop",
+    "Lion_CheekBell_L_Shell",
+    "Lion_CheekBell_R_Clapper",
+    "Lion_CheekBell_R_Loop",
+    "Lion_CheekBell_R_Shell",
+    "Lion_Crown",
+    "Lion_Ear_L",
+    "Lion_Ear_L_HighDetailRedFiber_1_WebMesh",
+    "Lion_Ear_L_HighDetailRedFiber_2_WebMesh",
+    "Lion_Ear_L_HighDetailWhiteFiber_1_WebMesh",
+    "Lion_Ear_R",
+    "Lion_Ear_R_HighDetailRedFiber_1_WebMesh",
+    "Lion_Ear_R_HighDetailRedFiber_2_WebMesh",
+    "Lion_Ear_R_HighDetailWhiteFiber_1_WebMesh",
+    "Lion_EyeBall_L",
+    "Lion_EyeBall_R",
+    "Lion_Forehead_Bead_00",
+    "Lion_Forehead_Bead_01",
+    "Lion_Forehead_Bead_02",
+    "Lion_Forehead_Bead_03",
+    "Lion_Forehead_Bead_04",
+    "Lion_Forehead_Bead_05",
+    "Lion_Forehead_Bead_06",
+    "Lion_Forehead_Bead_07",
+    "Lion_Forehead_Bead_08",
+    "Lion_Forehead_Bead_09",
+    "Lion_Forehead_Bead_10",
+    "Lion_Forehead_Bead_11",
+    "Lion_Forehead_Bead_12",
+    "Lion_Forehead_Bead_13",
+    "Lion_Forehead_Bead_14",
+    "Lion_Forehead_Bead_15",
+    "Lion_Forehead_Bead_16",
+    "Lion_Forehead_Bead_17",
+    "Lion_Forehead_Bead_18",
+    "Lion_Forehead_Bead_19",
+    "Lion_Forehead_Bead_20",
+    "Lion_Forehead_Bead_21",
+    "Lion_Forehead_Bead_22",
+    "Lion_Forehead_Bead_23",
+    "Lion_Forehead_Bead_24",
+    "Lion_Forehead_Bead_25",
+    "Lion_Forehead_Bead_26",
+    "Lion_Forehead_Bead_27",
+    "Lion_Forehead_Bead_28",
+    "Lion_Forehead_Bead_29",
+    "Lion_Forehead_Bead_30",
+    "Lion_Forehead_Bead_31",
+    "Lion_Forehead_Brass_Rim",
+    "Lion_Forehead_Convex_Brass",
+    "Lion_Forehead_FloralWire_WebMesh",
+    "Lion_Foreleg_L",
+    "Lion_Foreleg_L_DenseRedFiber_1_WebMesh",
+    "Lion_Foreleg_L_DenseRedFiber_2_WebMesh",
+    "Lion_Foreleg_R",
+    "Lion_Foreleg_R_DenseRedFiber_1_WebMesh",
+    "Lion_Foreleg_R_DenseRedFiber_2_WebMesh",
+    "Lion_Forepaw_L",
+    "Lion_Forepaw_L_DenseRedFiber_1_WebMesh",
+    "Lion_Forepaw_L_DenseWhiteFiber_1_WebMesh",
+    "Lion_Forepaw_R",
+    "Lion_Forepaw_R_DenseRedFiber_1_WebMesh",
+    "Lion_Forepaw_R_DenseWhiteFiber_1_WebMesh",
+    "Lion_Head",
+    "Lion_Head_CorrectedRedFiber_1_WebMesh",
+    "Lion_Head_CorrectedRedFiber_2_WebMesh",
+    "Lion_Head_CorrectedRedFiber_3_WebMesh",
+    "Lion_Head_CorrectedWhiteFiber_1_WebMesh",
+    "Lion_Head_CorrectedWhiteFiber_2_WebMesh",
+    "Lion_Head_CorrectedWhiteFiber_3_WebMesh",
+    "Lion_Head_CorrectedWhiteFiber_4_WebMesh",
+    "Lion_Head_CorrectedWhiteFiber_5_WebMesh",
+    "Lion_Head_CorrectedWhiteFiber_6_WebMesh",
+    "Lion_Hindleg_L",
+    "Lion_Hindleg_L_DenseRedFiber_1_WebMesh",
+    "Lion_Hindleg_L_DenseRedFiber_2_WebMesh",
+    "Lion_Hindleg_R",
+    "Lion_Hindleg_R_DenseRedFiber_1_WebMesh",
+    "Lion_Hindleg_R_DenseRedFiber_2_WebMesh",
+    "Lion_Hindpaw_L",
+    "Lion_Hindpaw_L_DenseRedFiber_1_WebMesh",
+    "Lion_Hindpaw_L_DenseWhiteFiber_1_WebMesh",
+    "Lion_Hindpaw_R",
+    "Lion_Hindpaw_R_DenseRedFiber_1_WebMesh",
+    "Lion_Hindpaw_R_DenseWhiteFiber_1_WebMesh",
+    "Lion_Iris_Copper_L",
+    "Lion_Iris_Copper_R",
+    "Lion_Iris_InnerGold_L",
+    "Lion_Iris_InnerGold_R",
+    "Lion_Jaw",
+    "Lion_Jaw_HighDetailRedFiber_1_WebMesh",
+    "Lion_Jaw_HighDetailRedFiber_2_WebMesh",
+    "Lion_Nose",
+    "Lion_Pupil_L",
+    "Lion_Pupil_R",
+    "Lion_Root",
+    "Lion_SideMedallion_Convex_L",
+    "Lion_SideMedallion_Convex_L_Bead_00",
+    "Lion_SideMedallion_Convex_L_Bead_01",
+    "Lion_SideMedallion_Convex_L_Bead_02",
+    "Lion_SideMedallion_Convex_L_Bead_03",
+    "Lion_SideMedallion_Convex_L_Bead_04",
+    "Lion_SideMedallion_Convex_L_Bead_05",
+    "Lion_SideMedallion_Convex_L_Bead_06",
+    "Lion_SideMedallion_Convex_L_Bead_07",
+    "Lion_SideMedallion_Convex_L_Bead_08",
+    "Lion_SideMedallion_Convex_L_Bead_09",
+    "Lion_SideMedallion_Convex_L_Bead_10",
+    "Lion_SideMedallion_Convex_L_Bead_11",
+    "Lion_SideMedallion_Convex_L_Bead_12",
+    "Lion_SideMedallion_Convex_L_Bead_13",
+    "Lion_SideMedallion_Convex_L_Bead_14",
+    "Lion_SideMedallion_Convex_L_Bead_15",
+    "Lion_SideMedallion_Convex_L_Bead_16",
+    "Lion_SideMedallion_Convex_L_Bead_17",
+    "Lion_SideMedallion_Convex_L_Bead_18",
+    "Lion_SideMedallion_Convex_L_Bead_19",
+    "Lion_SideMedallion_Convex_L_Bead_20",
+    "Lion_SideMedallion_Convex_L_Bead_21",
+    "Lion_SideMedallion_Convex_L_Bead_22",
+    "Lion_SideMedallion_Convex_L_Bead_23",
+    "Lion_SideMedallion_Convex_L_Bead_24",
+    "Lion_SideMedallion_Convex_L_Bead_25",
+    "Lion_SideMedallion_Convex_L_Bead_26",
+    "Lion_SideMedallion_Convex_L_Bead_27",
+    "Lion_SideMedallion_Convex_L_Bead_28",
+    "Lion_SideMedallion_Convex_L_Bead_29",
+    "Lion_SideMedallion_Convex_L_Bead_30",
+    "Lion_SideMedallion_Convex_L_Bead_31",
+    "Lion_SideMedallion_Convex_L_FloralWire_WebMesh",
+    "Lion_SideMedallion_Convex_R",
+    "Lion_SideMedallion_Convex_R_Bead_00",
+    "Lion_SideMedallion_Convex_R_Bead_01",
+    "Lion_SideMedallion_Convex_R_Bead_02",
+    "Lion_SideMedallion_Convex_R_Bead_03",
+    "Lion_SideMedallion_Convex_R_Bead_04",
+    "Lion_SideMedallion_Convex_R_Bead_05",
+    "Lion_SideMedallion_Convex_R_Bead_06",
+    "Lion_SideMedallion_Convex_R_Bead_07",
+    "Lion_SideMedallion_Convex_R_Bead_08",
+    "Lion_SideMedallion_Convex_R_Bead_09",
+    "Lion_SideMedallion_Convex_R_Bead_10",
+    "Lion_SideMedallion_Convex_R_Bead_11",
+    "Lion_SideMedallion_Convex_R_Bead_12",
+    "Lion_SideMedallion_Convex_R_Bead_13",
+    "Lion_SideMedallion_Convex_R_Bead_14",
+    "Lion_SideMedallion_Convex_R_Bead_15",
+    "Lion_SideMedallion_Convex_R_Bead_16",
+    "Lion_SideMedallion_Convex_R_Bead_17",
+    "Lion_SideMedallion_Convex_R_Bead_18",
+    "Lion_SideMedallion_Convex_R_Bead_19",
+    "Lion_SideMedallion_Convex_R_Bead_20",
+    "Lion_SideMedallion_Convex_R_Bead_21",
+    "Lion_SideMedallion_Convex_R_Bead_22",
+    "Lion_SideMedallion_Convex_R_Bead_23",
+    "Lion_SideMedallion_Convex_R_Bead_24",
+    "Lion_SideMedallion_Convex_R_Bead_25",
+    "Lion_SideMedallion_Convex_R_Bead_26",
+    "Lion_SideMedallion_Convex_R_Bead_27",
+    "Lion_SideMedallion_Convex_R_Bead_28",
+    "Lion_SideMedallion_Convex_R_Bead_29",
+    "Lion_SideMedallion_Convex_R_Bead_30",
+    "Lion_SideMedallion_Convex_R_Bead_31",
+    "Lion_SideMedallion_Convex_R_FloralWire_WebMesh",
+    "Lion_SideMedallion_Rim_L",
+    "Lion_SideMedallion_Rim_R",
+    "Lion_Tail",
+    "Lion_Tail_DenseRedFiber_1_WebMesh",
+    "Lion_Tail_DenseRedFiber_2_WebMesh",
+    "Lion_Tail_DenseWhiteFiber_1_WebMesh",
+    "Lion_Tail_DenseWhiteFiber_2_WebMesh",
+    "Lion_Tail_DenseWhiteFiber_3_WebMesh",
+    "Lion_Tail_DenseWhiteFiber_4_WebMesh",
+    "Lion_TailBell_L_Clapper",
+    "Lion_TailBell_L_Loop",
+    "Lion_TailBell_L_Shell",
+    "Lion_TailBell_R_Clapper",
+    "Lion_TailBell_R_Loop",
+    "Lion_TailBell_R_Shell",
+    "Lion_Tassel_Collar_L",
+    "Lion_Tassel_Collar_R",
+    "Lion_Tassel_L_FineFiber_1_WebMesh",
+    "Lion_Tassel_R_FineFiber_1_WebMesh",
+    "Lion_Tooth_00",
+    "Lion_Tooth_01",
+    "Lion_Tooth_02",
+    "Lion_Tooth_03",
+    "Lion_Tooth_04",
+    "Lion_Tooth_05",
+    "Lion_Tooth_06",
+    "Lion_Tooth_07",
+    "Lion_Tooth_08",
+    "Lion_Tooth_09",
+    "Lion_Tooth_10",
+    "Pivot_Beard",
+    "Pivot_Body",
+    "Pivot_Body_Red_Trim",
+    "Pivot_Brow_L",
+    "Pivot_Brow_R",
+    "Pivot_CheekBell_L",
+    "Pivot_CheekBell_R",
+    "Pivot_Crown",
+    "Pivot_Ear_L",
+    "Pivot_Ear_R",
+    "Pivot_Eye_L",
+    "Pivot_Eye_R",
+    "Pivot_Forehead_Metal",
+    "Pivot_Foreleg_L",
+    "Pivot_Foreleg_R",
+    "Pivot_Forepaw_L",
+    "Pivot_Forepaw_R",
+    "Pivot_Head",
+    "Pivot_Hindleg_L",
+    "Pivot_Hindleg_R",
+    "Pivot_Hindpaw_L",
+    "Pivot_Hindpaw_R",
+    "Pivot_Jaw",
+    "Pivot_Nose",
+    "Pivot_SideMedallion_L",
+    "Pivot_SideMedallion_R",
+    "Pivot_Tail",
+    "Pivot_TailBell_L",
+    "Pivot_TailBell_R",
+    "Pivot_Tassel_L",
+    "Pivot_Tassel_R"
+  ],
+  "fiber_proxies": [
+    {
+      "name": "Lion_Beard_HighDetailWhiteFiber_1_WebMesh",
+      "strands": 4000,
+      "polygons": 56048,
+      "native_stride": 5
+    },
+    {
+      "name": "Lion_Beard_HighDetailWhiteFiber_2_WebMesh",
+      "strands": 4000,
+      "polygons": 56128,
+      "native_stride": 5
+    },
+    {
+      "name": "Lion_Beard_HighDetailWhiteFiber_3_WebMesh",
+      "strands": 4000,
+      "polygons": 56224,
+      "native_stride": 5
+    },
+    {
+      "name": "Lion_Beard_HighDetailWhiteFiber_4_WebMesh",
+      "strands": 4000,
+      "polygons": 56128,
+      "native_stride": 5
+    },
+    {
+      "name": "Lion_Beard_HighDetailWhiteFiber_5_WebMesh",
+      "strands": 2000,
+      "polygons": 27976,
+      "native_stride": 5
+    },
+    {
+      "name": "Lion_Body_Red_Trim_AuditedRedFiber_1_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Body_Red_Trim_AuditedRedFiber_10_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Body_Red_Trim_AuditedRedFiber_11_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Body_Red_Trim_AuditedRedFiber_12_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Body_Red_Trim_AuditedRedFiber_13_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Body_Red_Trim_AuditedRedFiber_14_WebMesh",
+      "strands": 276,
+      "polygons": 3312,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Body_Red_Trim_AuditedRedFiber_2_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Body_Red_Trim_AuditedRedFiber_3_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Body_Red_Trim_AuditedRedFiber_4_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Body_Red_Trim_AuditedRedFiber_5_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Body_Red_Trim_AuditedRedFiber_6_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Body_Red_Trim_AuditedRedFiber_7_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Body_Red_Trim_AuditedRedFiber_8_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Body_Red_Trim_AuditedRedFiber_9_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Brow_L_HighDetailRedFiber_1_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Brow_L_HighDetailRedFiber_2_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Brow_L_HighDetailRedFiber_3_WebMesh",
+      "strands": 800,
+      "polygons": 9600,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Brow_R_HighDetailRedFiber_1_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Brow_R_HighDetailRedFiber_2_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Brow_R_HighDetailRedFiber_3_WebMesh",
+      "strands": 800,
+      "polygons": 9600,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Ear_L_HighDetailRedFiber_1_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Ear_L_HighDetailRedFiber_2_WebMesh",
+      "strands": 1200,
+      "polygons": 14400,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Ear_L_HighDetailWhiteFiber_1_WebMesh",
+      "strands": 1200,
+      "polygons": 16816,
+      "native_stride": 5
+    },
+    {
+      "name": "Lion_Ear_R_HighDetailRedFiber_1_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Ear_R_HighDetailRedFiber_2_WebMesh",
+      "strands": 1200,
+      "polygons": 14400,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Ear_R_HighDetailWhiteFiber_1_WebMesh",
+      "strands": 1200,
+      "polygons": 16668,
+      "native_stride": 5
+    },
+    {
+      "name": "Lion_Foreleg_L_DenseRedFiber_1_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Foreleg_L_DenseRedFiber_2_WebMesh",
+      "strands": 800,
+      "polygons": 9600,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Foreleg_R_DenseRedFiber_1_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Foreleg_R_DenseRedFiber_2_WebMesh",
+      "strands": 800,
+      "polygons": 9600,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Forepaw_L_DenseRedFiber_1_WebMesh",
+      "strands": 450,
+      "polygons": 5400,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Forepaw_L_DenseWhiteFiber_1_WebMesh",
+      "strands": 1400,
+      "polygons": 19668,
+      "native_stride": 5
+    },
+    {
+      "name": "Lion_Forepaw_R_DenseRedFiber_1_WebMesh",
+      "strands": 450,
+      "polygons": 5400,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Forepaw_R_DenseWhiteFiber_1_WebMesh",
+      "strands": 1400,
+      "polygons": 19540,
+      "native_stride": 5
+    },
+    {
+      "name": "Lion_Head_CorrectedRedFiber_1_WebMesh",
+      "strands": 2000,
+      "polygons": 27924,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Head_CorrectedRedFiber_2_WebMesh",
+      "strands": 2000,
+      "polygons": 27932,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Head_CorrectedRedFiber_3_WebMesh",
+      "strands": 200,
+      "polygons": 2808,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Head_CorrectedWhiteFiber_1_WebMesh",
+      "strands": 4000,
+      "polygons": 56052,
+      "native_stride": 5
+    },
+    {
+      "name": "Lion_Head_CorrectedWhiteFiber_2_WebMesh",
+      "strands": 4000,
+      "polygons": 55708,
+      "native_stride": 5
+    },
+    {
+      "name": "Lion_Head_CorrectedWhiteFiber_3_WebMesh",
+      "strands": 4000,
+      "polygons": 56152,
+      "native_stride": 5
+    },
+    {
+      "name": "Lion_Head_CorrectedWhiteFiber_4_WebMesh",
+      "strands": 4000,
+      "polygons": 55964,
+      "native_stride": 5
+    },
+    {
+      "name": "Lion_Head_CorrectedWhiteFiber_5_WebMesh",
+      "strands": 4000,
+      "polygons": 55816,
+      "native_stride": 5
+    },
+    {
+      "name": "Lion_Head_CorrectedWhiteFiber_6_WebMesh",
+      "strands": 4000,
+      "polygons": 55992,
+      "native_stride": 5
+    },
+    {
+      "name": "Lion_Hindleg_L_DenseRedFiber_1_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Hindleg_L_DenseRedFiber_2_WebMesh",
+      "strands": 800,
+      "polygons": 9600,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Hindleg_R_DenseRedFiber_1_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Hindleg_R_DenseRedFiber_2_WebMesh",
+      "strands": 800,
+      "polygons": 9600,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Hindpaw_L_DenseRedFiber_1_WebMesh",
+      "strands": 450,
+      "polygons": 5400,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Hindpaw_L_DenseWhiteFiber_1_WebMesh",
+      "strands": 1400,
+      "polygons": 19588,
+      "native_stride": 5
+    },
+    {
+      "name": "Lion_Hindpaw_R_DenseRedFiber_1_WebMesh",
+      "strands": 450,
+      "polygons": 5400,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Hindpaw_R_DenseWhiteFiber_1_WebMesh",
+      "strands": 1400,
+      "polygons": 19488,
+      "native_stride": 5
+    },
+    {
+      "name": "Lion_Jaw_HighDetailRedFiber_1_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Jaw_HighDetailRedFiber_2_WebMesh",
+      "strands": 1200,
+      "polygons": 14400,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Tail_DenseRedFiber_1_WebMesh",
+      "strands": 2000,
+      "polygons": 24000,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Tail_DenseRedFiber_2_WebMesh",
+      "strands": 1200,
+      "polygons": 14400,
+      "native_stride": 10
+    },
+    {
+      "name": "Lion_Tail_DenseWhiteFiber_1_WebMesh",
+      "strands": 4000,
+      "polygons": 56144,
+      "native_stride": 5
+    },
+    {
+      "name": "Lion_Tail_DenseWhiteFiber_2_WebMesh",
+      "strands": 4000,
+      "polygons": 56064,
+      "native_stride": 5
+    },
+    {
+      "name": "Lion_Tail_DenseWhiteFiber_3_WebMesh",
+      "strands": 4000,
+      "polygons": 55824,
+      "native_stride": 5
+    },
+    {
+      "name": "Lion_Tail_DenseWhiteFiber_4_WebMesh",
+      "strands": 1000,
+      "polygons": 14044,
+      "native_stride": 5
+    },
+    {
+      "name": "Lion_Tassel_L_FineFiber_1_WebMesh",
+      "strands": 1200,
+      "polygons": 14400,
+      "native_stride": 3
+    },
+    {
+      "name": "Lion_Tassel_R_FineFiber_1_WebMesh",
+      "strands": 1200,
+      "polygons": 14400,
+      "native_stride": 3
+    }
+  ],
+  "proxy_strands": 131276,
+  "native_master_unchanged": true,
+  "compression": {
+    "export_draco_mesh_compression_enable": true,
+    "export_draco_mesh_compression_level": 7,
+    "export_draco_position_quantization": 20,
+    "export_draco_normal_quantization": 12,
+    "export_draco_texcoord_quantization": 16
+  },
+  "sources": [
+    {
+      "source_asset": "g1_full_lion_4054240",
+      "path": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\generated\\Lux3D_Lion_Base_glb.glb",
+      "sha256": "10868714d52a4a4dbea9511ea4986738fdac4b39ba19ad858393f13b7255c3d4",
+      "retained_faces": 242792,
+      "removed_head_faces": 43408
+    },
+    {
+      "source_asset": "head_highdetail_4055287",
+      "path": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\generated\\candidates\\head_highdetail\\Lion_head_highdetail_glb.glb",
+      "sha256": "a32adcf39afbf971106d0ad6661ea32eee4dc783cfa2e45e11a7643e82a6fe13",
+      "retained_faces": 285606
+    }
+  ],
+  "limitations": [
+    "Sparse fibers for browser performance: red stride10, white stride5, tassel stride3.",
+    "Body brocade uses embedded basecolor and a procedural tangent normal texture; other native-only bump nodes are omitted.",
+    "Transform hierarchy is exported; no skinned dance animation was created."
+  ]
+}

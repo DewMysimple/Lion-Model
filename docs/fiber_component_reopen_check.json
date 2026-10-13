@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-10-11T14:18:20.560382+00:00",
+  "file": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\blender\\components\\Lion_Fiber_Component_Test.blend",
+  "blender": "5.0.0",
+  "actual_curve_objects": 2,
+  "actual_strands": 32000,
+  "checks": {
+    "reopened_saved_fiber_file": true,
+    "two_separate_emitter_curve_objects": true,
+    "native_curve_types_preserved": true,
+    "actual_32000_strands_persisted": true,
+    "finite_editable_3d_points_persisted": true,
+    "parents_and_collection_persisted": true,
+    "taper_persisted": true,
+    "native_control_point_is_editable": true
+  },
+  "scope": "Reopened native eye-ring fiber sample only. No full-lion fur acceptance is claimed."
+}

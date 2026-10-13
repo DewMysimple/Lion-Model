@@ -1,0 +1,29 @@
+{
+  "schema": "lion-project.cloth-projection-visual-review/v1",
+  "study": "../blender/Lion_Cloth_Projection_Study_v2.blend",
+  "actuallyInspectedImages": [
+    "../references/left.png",
+    "../renders/cloth_projection_study/before_whole_side.png",
+    "../renders/cloth_projection_study/after_whole_side.png",
+    "../renders/cloth_projection_study/after_cloth_detail.png",
+    "../renders/cloth_projection_study_v2/before_whole_side.png",
+    "../renders/cloth_projection_study_v2/after_whole_side.png",
+    "../renders/cloth_projection_study_v2/after_cloth_detail.png",
+    "../renders/cloth_projection_study_v2/baked_cloth_detail.png",
+    "../renders/cloth_projection_study_v2/baked_v3_cloth_detail.png"
+  ],
+  "result": "partial-local-improvement-only",
+  "observedImprovement": "The photographed +X lower-side brocade has clearer dark green/gold motif edges than the original blurred atlas. The reference pixels are actual supplied reference detail rather than an invented repeating pattern.",
+  "observedLimits": [
+    "Upper back and opposite side remain predominantly original atlas fallback.",
+    "Reference registration remains estimated and locally mismatched near wave-trim edges.",
+    "Some projected colors read pale under the existing master studio lighting; measured albedo is not recovered.",
+    "The initial whole-side camera clipped the model; the v2 whole-side render includes the full silhouette.",
+    "4096px original-UV baking has not reproduced the unbaked local projection faithfully and is not recommended for final export."
+  ],
+  "protectedSources": "Both prototype runs compared actual master/reference SHA256 before and after and recorded equality; no final master file or source GLB was written by the study.",
+  "trimProtection": "Only Lion_Body material slots and an auxiliary UV map were changed in separate study scenes. Lion_Body_Red_Trim material assignments were retained.",
+  "nativeIntegrationCandidate": "scripts/cloth_projection_tools.py apply_studied_cloth_projection(body, study_path), subject to root review of the actual before/after images.",
+  "wholeBriefAccepted": false,
+  "bakedExportAccepted": false
+}

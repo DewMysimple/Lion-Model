@@ -1,0 +1,38 @@
+{
+  "source_material": "Designer_Logic_PBR.001",
+  "source_image": "Image_0.001",
+  "source_atlas": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\highdetail_head\\original_basecolor_atlas.png",
+  "source_atlas_sha256": "53c850ce16e585ce9160bd49eb3c3dabb74203f7712aef8882b1904c0d1bb3e0",
+  "size": [
+    2048,
+    2048
+  ],
+  "source_pixels_space": "Stored encoded sRGB RGBA, bottom-left origin; empirically checked against original PNG bytes",
+  "derived_maps": {
+    "basecolor": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\highdetail_head\\lion_basecolor_refined.png",
+    "roughness": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\highdetail_head\\lion_roughness_color_inferred.png",
+    "metallic": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\highdetail_head\\lion_metallic_color_inferred.png",
+    "weave_mask": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\highdetail_head\\lion_weave_appearance_mask.png"
+  },
+  "classification": "Soft masks derived from original perceptual RGB; same atlas and UVs",
+  "roughness_range": [
+    0.4700000286102295,
+    0.8600000143051147
+  ],
+  "metallic_range": [
+    0.0,
+    0.47999998927116394
+  ],
+  "mask_mean": {
+    "red": 0.2569669485092163,
+    "gold": 0.00912052858620882,
+    "white": 0.4175099730491638
+  },
+  "limitations": [
+    "Color cannot distinguish red fur from red embroidered cloth without spatial part classification.",
+    "Gold color suggests partial metallic thread response; it does not prove metal composition.",
+    "Baked highlights and shadows remain in original texture; exact reflectance cannot be recovered.",
+    "Original 2048px motif atlas is retained; this does not reconstruct original embroidery stitches.",
+    "Regular UV weave is a subtle generic microstructure; generated UV islands lack true textile warp directions."
+  ]
+}

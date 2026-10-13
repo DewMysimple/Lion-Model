@@ -1,0 +1,11 @@
+{
+  "original_verts": 289321,
+  "canonical_groups": 131861,
+  "protected_groups": 9727,
+  "protected_vertices": 43292,
+  "safe_weld_vertices": 165426,
+  "safe_weld_boundary": 58043,
+  "safe_weld_overconnected": 1,
+  "degenerate_canonical_faces": 0,
+  "canonical_overconnected_edges": 6234
+}

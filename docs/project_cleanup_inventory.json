@@ -1,0 +1,591 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-13T17:21:41.107912+08:00",
+  "scope": "Native Blender/model directory cleanup",
+  "before_file_count": 498,
+  "before_bytes": 6174219703.0,
+  "removed_bytes": 3598156789.0,
+  "removed": [
+    {
+      "path": "previewbundle",
+      "type": "directory",
+      "files": 8,
+      "bytes": 653166029.0
+    },
+    {
+      "path": "previewbundle_draco",
+      "type": "directory",
+      "files": 8,
+      "bytes": 370002809.0
+    },
+    {
+      "path": "previewbundle_web",
+      "type": "directory",
+      "files": 8,
+      "bytes": 311161373.0
+    },
+    {
+      "path": "previewbundle_web_v2",
+      "type": "directory",
+      "files": 8,
+      "bytes": 311161527.0
+    },
+    {
+      "path": "previewbundle_web_v3",
+      "type": "directory",
+      "files": 8,
+      "bytes": 311161553.0
+    },
+    {
+      "path": "previewbundle_web_v4",
+      "type": "directory",
+      "files": 8,
+      "bytes": 311161618.0
+    },
+    {
+      "path": "docs\\offline_preview_qa_draco",
+      "type": "directory",
+      "files": 1,
+      "bytes": 570.0
+    },
+    {
+      "path": "docs\\offline_preview_qa_gpu",
+      "type": "directory",
+      "files": 15,
+      "bytes": 159034472.0
+    },
+    {
+      "path": "docs\\offline_preview_qa_reset_diagnostic",
+      "type": "directory",
+      "files": 4,
+      "bytes": 546675.0
+    },
+    {
+      "path": "docs\\offline_preview_qa_uncompressed",
+      "type": "directory",
+      "files": 1,
+      "bytes": 634.0
+    },
+    {
+      "path": "docs\\offline_preview_qa_web",
+      "type": "directory",
+      "files": 3,
+      "bytes": 356725.0
+    },
+    {
+      "path": "docs\\offline_preview_qa_web_v2",
+      "type": "directory",
+      "files": 3,
+      "bytes": 356746.0
+    },
+    {
+      "path": "docs\\offline_preview_qa_web_v4",
+      "type": "directory",
+      "files": 1,
+      "bytes": 906.0
+    },
+    {
+      "path": "scripts\\__pycache__",
+      "type": "directory",
+      "files": 18,
+      "bytes": 556672.0
+    },
+    {
+      "path": "blender\\Lion_Detailed_Parts.blend1",
+      "type": "file",
+      "files": 1,
+      "bytes": 22206622
+    },
+    {
+      "path": "blender\\Lion_Final_Master.blend1",
+      "type": "file",
+      "files": 1,
+      "bytes": 188528718
+    },
+    {
+      "path": "blender\\Lion_Head_Forehead_Brocade_Study.blend1",
+      "type": "file",
+      "files": 1,
+      "bytes": 196704111
+    },
+    {
+      "path": "blender\\Lion_Material_Study.blend1",
+      "type": "file",
+      "files": 1,
+      "bytes": 31935772
+    },
+    {
+      "path": "blender\\Lion_Parts_Working.blend1",
+      "type": "file",
+      "files": 1,
+      "bytes": 19811875
+    },
+    {
+      "path": "blender\\Lion_Trim_Cloth_Recovery_Study.blend1",
+      "type": "file",
+      "files": 1,
+      "bytes": 123170984
+    },
+    {
+      "path": "blender\\Lion_Web_Export_Copy.blend1",
+      "type": "file",
+      "files": 1,
+      "bytes": 75507012
+    },
+    {
+      "path": "blender\\components\\Lion_Editable_Components.blend1",
+      "type": "file",
+      "files": 1,
+      "bytes": 917662
+    },
+    {
+      "path": "docs\\component_import_check.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 7650
+    },
+    {
+      "path": "docs\\draco_export_process.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 79287
+    },
+    {
+      "path": "docs\\draco_head_attribute_correspondence_probe.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 361
+    },
+    {
+      "path": "docs\\draco_native_duplicate_attribute_probe.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 446
+    },
+    {
+      "path": "docs\\editable_components_build.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 4071
+    },
+    {
+      "path": "docs\\editable_components_reopen_check.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 2690
+    },
+    {
+      "path": "docs\\final_build.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 3834
+    },
+    {
+      "path": "docs\\final_draco_verification.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 57834
+    },
+    {
+      "path": "docs\\fitted_correction.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 672
+    },
+    {
+      "path": "docs\\fitted_details.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 672
+    },
+    {
+      "path": "docs\\g1_stage_export.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 12431
+    },
+    {
+      "path": "docs\\generated_base_inspection.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 2018
+    },
+    {
+      "path": "docs\\gold_attachment_probe_execution.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 34567
+    },
+    {
+      "path": "docs\\import_pipeline_preflight.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 1215
+    },
+    {
+      "path": "blender\\Lion_Web_Export_Copy.blend",
+      "type": "file",
+      "files": 1,
+      "bytes": 255227569
+    },
+    {
+      "path": "blender\\Lion_Web_Draco_Export_Copy.blend",
+      "type": "file",
+      "files": 1,
+      "bytes": 255227513
+    },
+    {
+      "path": "scripts\\diagnose_preview_load.cjs",
+      "type": "file",
+      "files": 1,
+      "bytes": 946
+    },
+    {
+      "path": "scripts\\optimize_offline_preview.py",
+      "type": "file",
+      "files": 1,
+      "bytes": 6995
+    },
+    {
+      "path": "scripts\\prioritize_scene_preview.py",
+      "type": "file",
+      "files": 1,
+      "bytes": 2780
+    },
+    {
+      "path": "scripts\\verify_offline_preview.cjs",
+      "type": "file",
+      "files": 1,
+      "bytes": 9575
+    },
+    {
+      "path": "docs\\goal_waiting_for_spending_decision.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 1445
+    },
+    {
+      "path": "docs\\final_package_arguments.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 2367
+    },
+    {
+      "path": "docs\\final_package_dry_run.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 10824
+    },
+    {
+      "path": "docs\\offline_preview_final_artifact.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 889
+    },
+    {
+      "path": "docs\\offline_preview_optimization_v2.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 1313
+    },
+    {
+      "path": "docs\\offline_preview_optimization_v3.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 1407
+    },
+    {
+      "path": "docs\\offline_preview_optimization_v4.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 1455
+    },
+    {
+      "path": "docs\\offline_preview_optimization.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 1310
+    },
+    {
+      "path": "docs\\offline_preview_ordering_draco.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 797
+    },
+    {
+      "path": "docs\\offline_preview_ordering.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 791
+    }
+  ],
+  "moved": [
+    {
+      "from": "blender\\Lion_Body_Quality_Stage.blend",
+      "to": "blender\\checkpoints\\Lion_Body_Quality_Stage.blend",
+      "bytes": 113453657
+    },
+    {
+      "from": "blender\\Lion_Brocade_UV_Study_clear_v1.blend",
+      "to": "blender\\studies\\Lion_Brocade_UV_Study_clear_v1.blend",
+      "bytes": 62057923
+    },
+    {
+      "from": "blender\\Lion_Brocade_UV_Study_clear_v2.blend",
+      "to": "blender\\studies\\Lion_Brocade_UV_Study_clear_v2.blend",
+      "bytes": 62051134
+    },
+    {
+      "from": "blender\\Lion_Cloth_Projection_Baked_Study_v3.blend",
+      "to": "blender\\studies\\Lion_Cloth_Projection_Baked_Study_v3.blend",
+      "bytes": 76963822
+    },
+    {
+      "from": "blender\\Lion_Cloth_Projection_Baked_Study.blend",
+      "to": "blender\\studies\\Lion_Cloth_Projection_Baked_Study.blend",
+      "bytes": 65507251
+    },
+    {
+      "from": "blender\\Lion_Cloth_Projection_Study_v2.blend",
+      "to": "blender\\studies\\Lion_Cloth_Projection_Study_v2.blend",
+      "bytes": 58519334
+    },
+    {
+      "from": "blender\\Lion_Cloth_Projection_Study.blend",
+      "to": "blender\\studies\\Lion_Cloth_Projection_Study.blend",
+      "bytes": 58498262
+    },
+    {
+      "from": "blender\\Lion_Detailed_Parts.blend",
+      "to": "blender\\checkpoints\\Lion_Detailed_Parts.blend",
+      "bytes": 21951541
+    },
+    {
+      "from": "blender\\Lion_G1_Refined_Stage.blend",
+      "to": "blender\\checkpoints\\Lion_G1_Refined_Stage.blend",
+      "bytes": 56662182
+    },
+    {
+      "from": "blender\\Lion_Head_Candidate_Parts_v2.blend",
+      "to": "blender\\checkpoints\\Lion_Head_Candidate_Parts_v2.blend",
+      "bytes": 30497010
+    },
+    {
+      "from": "blender\\Lion_Head_Candidate_Parts_v3.blend",
+      "to": "blender\\checkpoints\\Lion_Head_Candidate_Parts_v3.blend",
+      "bytes": 30450764
+    },
+    {
+      "from": "blender\\Lion_Head_Candidate_Parts.blend",
+      "to": "blender\\checkpoints\\Lion_Head_Candidate_Parts.blend",
+      "bytes": 30463103
+    },
+    {
+      "from": "blender\\Lion_Head_Cloth_Input_Copy.blend",
+      "to": "blender\\studies\\Lion_Head_Cloth_Input_Copy.blend",
+      "bytes": 191049594
+    },
+    {
+      "from": "blender\\Lion_Head_Forehead_Brocade_Study.blend",
+      "to": "blender\\studies\\Lion_Head_Forehead_Brocade_Study.blend",
+      "bytes": 196704116
+    },
+    {
+      "from": "blender\\Lion_Head_Quality_Stage_v2.blend",
+      "to": "blender\\checkpoints\\Lion_Head_Quality_Stage_v2.blend",
+      "bytes": 94456584
+    },
+    {
+      "from": "blender\\Lion_Head_Quality_Stage.blend",
+      "to": "blender\\checkpoints\\Lion_Head_Quality_Stage.blend",
+      "bytes": 94491795
+    },
+    {
+      "from": "blender\\Lion_Material_Study.blend",
+      "to": "blender\\studies\\Lion_Material_Study.blend",
+      "bytes": 31935752
+    },
+    {
+      "from": "blender\\Lion_Parts_Working.blend",
+      "to": "blender\\checkpoints\\Lion_Parts_Working.blend",
+      "bytes": 19585858
+    },
+    {
+      "from": "blender\\Lion_Trim_Cloth_Recovery_Study.blend",
+      "to": "blender\\studies\\Lion_Trim_Cloth_Recovery_Study.blend",
+      "bytes": 123171458
+    },
+    {
+      "from": "textures/brocade_new/Brocade_Tile_Probe.blend",
+      "to": "blender/studies/Brocade_Tile_Probe.blend"
+    },
+    {
+      "from": "renders\\body_dense_fur_study",
+      "to": "renders\\studies\\body_dense_fur_study"
+    },
+    {
+      "from": "renders\\brocade_uv_study_clear_v1",
+      "to": "renders\\studies\\brocade_uv_study_clear_v1"
+    },
+    {
+      "from": "renders\\brocade_uv_study_clear_v2",
+      "to": "renders\\studies\\brocade_uv_study_clear_v2"
+    },
+    {
+      "from": "renders\\cloth_projection_study",
+      "to": "renders\\studies\\cloth_projection_study"
+    },
+    {
+      "from": "renders\\cloth_projection_study_v2",
+      "to": "renders\\studies\\cloth_projection_study_v2"
+    },
+    {
+      "from": "renders\\components",
+      "to": "renders\\studies\\components"
+    },
+    {
+      "from": "renders\\head_forehead_brocade",
+      "to": "renders\\studies\\head_forehead_brocade"
+    },
+    {
+      "from": "renders\\material_study",
+      "to": "renders\\studies\\material_study"
+    },
+    {
+      "from": "renders\\trim_cloth_recovery",
+      "to": "renders\\studies\\trim_cloth_recovery"
+    },
+    {
+      "from": "workspace/Model_Delivery.zip",
+      "to": "delivery/Model_Delivery.zip"
+    },
+    {
+      "from": "workspace/Model_Delivery.zip.sha256",
+      "to": "delivery/Model_Delivery.zip.sha256"
+    },
+    {
+      "from": "workspace/Model_Delivery.zip.verification.json",
+      "to": "delivery/Model_Delivery.zip.verification.json"
+    },
+    {
+      "from": "renders/final/draft_front.png",
+      "to": "renders/studies/final_revisions/draft_front.png",
+      "bytes": 1431164
+    },
+    {
+      "from": "renders/final/draft_hero.png",
+      "to": "renders/studies/final_revisions/draft_hero.png",
+      "bytes": 1228059
+    },
+    {
+      "from": "renders/final/draft2_front.png",
+      "to": "renders/studies/final_revisions/draft2_front.png",
+      "bytes": 1467133
+    },
+    {
+      "from": "renders/final/draft2_hero.png",
+      "to": "renders/studies/final_revisions/draft2_hero.png",
+      "bytes": 1458729
+    },
+    {
+      "from": "renders/final/draft3_front.png",
+      "to": "renders/studies/final_revisions/draft3_front.png",
+      "bytes": 1464619
+    },
+    {
+      "from": "renders/final/draft3_head.png",
+      "to": "renders/studies/final_revisions/draft3_head.png",
+      "bytes": 1572551
+    },
+    {
+      "from": "renders/final/revision_brocade.png",
+      "to": "renders/studies/final_revisions/revision_brocade.png",
+      "bytes": 2680945
+    },
+    {
+      "from": "renders/final/revision_head.png",
+      "to": "renders/studies/final_revisions/revision_head.png",
+      "bytes": 2191535
+    },
+    {
+      "from": "renders/final/revision_hero.png",
+      "to": "renders/studies/final_revisions/revision_hero.png",
+      "bytes": 1872988
+    },
+    {
+      "from": "renders/final/revision2_head.png",
+      "to": "renders/studies/final_revisions/revision2_head.png",
+      "bytes": 2305003
+    },
+    {
+      "from": "renders/final/revision2_hero.png",
+      "to": "renders/studies/final_revisions/revision2_hero.png",
+      "bytes": 1960051
+    },
+    {
+      "from": "renders/final/revision3_brocade.png",
+      "to": "renders/studies/final_revisions/revision3_brocade.png",
+      "bytes": 2974708
+    },
+    {
+      "from": "renders/final/revision3_hero.png",
+      "to": "renders/studies/final_revisions/revision3_hero.png",
+      "bytes": 1984319
+    },
+    {
+      "from": "exports/Lion_Brocade_UV_Study_clear_v1.glb",
+      "to": "exports/studies/Lion_Brocade_UV_Study_clear_v1.glb"
+    },
+    {
+      "from": "exports/Lion_Brocade_UV_Study_clear_v2.glb",
+      "to": "exports/studies/Lion_Brocade_UV_Study_clear_v2.glb"
+    },
+    {
+      "from": "exports/Lion_G1_Refined_Stage.glb",
+      "to": "exports/studies/Lion_G1_Refined_Stage.glb"
+    },
+    {
+      "from": "docs\\component_roundtrip_check\\导入检查.blend",
+      "to": "blender\\studies\\import_checks\\component_roundtrip_check.blend",
+      "bytes": 1051768
+    },
+    {
+      "from": "docs\\g1_comparison_inspection_768\\导入检查.blend",
+      "to": "blender\\studies\\import_checks\\g1_comparison_inspection_768.blend",
+      "bytes": 18813297
+    },
+    {
+      "from": "docs\\generated_base_inspection\\导入检查.blend",
+      "to": "blender\\studies\\import_checks\\generated_base_inspection.blend",
+      "bytes": 18813293
+    },
+    {
+      "from": "docs\\head_candidate_inspection\\导入检查.blend",
+      "to": "blender\\studies\\import_checks\\head_candidate_inspection.blend",
+      "bytes": 21780994
+    },
+    {
+      "from": "docs\\turbo_candidate_inspection\\导入检查.blend",
+      "to": "blender\\studies\\import_checks\\turbo_candidate_inspection.blend",
+      "bytes": 23082847
+    }
+  ],
+  "after_project_bytes_excluding_delivery": 2576062914.0,
+  "protected_assets": [
+    {
+      "path": "blender\\Lion_Final_Master.blend",
+      "bytes": 194707673,
+      "sha256": "60eac7eda5fc8b44ead32cf2507e13b076c6dd2833d285aceaa9c1cab9901cbe"
+    },
+    {
+      "path": "exports\\scene.glb",
+      "bytes": 188900300,
+      "sha256": "45749d94450a21139cabfe4ac940be35ddeba5cb63926096090aa8dec3ce1e26"
+    },
+    {
+      "path": "exports\\scene_draco.glb",
+      "bytes": 67544592,
+      "sha256": "67402920513a76600a05041e3e1fc880ae1a098794f06d54c00db88b2d42ac10"
+    }
+  ]
+}

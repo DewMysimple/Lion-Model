@@ -1,0 +1,766 @@
+{
+  "executed_at": "2026-10-11T23:51:35.400068+08:00",
+  "fiber_stats": [
+    {
+      "part": "Lion_Body_Red_Trim",
+      "type": "red",
+      "seed": 8600,
+      "requested": 320000,
+      "actual": 320000,
+      "accepted_triangles": 24753,
+      "emitter_area_world": 1.5101679173915619,
+      "editable_splines": true,
+      "geometry_type": "CURVE",
+      "world_units": true,
+      "limitations": [
+        "Transform parenting only; regenerate after mesh deformation.",
+        "Native curves require conversion on an export copy for GLB.",
+        "Area sampling alone is not a reference-fidelity acceptance check."
+      ],
+      "sampling_attempts": 320000,
+      "object_names": [
+        "Lion_Body_Red_Trim_DenseRedFiber_1",
+        "Lion_Body_Red_Trim_DenseRedFiber_2",
+        "Lion_Body_Red_Trim_DenseRedFiber_3",
+        "Lion_Body_Red_Trim_DenseRedFiber_4",
+        "Lion_Body_Red_Trim_DenseRedFiber_5",
+        "Lion_Body_Red_Trim_DenseRedFiber_6",
+        "Lion_Body_Red_Trim_DenseRedFiber_7",
+        "Lion_Body_Red_Trim_DenseRedFiber_8",
+        "Lion_Body_Red_Trim_DenseRedFiber_9",
+        "Lion_Body_Red_Trim_DenseRedFiber_10",
+        "Lion_Body_Red_Trim_DenseRedFiber_11",
+        "Lion_Body_Red_Trim_DenseRedFiber_12",
+        "Lion_Body_Red_Trim_DenseRedFiber_13",
+        "Lion_Body_Red_Trim_DenseRedFiber_14",
+        "Lion_Body_Red_Trim_DenseRedFiber_15",
+        "Lion_Body_Red_Trim_DenseRedFiber_16"
+      ],
+      "curve_object_count": 16,
+      "length_requested_range": [
+        0.008000005674937524,
+        0.019999976395363404
+      ],
+      "length_control_polygon_range": [
+        0.006917011805151887,
+        0.024516897237367215
+      ],
+      "radius_root_range": [
+        9.500003816217406e-05,
+        0.00015999983214369377
+      ],
+      "radius_tip_range": [
+        5.700002289730443e-06,
+        9.599989928621625e-06
+      ],
+      "control_point_range": [
+        3,
+        3
+      ],
+      "clump": 0.18,
+      "clump_radius": 0.014,
+      "material": "Fiber_Red_Scarlet"
+    },
+    {
+      "part": "Lion_Body",
+      "type": "red",
+      "seed": 8601,
+      "requested": 10000,
+      "actual": 10000,
+      "accepted_triangles": 76260,
+      "emitter_area_world": 3.221102299432383,
+      "editable_splines": true,
+      "geometry_type": "CURVE",
+      "world_units": true,
+      "limitations": [
+        "Transform parenting only; regenerate after mesh deformation.",
+        "Native curves require conversion on an export copy for GLB.",
+        "Area sampling alone is not a reference-fidelity acceptance check."
+      ],
+      "sampling_attempts": 10356,
+      "object_names": [
+        "Lion_Body_DenseRedFiber_1"
+      ],
+      "curve_object_count": 1,
+      "length_requested_range": [
+        0.00800076437423939,
+        0.0199984706520551
+      ],
+      "length_control_polygon_range": [
+        0.007015425719238541,
+        0.023754282108628868
+      ],
+      "radius_root_range": [
+        9.500439827442646e-05,
+        0.00015999998743521248
+      ],
+      "radius_tip_range": [
+        5.7002638964655875e-06,
+        9.599999246112748e-06
+      ],
+      "control_point_range": [
+        3,
+        3
+      ],
+      "clump": 0.18,
+      "clump_radius": 0.014,
+      "material": "Fiber_Red_Scarlet"
+    },
+    {
+      "part": "Lion_Tail",
+      "type": "red",
+      "seed": 8602,
+      "requested": 32000,
+      "actual": 32000,
+      "accepted_triangles": 6371,
+      "emitter_area_world": 0.2801397184186103,
+      "editable_splines": true,
+      "geometry_type": "CURVE",
+      "world_units": true,
+      "limitations": [
+        "Transform parenting only; regenerate after mesh deformation.",
+        "Native curves require conversion on an export copy for GLB.",
+        "Area sampling alone is not a reference-fidelity acceptance check."
+      ],
+      "sampling_attempts": 33290,
+      "object_names": [
+        "Lion_Tail_DenseRedFiber_1",
+        "Lion_Tail_DenseRedFiber_2"
+      ],
+      "curve_object_count": 2,
+      "length_requested_range": [
+        0.008002289999887871,
+        0.019999891985928935
+      ],
+      "length_control_polygon_range": [
+        0.007072543372119849,
+        0.02438252828986267
+      ],
+      "radius_root_range": [
+        9.500131351255219e-05,
+        0.0001599974888406254
+      ],
+      "radius_tip_range": [
+        5.700078810753132e-06,
+        9.599849330437522e-06
+      ],
+      "control_point_range": [
+        3,
+        3
+      ],
+      "clump": 0.18,
+      "clump_radius": 0.014,
+      "material": "Fiber_Red_Scarlet"
+    },
+    {
+      "part": "Lion_Tail",
+      "type": "white",
+      "seed": 9702,
+      "requested": 65000,
+      "actual": 65000,
+      "accepted_triangles": 26535,
+      "emitter_area_world": 0.782380180014446,
+      "editable_splines": true,
+      "geometry_type": "CURVE",
+      "world_units": true,
+      "limitations": [
+        "Transform parenting only; regenerate after mesh deformation.",
+        "Native curves require conversion on an export copy for GLB.",
+        "Area sampling alone is not a reference-fidelity acceptance check."
+      ],
+      "sampling_attempts": 65955,
+      "object_names": [
+        "Lion_Tail_DenseWhiteFiber_1",
+        "Lion_Tail_DenseWhiteFiber_2",
+        "Lion_Tail_DenseWhiteFiber_3",
+        "Lion_Tail_DenseWhiteFiber_4"
+      ],
+      "curve_object_count": 4,
+      "length_requested_range": [
+        0.028000645904840377,
+        0.09499807343887627
+      ],
+      "length_control_polygon_range": [
+        0.02622178852915108,
+        0.13167210653252578
+      ],
+      "radius_root_range": [
+        9.000030004378007e-05,
+        0.00014999963840511374
+      ],
+      "radius_tip_range": [
+        5.400018002626804e-06,
+        8.999978304306824e-06
+      ],
+      "control_point_range": [
+        3,
+        4
+      ],
+      "clump": 0.3,
+      "clump_radius": 0.035,
+      "material": "Fiber_Warm_Ivory"
+    },
+    {
+      "part": "Lion_Foreleg_L",
+      "type": "red",
+      "seed": 8603,
+      "requested": 28000,
+      "actual": 28000,
+      "accepted_triangles": 8017,
+      "emitter_area_world": 0.3793114202796781,
+      "editable_splines": true,
+      "geometry_type": "CURVE",
+      "world_units": true,
+      "limitations": [
+        "Transform parenting only; regenerate after mesh deformation.",
+        "Native curves require conversion on an export copy for GLB.",
+        "Area sampling alone is not a reference-fidelity acceptance check."
+      ],
+      "sampling_attempts": 28650,
+      "object_names": [
+        "Lion_Foreleg_L_DenseRedFiber_1",
+        "Lion_Foreleg_L_DenseRedFiber_2"
+      ],
+      "curve_object_count": 2,
+      "length_requested_range": [
+        0.008001099970346757,
+        0.019999763406521855
+      ],
+      "length_control_polygon_range": [
+        0.0072955681507854975,
+        0.024206435213150093
+      ],
+      "radius_root_range": [
+        9.500005154711954e-05,
+        0.00015999395364436246
+      ],
+      "radius_tip_range": [
+        5.700003092827172e-06,
+        9.599637218661747e-06
+      ],
+      "control_point_range": [
+        3,
+        3
+      ],
+      "clump": 0.18,
+      "clump_radius": 0.014,
+      "material": "Fiber_Red_Scarlet"
+    },
+    {
+      "part": "Lion_Foreleg_R",
+      "type": "red",
+      "seed": 8604,
+      "requested": 28000,
+      "actual": 28000,
+      "accepted_triangles": 7885,
+      "emitter_area_world": 0.3905347351654562,
+      "editable_splines": true,
+      "geometry_type": "CURVE",
+      "world_units": true,
+      "limitations": [
+        "Transform parenting only; regenerate after mesh deformation.",
+        "Native curves require conversion on an export copy for GLB.",
+        "Area sampling alone is not a reference-fidelity acceptance check."
+      ],
+      "sampling_attempts": 28596,
+      "object_names": [
+        "Lion_Foreleg_R_DenseRedFiber_1",
+        "Lion_Foreleg_R_DenseRedFiber_2"
+      ],
+      "curve_object_count": 2,
+      "length_requested_range": [
+        0.008000491074808975,
+        0.01999921503422572
+      ],
+      "length_control_polygon_range": [
+        0.007193380981458269,
+        0.024379683476723882
+      ],
+      "radius_root_range": [
+        9.500637461996347e-05,
+        0.0001599985922954702
+      ],
+      "radius_tip_range": [
+        5.700382477197808e-06,
+        9.599915537728211e-06
+      ],
+      "control_point_range": [
+        3,
+        3
+      ],
+      "clump": 0.18,
+      "clump_radius": 0.014,
+      "material": "Fiber_Red_Scarlet"
+    },
+    {
+      "part": "Lion_Hindleg_L",
+      "type": "red",
+      "seed": 8605,
+      "requested": 28000,
+      "actual": 28000,
+      "accepted_triangles": 9202,
+      "emitter_area_world": 0.4852323096705666,
+      "editable_splines": true,
+      "geometry_type": "CURVE",
+      "world_units": true,
+      "limitations": [
+        "Transform parenting only; regenerate after mesh deformation.",
+        "Native curves require conversion on an export copy for GLB.",
+        "Area sampling alone is not a reference-fidelity acceptance check."
+      ],
+      "sampling_attempts": 28568,
+      "object_names": [
+        "Lion_Hindleg_L_DenseRedFiber_1",
+        "Lion_Hindleg_L_DenseRedFiber_2"
+      ],
+      "curve_object_count": 2,
+      "length_requested_range": [
+        0.008000388120902868,
+        0.019999197762650245
+      ],
+      "length_control_polygon_range": [
+        0.007109508796755723,
+        0.024134396586356653
+      ],
+      "radius_root_range": [
+        9.50019118449464e-05,
+        0.0001599948996876067
+      ],
+      "radius_tip_range": [
+        5.700114710696784e-06,
+        9.599693981256402e-06
+      ],
+      "control_point_range": [
+        3,
+        3
+      ],
+      "clump": 0.18,
+      "clump_radius": 0.014,
+      "material": "Fiber_Red_Scarlet"
+    },
+    {
+      "part": "Lion_Hindleg_R",
+      "type": "red",
+      "seed": 8606,
+      "requested": 28000,
+      "actual": 28000,
+      "accepted_triangles": 8690,
+      "emitter_area_world": 0.48647739686822977,
+      "editable_splines": true,
+      "geometry_type": "CURVE",
+      "world_units": true,
+      "limitations": [
+        "Transform parenting only; regenerate after mesh deformation.",
+        "Native curves require conversion on an export copy for GLB.",
+        "Area sampling alone is not a reference-fidelity acceptance check."
+      ],
+      "sampling_attempts": 28586,
+      "object_names": [
+        "Lion_Hindleg_R_DenseRedFiber_1",
+        "Lion_Hindleg_R_DenseRedFiber_2"
+      ],
+      "curve_object_count": 2,
+      "length_requested_range": [
+        0.008000194693580575,
+        0.01999923433461119
+      ],
+      "length_control_polygon_range": [
+        0.007231632822516817,
+        0.024140770747144
+      ],
+      "radius_root_range": [
+        9.500084545287198e-05,
+        0.00015999974490863008
+      ],
+      "radius_tip_range": [
+        5.700050727172319e-06,
+        9.599984694517805e-06
+      ],
+      "control_point_range": [
+        3,
+        3
+      ],
+      "clump": 0.18,
+      "clump_radius": 0.014,
+      "material": "Fiber_Red_Scarlet"
+    },
+    {
+      "part": "Lion_Forepaw_L",
+      "type": "red",
+      "seed": 8607,
+      "requested": 4500,
+      "actual": 4500,
+      "accepted_triangles": 1098,
+      "emitter_area_world": 0.07977057542541359,
+      "editable_splines": true,
+      "geometry_type": "CURVE",
+      "world_units": true,
+      "limitations": [
+        "Transform parenting only; regenerate after mesh deformation.",
+        "Native curves require conversion on an export copy for GLB.",
+        "Area sampling alone is not a reference-fidelity acceptance check."
+      ],
+      "sampling_attempts": 4625,
+      "object_names": [
+        "Lion_Forepaw_L_DenseRedFiber_1"
+      ],
+      "curve_object_count": 1,
+      "length_requested_range": [
+        0.008001911182328594,
+        0.01999959281864091
+      ],
+      "length_control_polygon_range": [
+        0.007721955475883731,
+        0.023828066746690475
+      ],
+      "radius_root_range": [
+        9.500543424148567e-05,
+        0.00015996203014326872
+      ],
+      "radius_tip_range": [
+        5.70032605448914e-06,
+        9.597721808596124e-06
+      ],
+      "control_point_range": [
+        3,
+        3
+      ],
+      "clump": 0.18,
+      "clump_radius": 0.014,
+      "material": "Fiber_Red_Scarlet"
+    },
+    {
+      "part": "Lion_Forepaw_L",
+      "type": "white",
+      "seed": 9707,
+      "requested": 7000,
+      "actual": 7000,
+      "accepted_triangles": 1537,
+      "emitter_area_world": 0.12125305534111425,
+      "editable_splines": true,
+      "geometry_type": "CURVE",
+      "world_units": true,
+      "limitations": [
+        "Transform parenting only; regenerate after mesh deformation.",
+        "Native curves require conversion on an export copy for GLB.",
+        "Area sampling alone is not a reference-fidelity acceptance check."
+      ],
+      "sampling_attempts": 7185,
+      "object_names": [
+        "Lion_Forepaw_L_DenseWhiteFiber_1"
+      ],
+      "curve_object_count": 1,
+      "length_requested_range": [
+        0.008,
+        0.02299785023868602
+      ],
+      "length_control_polygon_range": [
+        0.007415328255781165,
+        0.027893618712560467
+      ],
+      "radius_root_range": [
+        9.002033591909679e-05,
+        0.00014999607191615018
+      ],
+      "radius_tip_range": [
+        5.401220155145807e-06,
+        8.99976431496901e-06
+      ],
+      "control_point_range": [
+        3,
+        4
+      ],
+      "clump": 0.3,
+      "clump_radius": 0.01,
+      "material": "Fiber_Warm_Ivory"
+    },
+    {
+      "part": "Lion_Forepaw_R",
+      "type": "red",
+      "seed": 8608,
+      "requested": 4500,
+      "actual": 4500,
+      "accepted_triangles": 1449,
+      "emitter_area_world": 0.11306953440291892,
+      "editable_splines": true,
+      "geometry_type": "CURVE",
+      "world_units": true,
+      "limitations": [
+        "Transform parenting only; regenerate after mesh deformation.",
+        "Native curves require conversion on an export copy for GLB.",
+        "Area sampling alone is not a reference-fidelity acceptance check."
+      ],
+      "sampling_attempts": 4624,
+      "object_names": [
+        "Lion_Forepaw_R_DenseRedFiber_1"
+      ],
+      "curve_object_count": 1,
+      "length_requested_range": [
+        0.008003493222423417,
+        0.019994675215285557
+      ],
+      "length_control_polygon_range": [
+        0.007456221874211547,
+        0.023825530634601477
+      ],
+      "radius_root_range": [
+        9.500560824967612e-05,
+        0.00015997843089253418
+      ],
+      "radius_tip_range": [
+        5.700336494980567e-06,
+        9.59870585355205e-06
+      ],
+      "control_point_range": [
+        3,
+        3
+      ],
+      "clump": 0.18,
+      "clump_radius": 0.014,
+      "material": "Fiber_Red_Scarlet"
+    },
+    {
+      "part": "Lion_Forepaw_R",
+      "type": "white",
+      "seed": 9708,
+      "requested": 7000,
+      "actual": 7000,
+      "accepted_triangles": 1313,
+      "emitter_area_world": 0.08542274013446646,
+      "editable_splines": true,
+      "geometry_type": "CURVE",
+      "world_units": true,
+      "limitations": [
+        "Transform parenting only; regenerate after mesh deformation.",
+        "Native curves require conversion on an export copy for GLB.",
+        "Area sampling alone is not a reference-fidelity acceptance check."
+      ],
+      "sampling_attempts": 7252,
+      "object_names": [
+        "Lion_Forepaw_R_DenseWhiteFiber_1"
+      ],
+      "curve_object_count": 1,
+      "length_requested_range": [
+        0.008,
+        0.022989133763783816
+      ],
+      "length_control_polygon_range": [
+        0.007116886348248783,
+        0.027568651953099363
+      ],
+      "radius_root_range": [
+        9.000106267374481e-05,
+        0.0001499995622227176
+      ],
+      "radius_tip_range": [
+        5.400063760424689e-06,
+        8.999973733363055e-06
+      ],
+      "control_point_range": [
+        3,
+        4
+      ],
+      "clump": 0.3,
+      "clump_radius": 0.01,
+      "material": "Fiber_Warm_Ivory"
+    },
+    {
+      "part": "Lion_Hindpaw_L",
+      "type": "red",
+      "seed": 8609,
+      "requested": 4500,
+      "actual": 4500,
+      "accepted_triangles": 1333,
+      "emitter_area_world": 0.09775184347835049,
+      "editable_splines": true,
+      "geometry_type": "CURVE",
+      "world_units": true,
+      "limitations": [
+        "Transform parenting only; regenerate after mesh deformation.",
+        "Native curves require conversion on an export copy for GLB.",
+        "Area sampling alone is not a reference-fidelity acceptance check."
+      ],
+      "sampling_attempts": 4594,
+      "object_names": [
+        "Lion_Hindpaw_L_DenseRedFiber_1"
+      ],
+      "curve_object_count": 1,
+      "length_requested_range": [
+        0.008000190052875113,
+        0.0199956399193675
+      ],
+      "length_control_polygon_range": [
+        0.0080385682437452,
+        0.023864741510779986
+      ],
+      "radius_root_range": [
+        9.50179740514311e-05,
+        0.00015997585572640838
+      ],
+      "radius_tip_range": [
+        5.701078443085866e-06,
+        9.598551343584503e-06
+      ],
+      "control_point_range": [
+        3,
+        3
+      ],
+      "clump": 0.18,
+      "clump_radius": 0.014,
+      "material": "Fiber_Red_Scarlet"
+    },
+    {
+      "part": "Lion_Hindpaw_L",
+      "type": "white",
+      "seed": 9709,
+      "requested": 7000,
+      "actual": 7000,
+      "accepted_triangles": 1319,
+      "emitter_area_world": 0.10557142167165605,
+      "editable_splines": true,
+      "geometry_type": "CURVE",
+      "world_units": true,
+      "limitations": [
+        "Transform parenting only; regenerate after mesh deformation.",
+        "Native curves require conversion on an export copy for GLB.",
+        "Area sampling alone is not a reference-fidelity acceptance check."
+      ],
+      "sampling_attempts": 7186,
+      "object_names": [
+        "Lion_Hindpaw_L_DenseWhiteFiber_1"
+      ],
+      "curve_object_count": 1,
+      "length_requested_range": [
+        0.008,
+        0.02299388670918099
+      ],
+      "length_control_polygon_range": [
+        0.007997556104559149,
+        0.026956744937281937
+      ],
+      "radius_root_range": [
+        9.000819121013962e-05,
+        0.00014999710632145275
+      ],
+      "radius_tip_range": [
+        5.400491472608377e-06,
+        8.999826379287165e-06
+      ],
+      "control_point_range": [
+        3,
+        4
+      ],
+      "clump": 0.3,
+      "clump_radius": 0.01,
+      "material": "Fiber_Warm_Ivory"
+    },
+    {
+      "part": "Lion_Hindpaw_R",
+      "type": "red",
+      "seed": 8610,
+      "requested": 4500,
+      "actual": 4500,
+      "accepted_triangles": 1348,
+      "emitter_area_world": 0.10832187436902893,
+      "editable_splines": true,
+      "geometry_type": "CURVE",
+      "world_units": true,
+      "limitations": [
+        "Transform parenting only; regenerate after mesh deformation.",
+        "Native curves require conversion on an export copy for GLB.",
+        "Area sampling alone is not a reference-fidelity acceptance check."
+      ],
+      "sampling_attempts": 4639,
+      "object_names": [
+        "Lion_Hindpaw_R_DenseRedFiber_1"
+      ],
+      "curve_object_count": 1,
+      "length_requested_range": [
+        0.008000370097932797,
+        0.01999956796133082
+      ],
+      "length_control_polygon_range": [
+        0.007346180571180672,
+        0.023935083938361013
+      ],
+      "radius_root_range": [
+        9.500320250178982e-05,
+        0.00015994821050096934
+      ],
+      "radius_tip_range": [
+        5.700192150107389e-06,
+        9.596892630058159e-06
+      ],
+      "control_point_range": [
+        3,
+        3
+      ],
+      "clump": 0.18,
+      "clump_radius": 0.014,
+      "material": "Fiber_Red_Scarlet"
+    },
+    {
+      "part": "Lion_Hindpaw_R",
+      "type": "white",
+      "seed": 9710,
+      "requested": 7000,
+      "actual": 7000,
+      "accepted_triangles": 1291,
+      "emitter_area_world": 0.08742063592484706,
+      "editable_splines": true,
+      "geometry_type": "CURVE",
+      "world_units": true,
+      "limitations": [
+        "Transform parenting only; regenerate after mesh deformation.",
+        "Native curves require conversion on an export copy for GLB.",
+        "Area sampling alone is not a reference-fidelity acceptance check."
+      ],
+      "sampling_attempts": 7211,
+      "object_names": [
+        "Lion_Hindpaw_R_DenseWhiteFiber_1"
+      ],
+      "curve_object_count": 1,
+      "length_requested_range": [
+        0.008,
+        0.022998918758701976
+      ],
+      "length_control_polygon_range": [
+        0.008477200663170467,
+        0.02884658178666822
+      ],
+      "radius_root_range": [
+        9.000050191091008e-05,
+        0.00014999802286603983
+      ],
+      "radius_tip_range": [
+        5.4000301146546046e-06,
+        8.999881371962389e-06
+      ],
+      "control_point_range": [
+        3,
+        4
+      ],
+      "clump": 0.3,
+      "clump_radius": 0.01,
+      "material": "Fiber_Warm_Ivory"
+    }
+  ],
+  "scarlet_base_faces": {
+    "Lion_Body_Red_Trim": 24753,
+    "Lion_Body": 76260,
+    "Lion_Tail": 6371,
+    "Lion_Foreleg_L": 8017,
+    "Lion_Foreleg_R": 7885,
+    "Lion_Hindleg_L": 9202,
+    "Lion_Hindleg_R": 8690,
+    "Lion_Forepaw_L": 1098,
+    "Lion_Forepaw_R": 1449,
+    "Lion_Hindpaw_L": 1333,
+    "Lion_Hindpaw_R": 1348
+  },
+  "body_strands": 585000,
+  "limitations": [
+    "Static emitter parenting; regeneration is needed after vertex deformation.",
+    "Scarlet base intentionally removes source baked lighting on red trim."
+  ]
+}

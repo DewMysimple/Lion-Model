@@ -1,0 +1,4841 @@
+{
+  "recorded_at_utc": "2026-10-11T15:10:09.455085+00:00",
+  "mode": "master",
+  "status": "pass",
+  "input": {
+    "path": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\blender\\Lion_Final_Master.blend",
+    "bytes": 56662182,
+    "sha256_before": "37dc72d10c886e5bc43f1a0aed54c1c1f55ab627758d212c159dfdc054a4a627",
+    "sha256_after": "37dc72d10c886e5bc43f1a0aed54c1c1f55ab627758d212c159dfdc054a4a627",
+    "preserved": true
+  },
+  "approved_source_glb": {
+    "path": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\generated\\Lux3D_Lion_Base_glb.glb",
+    "sha256": "10868714d52a4a4dbea9511ea4986738fdac4b39ba19ad858393f13b7255c3d4",
+    "triangle_mesh_definition_count": 286200,
+    "mesh_definitions": 1
+  },
+  "blender_version": "5.0.0",
+  "scope": "Actual artifact independently reopened/imported; only technical checks listed here are certified. Full specification and artistic acceptance remain separate.",
+  "asset_root": "Lion_Root",
+  "asset_object_count": 141,
+  "asset_type_counts": {
+    "EMPTY": 32,
+    "MESH": 78,
+    "CURVE": 31
+  },
+  "source_part_world_bbox": {
+    "min": [
+      -0.45202071964740753,
+      -0.8015119731426239,
+      -1.4901161193847656e-08
+    ],
+    "max": [
+      0.45202071964740753,
+      0.8015120029449463,
+      0.9999999776482582
+    ],
+    "dimensions": [
+      0.9040414392948151,
+      1.6030239760875702,
+      0.9999999925494194
+    ],
+    "center": [
+      0.0,
+      1.4901161193847656e-08,
+      0.4999999813735485
+    ]
+  },
+  "asset_mesh_world_bbox": {
+    "min": [
+      -0.45202071964740753,
+      -0.8015119731426239,
+      -1.4901161193847656e-08
+    ],
+    "max": [
+      0.45202071964740753,
+      0.8015120029449463,
+      0.9999999776482582
+    ],
+    "dimensions": [
+      0.9040414392948151,
+      1.6030239760875702,
+      0.9999999925494194
+    ],
+    "center": [
+      0.0,
+      1.4901161193847656e-08,
+      0.4999999813735485
+    ]
+  },
+  "source_part_count": 20,
+  "source_part_names": [
+    "Lion_Body",
+    "Lion_Body_Red_Trim",
+    "Lion_Foreleg_L",
+    "Lion_Forepaw_L",
+    "Lion_Foreleg_R",
+    "Lion_Forepaw_R",
+    "Lion_Head",
+    "Lion_Brow_L",
+    "Lion_Brow_R",
+    "Lion_Crown",
+    "Lion_Ear_L",
+    "Lion_Ear_R",
+    "Lion_Jaw",
+    "Lion_Beard",
+    "Lion_Nose",
+    "Lion_Hindleg_L",
+    "Lion_Hindpaw_L",
+    "Lion_Hindleg_R",
+    "Lion_Hindpaw_R",
+    "Lion_Tail"
+  ],
+  "required_major_part_count": 16,
+  "source_face_provenance": {
+    "attribute_present": true,
+    "source_mesh_names": [
+      "Lion_Body",
+      "Lion_Body_Red_Trim",
+      "Lion_Foreleg_L",
+      "Lion_Forepaw_L",
+      "Lion_Foreleg_R",
+      "Lion_Forepaw_R",
+      "Lion_Head",
+      "Lion_Brow_L",
+      "Lion_Brow_R",
+      "Lion_Crown",
+      "Lion_Ear_L",
+      "Lion_Ear_R",
+      "Lion_Jaw",
+      "Lion_Beard",
+      "Lion_Nose",
+      "Lion_Hindleg_L",
+      "Lion_Hindpaw_L",
+      "Lion_Hindleg_R",
+      "Lion_Hindpaw_R",
+      "Lion_Tail"
+    ],
+    "expected_source_triangles": 286200,
+    "actual_source_triangle_references": 286200,
+    "all_source_faces_once": true,
+    "missing_source_face_count": 0,
+    "repeated_source_face_count": 0,
+    "executed_refinement_expected_names": [
+      "Lion_Beard",
+      "Lion_Body",
+      "Lion_Body_Red_Trim",
+      "Lion_Brow_L",
+      "Lion_Brow_R",
+      "Lion_Crown",
+      "Lion_Ear_L",
+      "Lion_Ear_R",
+      "Lion_Foreleg_L",
+      "Lion_Foreleg_R",
+      "Lion_Forepaw_L",
+      "Lion_Forepaw_R",
+      "Lion_Head",
+      "Lion_Hindleg_L",
+      "Lion_Hindleg_R",
+      "Lion_Hindpaw_L",
+      "Lion_Hindpaw_R",
+      "Lion_Jaw",
+      "Lion_Nose",
+      "Lion_Tail"
+    ]
+  },
+  "mesh_records": [
+    {
+      "name": "Lion_Body",
+      "parent": "Pivot_Body",
+      "vertices": 81262,
+      "polygons": 123440,
+      "triangles": 123440,
+      "world_bbox": {
+        "min": [
+          -0.3513529300689697,
+          -0.6040153503417969,
+          0.08132842183113098
+        ],
+        "max": [
+          0.3508310317993164,
+          0.8006386160850525,
+          0.7688655257225037
+        ],
+        "dimensions": [
+          0.7021839618682861,
+          1.4046539664268494,
+          0.6875371038913727
+        ],
+        "center": [
+          -0.00026094913482666016,
+          0.09831163287162781,
+          0.4250969737768173
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 370320,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Lion_Atlas_PBR_Refined"
+      ],
+      "modifiers": [],
+      "topology": {
+        "boundary_edges": 46403,
+        "overconnected_edges": 1,
+        "inconsistent_winding_edges": 0,
+        "isolated_vertices": 0
+      }
+    },
+    {
+      "name": "Lion_Body_Red_Trim",
+      "parent": "Pivot_Body_Red_Trim",
+      "vertices": 15497,
+      "polygons": 24753,
+      "triangles": 24753,
+      "world_bbox": {
+        "min": [
+          -0.3081314265727997,
+          -0.2724246680736542,
+          0.3057231158018112
+        ],
+        "max": [
+          0.308478981256485,
+          0.5489936470985413,
+          0.7878578901290894
+        ],
+        "dimensions": [
+          0.6166104078292847,
+          0.8214183151721954,
+          0.48213477432727814
+        ],
+        "center": [
+          0.00017377734184265137,
+          0.13828448951244354,
+          0.5467905029654503
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 74259,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Lion_Atlas_PBR_Refined"
+      ],
+      "modifiers": [],
+      "topology": {
+        "boundary_edges": 7791,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "isolated_vertices": 0
+      }
+    },
+    {
+      "name": "Lion_Foreleg_L",
+      "parent": "Pivot_Foreleg_L",
+      "vertices": 7153,
+      "polygons": 11871,
+      "triangles": 11871,
+      "world_bbox": {
+        "min": [
+          0.14131221175193787,
+          -0.5862594544887543,
+          0.07481580972671509
+        ],
+        "max": [
+          0.40715689957141876,
+          -0.189297616481781,
+          0.4382694084197283
+        ],
+        "dimensions": [
+          0.2658446878194809,
+          0.39696183800697327,
+          0.3634535986930132
+        ],
+        "center": [
+          0.2742345556616783,
+          -0.38777853548526764,
+          0.2565426090732217
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 35613,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Lion_Atlas_PBR_Refined"
+      ],
+      "modifiers": [],
+      "topology": {
+        "boundary_edges": 2761,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "isolated_vertices": 0
+      }
+    },
+    {
+      "name": "Lion_Forepaw_L",
+      "parent": "Pivot_Forepaw_L",
+      "vertices": 1506,
+      "polygons": 2753,
+      "triangles": 2753,
+      "world_bbox": {
+        "min": [
+          0.1528892070055008,
+          -0.552494466304779,
+          -1.4901161193847656e-08
+        ],
+        "max": [
+          0.40868503600358963,
+          -0.22956950962543488,
+          0.09338141046464443
+        ],
+        "dimensions": [
+          0.25579582899808884,
+          0.3229249566793442,
+          0.09338142536580563
+        ],
+        "center": [
+          0.2807871215045452,
+          -0.39103198796510696,
+          0.04669069778174162
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8259,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Lion_Atlas_PBR_Refined"
+      ],
+      "modifiers": [],
+      "topology": {
+        "boundary_edges": 245,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "isolated_vertices": 0
+      }
+    },
+    {
+      "name": "Lion_Foreleg_R",
+      "parent": "Pivot_Foreleg_R",
+      "vertices": 6909,
+      "polygons": 11472,
+      "triangles": 11472,
+      "world_bbox": {
+        "min": [
+          -0.4075545072555542,
+          -0.5846503227949142,
+          0.0713668167591095
+        ],
+        "max": [
+          -0.14277537167072296,
+          -0.18492069840431213,
+          0.4300189670175314
+        ],
+        "dimensions": [
+          0.26477913558483124,
+          0.3997296243906021,
+          0.3586521502584219
+        ],
+        "center": [
+          -0.2751649394631386,
+          -0.3847855105996132,
+          0.25069289188832045
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 34416,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Lion_Atlas_PBR_Refined"
+      ],
+      "modifiers": [],
+      "topology": {
+        "boundary_edges": 2622,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "isolated_vertices": 0
+      }
+    },
+    {
+      "name": "Lion_Forepaw_R",
+      "parent": "Pivot_Forepaw_R",
+      "vertices": 1579,
+      "polygons": 2908,
+      "triangles": 2908,
+      "world_bbox": {
+        "min": [
+          -0.40871329605579376,
+          -0.5528643578290939,
+          0.00029452890157699585
+        ],
+        "max": [
+          -0.15378862619400024,
+          -0.2254377156496048,
+          0.095023138448596
+        ],
+        "dimensions": [
+          0.2549246698617935,
+          0.32742664217948914,
+          0.094728609547019
+        ],
+        "center": [
+          -0.281250961124897,
+          -0.38915103673934937,
+          0.0476588336750865
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8724,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Lion_Atlas_PBR_Refined"
+      ],
+      "modifiers": [],
+      "topology": {
+        "boundary_edges": 250,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "isolated_vertices": 0
+      }
+    },
+    {
+      "name": "Lion_Head",
+      "parent": "Pivot_Head",
+      "vertices": 12482,
+      "polygons": 21645,
+      "triangles": 21645,
+      "world_bbox": {
+        "min": [
+          -0.3666578233242035,
+          -0.8015119731426239,
+          0.3907756507396698
+        ],
+        "max": [
+          0.3655270040035248,
+          -0.22092949599027634,
+          0.9522658586502075
+        ],
+        "dimensions": [
+          0.7321848273277283,
+          0.5805824771523476,
+          0.5614902079105377
+        ],
+        "center": [
+          -0.0005654096603393555,
+          -0.5112207345664501,
+          0.6715207546949387
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 64935,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Lion_Atlas_PBR_Refined"
+      ],
+      "modifiers": [],
+      "topology": {
+        "boundary_edges": 3273,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "isolated_vertices": 0
+      }
+    },
+    {
+      "name": "Lion_Brow_L",
+      "parent": "Pivot_Brow_L",
+      "vertices": 912,
+      "polygons": 1361,
+      "triangles": 1361,
+      "world_bbox": {
+        "min": [
+          0.03444872051477432,
+          -0.6756427586078644,
+          0.7188564985990524
+        ],
+        "max": [
+          0.2951459288597107,
+          -0.4155053645372391,
+          0.9210212528705597
+        ],
+        "dimensions": [
+          0.26069720834493637,
+          0.2601373940706253,
+          0.20216475427150726
+        ],
+        "center": [
+          0.1647973246872425,
+          -0.5455740615725517,
+          0.8199388757348061
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 4083,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Lion_Atlas_PBR_Refined"
+      ],
+      "modifiers": [],
+      "topology": {
+        "boundary_edges": 479,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "isolated_vertices": 0
+      }
+    },
+    {
+      "name": "Lion_Brow_R",
+      "parent": "Pivot_Brow_R",
+      "vertices": 1107,
+      "polygons": 1595,
+      "triangles": 1595,
+      "world_bbox": {
+        "min": [
+          -0.2948910892009735,
+          -0.6755677461624146,
+          0.7152699530124664
+        ],
+        "max": [
+          -0.03514660522341728,
+          -0.4216471165418625,
+          0.9221599996089935
+        ],
+        "dimensions": [
+          0.25974448397755623,
+          0.25392062962055206,
+          0.2068900465965271
+        ],
+        "center": [
+          -0.1650188472121954,
+          -0.5486074313521385,
+          0.81871497631073
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 4785,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Lion_Atlas_PBR_Refined"
+      ],
+      "modifiers": [],
+      "topology": {
+        "boundary_edges": 673,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "isolated_vertices": 0
+      }
+    },
+    {
+      "name": "Lion_CheekBell_L_Clapper",
+      "parent": "Pivot_CheekBell_L",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          0.32716000196523964,
+          -0.4598399989772588,
+          0.5546399648301303
+        ],
+        "max": [
+          0.3348399994429201,
+          -0.45216000243090093,
+          0.5623199646361172
+        ],
+        "dimensions": [
+          0.007679997477680445,
+          0.00767999654635787,
+          0.007679999805986881
+        ],
+        "center": [
+          0.33100000070407987,
+          -0.45600000070407987,
+          0.5584799647331238
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Aged_Copper"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_CheekBell_L_Loop",
+      "parent": "Pivot_CheekBell_L",
+      "vertices": 1152,
+      "polygons": 1152,
+      "triangles": 2304,
+      "world_bbox": {
+        "min": [
+          0.3236800003796816,
+          -0.4573200007308196,
+          0.5897999871522188
+        ],
+        "max": [
+          0.33832000009715557,
+          -0.4546799997460176,
+          0.6044399868696928
+        ],
+        "dimensions": [
+          0.014639999717473984,
+          0.0026400009848019934,
+          0.014639999717473984
+        ],
+        "center": [
+          0.3310000002384186,
+          -0.4560000002384186,
+          0.5971199870109558
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 4608,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_CheekBell_L_Shell",
+      "parent": "Pivot_CheekBell_L",
+      "vertices": 1600,
+      "polygons": 1500,
+      "triangles": 3000,
+      "world_bbox": {
+        "min": [
+          0.30700311064720154,
+          -0.4799968898296356,
+          0.5467460751533508
+        ],
+        "max": [
+          0.3549968898296356,
+          -0.43200311064720154,
+          0.5939757227897644
+        ],
+        "dimensions": [
+          0.04799377918243408,
+          0.04799377918243408,
+          0.047229647636413574
+        ],
+        "center": [
+          0.3310000002384186,
+          -0.4560000002384186,
+          0.5703608989715576
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": [
+        {
+          "name": "Shell_Thickness",
+          "type": "SOLIDIFY",
+          "viewport": true,
+          "render": true
+        },
+        {
+          "name": "Soft_Slit_Edges",
+          "type": "BEVEL",
+          "viewport": true,
+          "render": true
+        }
+      ]
+    },
+    {
+      "name": "Lion_CheekBell_R_Clapper",
+      "parent": "Pivot_CheekBell_R",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          -0.3348399985115975,
+          -0.4598399989772588,
+          0.5546399648301303
+        ],
+        "max": [
+          -0.32716000103391707,
+          -0.45216000243090093,
+          0.5623199646361172
+        ],
+        "dimensions": [
+          0.007679997477680445,
+          0.00767999654635787,
+          0.007679999805986881
+        ],
+        "center": [
+          -0.3309999997727573,
+          -0.45600000070407987,
+          0.5584799647331238
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Aged_Copper"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_CheekBell_R_Loop",
+      "parent": "Pivot_CheekBell_R",
+      "vertices": 1152,
+      "polygons": 1152,
+      "triangles": 2304,
+      "world_bbox": {
+        "min": [
+          -0.33832000009715557,
+          -0.4573200007308196,
+          0.5897999871522188
+        ],
+        "max": [
+          -0.3236800003796816,
+          -0.4546799997460176,
+          0.6044399868696928
+        ],
+        "dimensions": [
+          0.014639999717473984,
+          0.0026400009848019934,
+          0.014639999717473984
+        ],
+        "center": [
+          -0.3310000002384186,
+          -0.4560000002384186,
+          0.5971199870109558
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 4608,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_CheekBell_R_Shell",
+      "parent": "Pivot_CheekBell_R",
+      "vertices": 1600,
+      "polygons": 1500,
+      "triangles": 3000,
+      "world_bbox": {
+        "min": [
+          -0.3549968898296356,
+          -0.4799968898296356,
+          0.5467460751533508
+        ],
+        "max": [
+          -0.30700311064720154,
+          -0.43200311064720154,
+          0.5939757227897644
+        ],
+        "dimensions": [
+          0.04799377918243408,
+          0.04799377918243408,
+          0.047229647636413574
+        ],
+        "center": [
+          -0.3310000002384186,
+          -0.4560000002384186,
+          0.5703608989715576
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": [
+        {
+          "name": "Shell_Thickness",
+          "type": "SOLIDIFY",
+          "viewport": true,
+          "render": true
+        },
+        {
+          "name": "Soft_Slit_Edges",
+          "type": "BEVEL",
+          "viewport": true,
+          "render": true
+        }
+      ]
+    },
+    {
+      "name": "Lion_Crown",
+      "parent": "Pivot_Crown",
+      "vertices": 903,
+      "polygons": 1754,
+      "triangles": 1754,
+      "world_bbox": {
+        "min": [
+          -0.09524441510438919,
+          -0.5643921718001366,
+          0.8762864712625742
+        ],
+        "max": [
+          0.09606476128101349,
+          -0.3528021425008774,
+          0.9999999776482582
+        ],
+        "dimensions": [
+          0.19130917638540268,
+          0.21159002929925919,
+          0.12371350638568401
+        ],
+        "center": [
+          0.00041017308831214905,
+          -0.458597157150507,
+          0.9381432244554162
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 5262,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Lion_Atlas_PBR_Refined"
+      ],
+      "modifiers": [],
+      "topology": {
+        "boundary_edges": 46,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "isolated_vertices": 0
+      }
+    },
+    {
+      "name": "Lion_Ear_L",
+      "parent": "Pivot_Ear_L",
+      "vertices": 1666,
+      "polygons": 3066,
+      "triangles": 3066,
+      "world_bbox": {
+        "min": [
+          0.1439083367586136,
+          -0.4722900837659836,
+          0.7240666821599007
+        ],
+        "max": [
+          0.3584284335374832,
+          -0.24204568564891815,
+          0.956260547041893
+        ],
+        "dimensions": [
+          0.21452009677886963,
+          0.23024439811706543,
+          0.23219386488199234
+        ],
+        "center": [
+          0.2511683851480484,
+          -0.35716788470745087,
+          0.8401636146008968
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 9198,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Lion_Atlas_PBR_Refined"
+      ],
+      "modifiers": [],
+      "topology": {
+        "boundary_edges": 270,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "isolated_vertices": 0
+      }
+    },
+    {
+      "name": "Lion_Ear_R",
+      "parent": "Pivot_Ear_R",
+      "vertices": 1652,
+      "polygons": 3055,
+      "triangles": 3055,
+      "world_bbox": {
+        "min": [
+          -0.35912154614925385,
+          -0.4707123562693596,
+          0.7208226546645164
+        ],
+        "max": [
+          -0.14762212336063385,
+          -0.24159938097000122,
+          0.9567754715681076
+        ],
+        "dimensions": [
+          0.21149942278862,
+          0.22911297529935837,
+          0.23595281690359116
+        ],
+        "center": [
+          -0.25337183475494385,
+          -0.3561558686196804,
+          0.838799063116312
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 9165,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Lion_Atlas_PBR_Refined"
+      ],
+      "modifiers": [],
+      "topology": {
+        "boundary_edges": 255,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "isolated_vertices": 0
+      }
+    },
+    {
+      "name": "Lion_EyeBall_L",
+      "parent": "Pivot_Eye_L",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          0.09399999305605888,
+          -0.6225399859249592,
+          0.6329999975860119
+        ],
+        "max": [
+          0.17999999597668648,
+          -0.55545998737216,
+          0.7190000005066395
+        ],
+        "dimensions": [
+          0.0860000029206276,
+          0.06707999855279922,
+          0.0860000029206276
+        ],
+        "center": [
+          0.13699999451637268,
+          -0.5889999866485596,
+          0.6759999990463257
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Eye_Obsidian_Gloss"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Iris_Copper_L",
+      "parent": "Pivot_Eye_L",
+      "vertices": 1152,
+      "polygons": 1152,
+      "triangles": 2304,
+      "world_bbox": {
+        "min": [
+          0.10699999332427979,
+          -0.6249999810836855,
+          0.6459999978542328
+        ],
+        "max": [
+          0.16699999570846558,
+          -0.6189999769546446,
+          0.7060000002384186
+        ],
+        "dimensions": [
+          0.06000000238418579,
+          0.006000004129040892,
+          0.06000000238418579
+        ],
+        "center": [
+          0.13699999451637268,
+          -0.621999979019165,
+          0.6759999990463257
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 4608,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Eye_Copper_Iris"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Iris_InnerGold_L",
+      "parent": "Pivot_Eye_L",
+      "vertices": 1152,
+      "polygons": 1152,
+      "triangles": 2304,
+      "world_bbox": {
+        "min": [
+          0.1139999944716692,
+          -0.6250000145830545,
+          0.6529999990016222
+        ],
+        "max": [
+          0.15999999456107616,
+          -0.623000011166152,
+          0.6989999990910292
+        ],
+        "dimensions": [
+          0.04600000008940697,
+          0.0020000034169025405,
+          0.04600000008940697
+        ],
+        "center": [
+          0.13699999451637268,
+          -0.6240000128746033,
+          0.6759999990463257
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 4608,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Eye_Gold_Fillet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Pupil_L",
+      "parent": "Pivot_Eye_L",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          0.1165000069886446,
+          -0.6287150112912059,
+          0.6554999984800816
+        ],
+        "max": [
+          0.15749999321997166,
+          -0.6192850125953555,
+          0.6964999996125698
+        ],
+        "dimensions": [
+          0.04099998623132706,
+          0.009429998695850372,
+          0.04100000113248825
+        ],
+        "center": [
+          0.13700000010430813,
+          -0.6240000119432807,
+          0.6759999990463257
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Eye_Obsidian_Gloss"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_EyeBall_R",
+      "parent": "Pivot_Eye_R",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          -0.17999999597668648,
+          -0.6265399940311909,
+          0.6329999975860119
+        ],
+        "max": [
+          -0.09399999305605888,
+          -0.5594599954783916,
+          0.7190000005066395
+        ],
+        "dimensions": [
+          0.0860000029206276,
+          0.06707999855279922,
+          0.0860000029206276
+        ],
+        "center": [
+          -0.13699999451637268,
+          -0.5929999947547913,
+          0.6759999990463257
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Eye_Obsidian_Gloss"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Iris_Copper_R",
+      "parent": "Pivot_Eye_R",
+      "vertices": 1152,
+      "polygons": 1152,
+      "triangles": 2304,
+      "world_bbox": {
+        "min": [
+          -0.16699999570846558,
+          -0.6289999891899172,
+          0.6459999978542328
+        ],
+        "max": [
+          -0.10699999332427979,
+          -0.6229999850608763,
+          0.7060000002384186
+        ],
+        "dimensions": [
+          0.06000000238418579,
+          0.006000004129040892,
+          0.06000000238418579
+        ],
+        "center": [
+          -0.13699999451637268,
+          -0.6259999871253967,
+          0.6759999990463257
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 4608,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Eye_Copper_Iris"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Iris_InnerGold_R",
+      "parent": "Pivot_Eye_R",
+      "vertices": 1152,
+      "polygons": 1152,
+      "triangles": 2304,
+      "world_bbox": {
+        "min": [
+          -0.15999999456107616,
+          -0.6290000226892862,
+          0.6529999990016222
+        ],
+        "max": [
+          -0.1139999944716692,
+          -0.6270000192723837,
+          0.6989999990910292
+        ],
+        "dimensions": [
+          0.04600000008940697,
+          0.0020000034169025405,
+          0.04600000008940697
+        ],
+        "center": [
+          -0.13699999451637268,
+          -0.628000020980835,
+          0.6759999990463257
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 4608,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Eye_Gold_Fillet"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Pupil_R",
+      "parent": "Pivot_Eye_R",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          -0.15749998204410076,
+          -0.6327150193974376,
+          0.6554999984800816
+        ],
+        "max": [
+          -0.1164999958127737,
+          -0.6232850207015872,
+          0.6964999996125698
+        ],
+        "dimensions": [
+          0.04099998623132706,
+          0.009429998695850372,
+          0.04100000113248825
+        ],
+        "center": [
+          -0.13699998892843723,
+          -0.6280000200495124,
+          0.6759999990463257
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Eye_Obsidian_Gloss"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_00",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          0.046400001156143844,
+          -0.7436761580174789,
+          0.8149567517684773
+        ],
+        "max": [
+          0.04960000014398247,
+          -0.740476158563979,
+          0.8181567516876385
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          0.04800000065006316,
+          -0.7420761582907289,
+          0.8165567517280579
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_01",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          0.04547769378405064,
+          -0.7376904807751998,
+          0.8221583041595295
+        ],
+        "max": [
+          0.04867769277188927,
+          -0.7344904813216999,
+          0.8253583040786907
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          0.047077693277969956,
+          -0.7360904810484499,
+          0.8237583041191101
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_02",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          0.042746217804960907,
+          -0.731934817857109,
+          0.8290831121848896
+        ],
+        "max": [
+          0.04594621679279953,
+          -0.7287348184036091,
+          0.8322831121040508
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          0.04434621729888022,
+          -0.730334818130359,
+          0.8306831121444702
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_03",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          0.038310540723614395,
+          -0.7266303620999679,
+          0.8354649815009907
+        ],
+        "max": [
+          0.04151053971145302,
+          -0.723430362646468,
+          0.8386649814201519
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          0.03991054021753371,
+          -0.7250303623732179,
+          0.8370649814605713
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_04",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          0.03234112437348813,
+          -0.7219809613889083,
+          0.8410588178085163
+        ],
+        "max": [
+          0.035541123361326754,
+          -0.7187809619354084,
+          0.8442588177276775
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          0.03394112386740744,
+          -0.7203809616621584,
+          0.8426588177680969
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_05",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          0.025067372131161392,
+          -0.7181653104489669,
+          0.8456495079444721
+        ],
+        "max": [
+          0.028267371119000018,
+          -0.714965310995467,
+          0.8488495078636333
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          0.026667371625080705,
+          -0.716565310722217,
+          0.8472495079040527
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_06",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          0.016768805566243827,
+          -0.7153300367062911,
+          0.8490607413696125
+        ],
+        "max": [
+          0.019968804554082453,
+          -0.7121300372527912,
+          0.8522607412887737
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          0.01836880506016314,
+          -0.7137300369795412,
+          0.8506607413291931
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_07",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          0.007764336536638439,
+          -0.7135840378468856,
+          0.8511613282607868
+        ],
+        "max": [
+          0.010964335524477065,
+          -0.7103840383933857,
+          0.854361328179948
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          0.009364336030557752,
+          -0.7119840381201357,
+          0.8527613282203674
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_08",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          -0.0015999992610886663,
+          -0.7129944883054122,
+          0.851870623533614
+        ],
+        "max": [
+          0.0015999997267499596,
+          -0.7097944888519123,
+          0.8550706234527752
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          2.328306466896357e-10,
+          -0.7113944885786623,
+          0.8534706234931946
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_09",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          -0.010964335058815777,
+          -0.7135840378468856,
+          0.8511613282607868
+        ],
+        "max": [
+          -0.007764336070977151,
+          -0.7103840383933857,
+          0.854361328179948
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          -0.009364335564896464,
+          -0.7119840381201357,
+          0.8527613282203674
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_10",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          -0.019968804088421166,
+          -0.7153300367062911,
+          0.8490607413696125
+        ],
+        "max": [
+          -0.01676880510058254,
+          -0.7121300372527912,
+          0.8522607412887737
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          -0.018368804594501853,
+          -0.7137300369795412,
+          0.8506607413291931
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_11",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          -0.02826737065333873,
+          -0.7181653104489669,
+          0.8456495079444721
+        ],
+        "max": [
+          -0.025067371665500104,
+          -0.714965310995467,
+          0.8488495078636333
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          -0.026667371159419417,
+          -0.716565310722217,
+          0.8472495079040527
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_12",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          -0.03554112289566547,
+          -0.7219809613889083,
+          0.8410588178085163
+        ],
+        "max": [
+          -0.03234112390782684,
+          -0.7187809619354084,
+          0.8442588177276775
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          -0.033941123401746154,
+          -0.7203809616621584,
+          0.8426588177680969
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_13",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          -0.04151053924579173,
+          -0.7266303620999679,
+          0.8354649815009907
+        ],
+        "max": [
+          -0.03831054025795311,
+          -0.723430362646468,
+          0.8386649814201519
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          -0.03991053975187242,
+          -0.7250303623732179,
+          0.8370649814605713
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_14",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          -0.045946216327138245,
+          -0.731934817857109,
+          0.8290831121848896
+        ],
+        "max": [
+          -0.04274621733929962,
+          -0.7287348184036091,
+          0.8322831121040508
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          -0.04434621683321893,
+          -0.730334818130359,
+          0.8306831121444702
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_15",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          -0.04867769230622798,
+          -0.7376904807751998,
+          0.8221583041595295
+        ],
+        "max": [
+          -0.045477693318389356,
+          -0.7344904813216999,
+          0.8253583040786907
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          -0.04707769281230867,
+          -0.7360904810484499,
+          0.8237583041191101
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_16",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          -0.04959999967832118,
+          -0.7436761580174789,
+          0.8149567517684773
+        ],
+        "max": [
+          -0.04640000069048256,
+          -0.740476158563979,
+          0.8181567516876385
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          -0.04800000018440187,
+          -0.7420761582907289,
+          0.8165567517280579
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_17",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          -0.04867769230622798,
+          -0.7496618948644027,
+          0.807755199377425
+        ],
+        "max": [
+          -0.045477693318389356,
+          -0.7464618954109028,
+          0.8109551992965862
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          -0.04707769281230867,
+          -0.7480618951376528,
+          0.8093551993370056
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_18",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          -0.045946216327138245,
+          -0.7554175577824935,
+          0.8008303913520649
+        ],
+        "max": [
+          -0.04274621733929962,
+          -0.7522175583289936,
+          0.8040303912712261
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          -0.04434621683321893,
+          -0.7538175580557436,
+          0.8024303913116455
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_19",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          -0.04151053924579173,
+          -0.7607220135396346,
+          0.7944485220359638
+        ],
+        "max": [
+          -0.03831054025795311,
+          -0.7575220140861347,
+          0.797648521955125
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          -0.03991053975187242,
+          -0.7591220138128847,
+          0.7960485219955444
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_20",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          -0.03554112289566547,
+          -0.7653714142506942,
+          0.7888546857284382
+        ],
+        "max": [
+          -0.03234112390782684,
+          -0.7621714147971943,
+          0.7920546856475994
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          -0.033941123401746154,
+          -0.7637714145239443,
+          0.7904546856880188
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_21",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          -0.02826737065333873,
+          -0.7691870651906356,
+          0.7842639955924824
+        ],
+        "max": [
+          -0.025067371665500104,
+          -0.7659870657371357,
+          0.7874639955116436
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          -0.026667371159419417,
+          -0.7675870654638857,
+          0.785863995552063
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_22",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          -0.019968804088421166,
+          -0.7720223389333114,
+          0.780852762167342
+        ],
+        "max": [
+          -0.01676880510058254,
+          -0.7688223394798115,
+          0.7840527620865032
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          -0.018368804594501853,
+          -0.7704223392065614,
+          0.7824527621269226
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_23",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          -0.010964335058815777,
+          -0.7737683377927169,
+          0.7787521752761677
+        ],
+        "max": [
+          -0.007764336070977151,
+          -0.770568338339217,
+          0.7819521751953289
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          -0.009364335564896464,
+          -0.772168338065967,
+          0.7803521752357483
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_24",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          -0.0015999992610886782,
+          -0.7743578277295455,
+          0.7780428800033405
+        ],
+        "max": [
+          0.0015999997267499477,
+          -0.7711578282760456,
+          0.7812428799225017
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          2.3283063476341181e-10,
+          -0.7727578280027956,
+          0.7796428799629211
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_25",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          0.007764336536638439,
+          -0.7737683377927169,
+          0.7787521752761677
+        ],
+        "max": [
+          0.010964335524477065,
+          -0.770568338339217,
+          0.7819521751953289
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          0.009364336030557752,
+          -0.772168338065967,
+          0.7803521752357483
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_26",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          0.016768805566243827,
+          -0.7720223389333114,
+          0.780852762167342
+        ],
+        "max": [
+          0.019968804554082453,
+          -0.7688223394798115,
+          0.7840527620865032
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          0.01836880506016314,
+          -0.7704223392065614,
+          0.7824527621269226
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_27",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          0.025067372131161392,
+          -0.7691870651906356,
+          0.7842639955924824
+        ],
+        "max": [
+          0.028267371119000018,
+          -0.7659870657371357,
+          0.7874639955116436
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          0.026667371625080705,
+          -0.7675870654638857,
+          0.785863995552063
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_28",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          0.03234112437348813,
+          -0.7653714142506942,
+          0.7888546857284382
+        ],
+        "max": [
+          0.035541123361326754,
+          -0.7621714147971943,
+          0.7920546856475994
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          0.03394112386740744,
+          -0.7637714145239443,
+          0.7904546856880188
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_29",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          0.038310540723614395,
+          -0.7607220135396346,
+          0.7944485220359638
+        ],
+        "max": [
+          0.04151053971145302,
+          -0.7575220140861347,
+          0.797648521955125
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          0.03991054021753371,
+          -0.7591220138128847,
+          0.7960485219955444
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_30",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          0.042746217804960907,
+          -0.7554175577824935,
+          0.8008303913520649
+        ],
+        "max": [
+          0.04594621679279953,
+          -0.7522175583289936,
+          0.8040303912712261
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          0.04434621729888022,
+          -0.7538175580557436,
+          0.8024303913116455
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Bead_31",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          0.04547769378405064,
+          -0.7496618948644027,
+          0.807755199377425
+        ],
+        "max": [
+          0.04867769277188927,
+          -0.7464618954109028,
+          0.8109551992965862
+        ],
+        "dimensions": [
+          0.003199998987838626,
+          0.003199999453499913,
+          0.0031999999191612005
+        ],
+        "center": [
+          0.047077693277969956,
+          -0.7480618951376528,
+          0.8093551993370056
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Brass_Rim",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1152,
+      "polygons": 1152,
+      "triangles": 2304,
+      "world_bbox": {
+        "min": [
+          -0.04820000007748604,
+          -0.7728787396111947,
+          0.7783733989032915
+        ],
+        "max": [
+          0.04820000007748604,
+          -0.7097355391821403,
+          0.8534617041316817
+        ],
+        "dimensions": [
+          0.09640000015497208,
+          0.06314320042905441,
+          0.07508830522839016
+        ],
+        "center": [
+          0.0,
+          -0.7413071393966675,
+          0.8159175515174866
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 4608,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Aged_Copper"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Forehead_Convex_Brass",
+      "parent": "Pivot_Forehead_Metal",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          -0.04400000348687172,
+          -0.7666139923001143,
+          0.7861691474187255
+        ],
+        "max": [
+          0.04399999976158142,
+          -0.7160002873885003,
+          0.8456659551697705
+        ],
+        "dimensions": [
+          0.08800000324845314,
+          0.05061370491161399,
+          0.059496807751045044
+        ],
+        "center": [
+          -1.862645149230957e-09,
+          -0.7413071398443073,
+          0.815917551294248
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Jaw",
+      "parent": "Pivot_Jaw",
+      "vertices": 3624,
+      "polygons": 6466,
+      "triangles": 6466,
+      "world_bbox": {
+        "min": [
+          -0.28042909502983093,
+          -0.7946289479732513,
+          0.41461072862148285
+        ],
+        "max": [
+          0.2812948524951935,
+          -0.46279908157885075,
+          0.5772282965481281
+        ],
+        "dimensions": [
+          0.5617239475250244,
+          0.3318298663944006,
+          0.16261756792664528
+        ],
+        "center": [
+          0.0004328787326812744,
+          -0.628714014776051,
+          0.4959195125848055
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 19398,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Lion_Atlas_PBR_Refined"
+      ],
+      "modifiers": [],
+      "topology": {
+        "boundary_edges": 784,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "isolated_vertices": 0
+      }
+    },
+    {
+      "name": "Lion_Beard",
+      "parent": "Pivot_Beard",
+      "vertices": 2357,
+      "polygons": 4222,
+      "triangles": 4222,
+      "world_bbox": {
+        "min": [
+          -0.20328594744205475,
+          -0.7467307038605213,
+          0.16403567790985107
+        ],
+        "max": [
+          0.2042495161294937,
+          -0.5732650831341743,
+          0.47550078481435776
+        ],
+        "dimensions": [
+          0.40753546357154846,
+          0.17346562072634697,
+          0.3114651069045067
+        ],
+        "center": [
+          0.0004817843437194824,
+          -0.6599978934973478,
+          0.3197682313621044
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 12666,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Lion_Atlas_PBR_Refined"
+      ],
+      "modifiers": [],
+      "topology": {
+        "boundary_edges": 552,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "isolated_vertices": 0
+      }
+    },
+    {
+      "name": "Lion_Nose",
+      "parent": "Pivot_Nose",
+      "vertices": 175,
+      "polygons": 244,
+      "triangles": 244,
+      "world_bbox": {
+        "min": [
+          -0.047819834202528,
+          -0.8015119731426239,
+          0.5939559247344732
+        ],
+        "max": [
+          0.0487181581556797,
+          -0.7045371830463409,
+          0.6729749515652657
+        ],
+        "dimensions": [
+          0.0965379923582077,
+          0.09697479009628296,
+          0.07901902683079243
+        ],
+        "center": [
+          0.00044916197657585144,
+          -0.7530245780944824,
+          0.6334654381498694
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 732,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Lion_Atlas_PBR_Refined"
+      ],
+      "modifiers": [],
+      "topology": {
+        "boundary_edges": 96,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "isolated_vertices": 0
+      }
+    },
+    {
+      "name": "Lion_SideMedallion_Rim_L",
+      "parent": "Pivot_SideMedallion_L",
+      "vertices": 1152,
+      "polygons": 1152,
+      "triangles": 2304,
+      "world_bbox": {
+        "min": [
+          0.3144403960333379,
+          -0.44289273423309905,
+          0.6327392832379789
+        ],
+        "max": [
+          0.3397582506175058,
+          -0.3567874986925208,
+          0.71652545770593
+        ],
+        "dimensions": [
+          0.02531785458416791,
+          0.08610523554057825,
+          0.08378617446795111
+        ],
+        "center": [
+          0.32709932332542185,
+          -0.3998401164628099,
+          0.6746323704719545
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 4608,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_SideMedallion_Rim_R",
+      "parent": "Pivot_SideMedallion_R",
+      "vertices": 1152,
+      "polygons": 1152,
+      "triangles": 2304,
+      "world_bbox": {
+        "min": [
+          -0.33868145436717245,
+          -0.44288416816659826,
+          0.6246003847480592
+        ],
+        "max": [
+          -0.3200263431647411,
+          -0.3568916110272198,
+          0.7100752849220457
+        ],
+        "dimensions": [
+          0.01865511120243135,
+          0.08599255713937848,
+          0.08547490017398651
+        ],
+        "center": [
+          -0.3293538987659568,
+          -0.399887889596909,
+          0.6673378348350525
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 4608,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Tassel_Collar_L",
+      "parent": "Pivot_Tassel_L",
+      "vertices": 65,
+      "polygons": 64,
+      "triangles": 64,
+      "world_bbox": {
+        "min": [
+          0.3190000057220459,
+          -0.46799999475479126,
+          0.5360000133514404
+        ],
+        "max": [
+          0.34299999475479126,
+          -0.4440000057220459,
+          0.5360000133514404
+        ],
+        "dimensions": [
+          0.02399998903274536,
+          0.02399998903274536,
+          0.0
+        ],
+        "center": [
+          0.3310000002384186,
+          -0.4560000002384186,
+          0.5360000133514404
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [],
+      "materials": [
+        "Metal_Aged_Copper"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Tassel_Collar_R",
+      "parent": "Pivot_Tassel_R",
+      "vertices": 65,
+      "polygons": 64,
+      "triangles": 64,
+      "world_bbox": {
+        "min": [
+          -0.34299999475479126,
+          -0.46799999475479126,
+          0.5360000133514404
+        ],
+        "max": [
+          -0.3190000057220459,
+          -0.4440000057220459,
+          0.5360000133514404
+        ],
+        "dimensions": [
+          0.02399998903274536,
+          0.02399998903274536,
+          0.0
+        ],
+        "center": [
+          -0.3310000002384186,
+          -0.4560000002384186,
+          0.5360000133514404
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [],
+      "materials": [
+        "Metal_Aged_Copper"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_Hindleg_L",
+      "parent": "Pivot_Hindleg_L",
+      "vertices": 8003,
+      "polygons": 13581,
+      "triangles": 13581,
+      "world_bbox": {
+        "min": [
+          0.1307544857263565,
+          0.26919130980968475,
+          0.07249626517295837
+        ],
+        "max": [
+          0.4369558244943619,
+          0.6408673077821732,
+          0.4400576837360859
+        ],
+        "dimensions": [
+          0.30620133876800537,
+          0.3716759979724884,
+          0.3675614185631275
+        ],
+        "center": [
+          0.2838551551103592,
+          0.45502930879592896,
+          0.25627697445452213
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 40743,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Lion_Atlas_PBR_Refined"
+      ],
+      "modifiers": [],
+      "topology": {
+        "boundary_edges": 3047,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "isolated_vertices": 0
+      }
+    },
+    {
+      "name": "Lion_Hindpaw_L",
+      "parent": "Pivot_Hindpaw_L",
+      "vertices": 1529,
+      "polygons": 2778,
+      "triangles": 2778,
+      "world_bbox": {
+        "min": [
+          0.15838561207056046,
+          0.35450412333011627,
+          0.00882316380739212
+        ],
+        "max": [
+          0.45202071964740753,
+          0.6460768431425095,
+          0.09283250570297241
+        ],
+        "dimensions": [
+          0.2936351075768471,
+          0.2915727198123932,
+          0.08400934189558029
+        ],
+        "center": [
+          0.305203165858984,
+          0.5002904832363129,
+          0.050827834755182266
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8334,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Lion_Atlas_PBR_Refined"
+      ],
+      "modifiers": [],
+      "topology": {
+        "boundary_edges": 268,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "isolated_vertices": 0
+      }
+    },
+    {
+      "name": "Lion_Hindleg_R",
+      "parent": "Pivot_Hindleg_R",
+      "vertices": 7651,
+      "polygons": 12592,
+      "triangles": 12592,
+      "world_bbox": {
+        "min": [
+          -0.4361523389816284,
+          0.2769937515258789,
+          0.07388609647750854
+        ],
+        "max": [
+          -0.1298263967037201,
+          0.636911541223526,
+          0.44047024101018906
+        ],
+        "dimensions": [
+          0.3063259422779083,
+          0.3599177896976471,
+          0.3665841445326805
+        ],
+        "center": [
+          -0.28298936784267426,
+          0.45695264637470245,
+          0.2571781687438488
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 37776,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Lion_Atlas_PBR_Refined"
+      ],
+      "modifiers": [],
+      "topology": {
+        "boundary_edges": 3124,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "isolated_vertices": 0
+      }
+    },
+    {
+      "name": "Lion_Hindpaw_R",
+      "parent": "Pivot_Hindpaw_R",
+      "vertices": 1516,
+      "polygons": 2807,
+      "triangles": 2807,
+      "world_bbox": {
+        "min": [
+          -0.45202071964740753,
+          0.35346971452236176,
+          0.009189162403345108
+        ],
+        "max": [
+          -0.1285078078508377,
+          0.6451449990272522,
+          0.0916023999452591
+        ],
+        "dimensions": [
+          0.3235129117965698,
+          0.29167528450489044,
+          0.08241323754191399
+        ],
+        "center": [
+          -0.2902642637491226,
+          0.499307356774807,
+          0.0503957811743021
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8421,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Lion_Atlas_PBR_Refined"
+      ],
+      "modifiers": [],
+      "topology": {
+        "boundary_edges": 213,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "isolated_vertices": 0
+      }
+    },
+    {
+      "name": "Lion_Tail",
+      "parent": "Pivot_Tail",
+      "vertices": 20022,
+      "polygons": 33837,
+      "triangles": 33837,
+      "world_bbox": {
+        "min": [
+          -0.22168269753456116,
+          0.5223888866603374,
+          0.25305458903312683
+        ],
+        "max": [
+          0.2191823422908783,
+          0.8015120029449463,
+          0.7782517522573471
+        ],
+        "dimensions": [
+          0.44086503982543945,
+          0.27912311628460884,
+          0.5251971632242203
+        ],
+        "center": [
+          -0.0012501776218414307,
+          0.6619504448026419,
+          0.515653170645237
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 101511,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Lion_Atlas_PBR_Refined"
+      ],
+      "modifiers": [],
+      "topology": {
+        "boundary_edges": 8019,
+        "overconnected_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "isolated_vertices": 0
+      }
+    },
+    {
+      "name": "Lion_TailBell_L_Clapper",
+      "parent": "Pivot_TailBell_L",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          0.10850000102072954,
+          0.667399977799505,
+          0.5713000055402517
+        ],
+        "max": [
+          0.119700001552701,
+          0.6785999778658152,
+          0.5825000051409006
+        ],
+        "dimensions": [
+          0.011200000531971455,
+          0.011200000066310167,
+          0.01119999960064888
+        ],
+        "center": [
+          0.11410000128671527,
+          0.6729999778326601,
+          0.5769000053405762
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Aged_Copper"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_TailBell_L_Loop",
+      "parent": "Pivot_TailBell_L",
+      "vertices": 1152,
+      "polygons": 1152,
+      "triangles": 2304,
+      "world_bbox": {
+        "min": [
+          0.10342500172555447,
+          0.6710749774153149,
+          0.6225749980658293
+        ],
+        "max": [
+          0.12477500177919865,
+          0.6749249787156666,
+          0.6439249981194735
+        ],
+        "dimensions": [
+          0.02135000005364418,
+          0.0038500013003517353,
+          0.02135000005364418
+        ],
+        "center": [
+          0.11410000175237656,
+          0.6729999780654907,
+          0.6332499980926514
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 4608,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_TailBell_L_Shell",
+      "parent": "Pivot_TailBell_L",
+      "vertices": 1600,
+      "polygons": 1500,
+      "triangles": 3000,
+      "world_bbox": {
+        "min": [
+          0.07910454273223877,
+          0.6380045413970947,
+          0.5597880482673645
+        ],
+        "max": [
+          0.14909546077251434,
+          0.7079954147338867,
+          0.6286645531654358
+        ],
+        "dimensions": [
+          0.06999091804027557,
+          0.06999087333679199,
+          0.06887650489807129
+        ],
+        "center": [
+          0.11410000175237656,
+          0.6729999780654907,
+          0.5942263007164001
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": [
+        {
+          "name": "Shell_Thickness",
+          "type": "SOLIDIFY",
+          "viewport": true,
+          "render": true
+        },
+        {
+          "name": "Soft_Slit_Edges",
+          "type": "BEVEL",
+          "viewport": true,
+          "render": true
+        }
+      ]
+    },
+    {
+      "name": "Lion_TailBell_R_Clapper",
+      "parent": "Pivot_TailBell_R",
+      "vertices": 1986,
+      "polygons": 2048,
+      "triangles": 3968,
+      "world_bbox": {
+        "min": [
+          -0.12176999729126692,
+          0.667399977799505,
+          0.5713000055402517
+        ],
+        "max": [
+          -0.11056999675929546,
+          0.6785999778658152,
+          0.5825000051409006
+        ],
+        "dimensions": [
+          0.011200000531971455,
+          0.011200000066310167,
+          0.01119999960064888
+        ],
+        "center": [
+          -0.11616999702528119,
+          0.6729999778326601,
+          0.5769000053405762
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 8064,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Aged_Copper"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_TailBell_R_Loop",
+      "parent": "Pivot_TailBell_R",
+      "vertices": 1152,
+      "polygons": 1152,
+      "triangles": 2304,
+      "world_bbox": {
+        "min": [
+          -0.126844996586442,
+          0.6710749774153149,
+          0.6225749980658293
+        ],
+        "max": [
+          -0.10549499653279781,
+          0.6749249787156666,
+          0.6439249981194735
+        ],
+        "dimensions": [
+          0.02135000005364418,
+          0.0038500013003517353,
+          0.02135000005364418
+        ],
+        "center": [
+          -0.1161699965596199,
+          0.6729999780654907,
+          0.6332499980926514
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [
+        {
+          "name": "UVMap",
+          "loops": 4608,
+          "finite": true
+        }
+      ],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Lion_TailBell_R_Shell",
+      "parent": "Pivot_TailBell_R",
+      "vertices": 1600,
+      "polygons": 1500,
+      "triangles": 3000,
+      "world_bbox": {
+        "min": [
+          -0.1511654555797577,
+          0.6380045413970947,
+          0.5597880482673645
+        ],
+        "max": [
+          -0.08117453753948212,
+          0.7079954147338867,
+          0.6286645531654358
+        ],
+        "dimensions": [
+          0.06999091804027557,
+          0.06999087333679199,
+          0.06887650489807129
+        ],
+        "center": [
+          -0.1161699965596199,
+          0.6729999780654907,
+          0.5942263007164001
+        ]
+      },
+      "finite_world_coordinates": true,
+      "uv_layers": [],
+      "materials": [
+        "Metal_Polished_Brass"
+      ],
+      "modifiers": [
+        {
+          "name": "Shell_Thickness",
+          "type": "SOLIDIFY",
+          "viewport": true,
+          "render": true
+        },
+        {
+          "name": "Soft_Slit_Edges",
+          "type": "BEVEL",
+          "viewport": true,
+          "render": true
+        }
+      ]
+    }
+  ],
+  "pivot_hierarchy": [
+    {
+      "name": "Pivot_Body",
+      "parent": "Lion_Root",
+      "world_position": [
+        0.0,
+        0.0,
+        0.3799999952316284
+      ]
+    },
+    {
+      "name": "Pivot_Head",
+      "parent": "Pivot_Body",
+      "world_position": [
+        0.0,
+        -0.2849999964237213,
+        0.5649999976158142
+      ]
+    },
+    {
+      "name": "Pivot_Jaw",
+      "parent": "Pivot_Head",
+      "world_position": [
+        0.0,
+        -0.44999998807907104,
+        0.5149999856948853
+      ]
+    },
+    {
+      "name": "Pivot_Beard",
+      "parent": "Pivot_Jaw",
+      "world_position": [
+        0.0,
+        -0.6850000023841858,
+        0.4350000023841858
+      ]
+    },
+    {
+      "name": "Pivot_Tail",
+      "parent": "Pivot_Body",
+      "world_position": [
+        0.0,
+        0.5649999976158142,
+        0.6100000143051147
+      ]
+    },
+    {
+      "name": "Pivot_Ear_L",
+      "parent": "Pivot_Head",
+      "world_position": [
+        0.2849999964237213,
+        -0.4050000011920929,
+        0.800000011920929
+      ]
+    },
+    {
+      "name": "Pivot_Ear_R",
+      "parent": "Pivot_Head",
+      "world_position": [
+        -0.2849999964237213,
+        -0.4050000011920929,
+        0.800000011920929
+      ]
+    },
+    {
+      "name": "Pivot_Crown",
+      "parent": "Pivot_Head",
+      "world_position": [
+        0.0,
+        -0.4449999928474426,
+        0.8949999809265137
+      ]
+    },
+    {
+      "name": "Pivot_Foreleg_L",
+      "parent": "Pivot_Body",
+      "world_position": [
+        0.27000001072883606,
+        -0.35499998927116394,
+        0.4099999964237213
+      ]
+    },
+    {
+      "name": "Pivot_Foreleg_R",
+      "parent": "Pivot_Body",
+      "world_position": [
+        -0.27000001072883606,
+        -0.35499998927116394,
+        0.4099999964237213
+      ]
+    },
+    {
+      "name": "Pivot_Hindleg_L",
+      "parent": "Pivot_Body",
+      "world_position": [
+        0.26499998569488525,
+        0.4749999940395355,
+        0.4000000059604645
+      ]
+    },
+    {
+      "name": "Pivot_Hindleg_R",
+      "parent": "Pivot_Body",
+      "world_position": [
+        -0.26499998569488525,
+        0.4749999940395355,
+        0.4000000059604645
+      ]
+    },
+    {
+      "name": "Pivot_Forepaw_L",
+      "parent": "Pivot_Foreleg_L",
+      "world_position": [
+        0.2919999957084656,
+        -0.41999998688697815,
+        0.07499998807907104
+      ]
+    },
+    {
+      "name": "Pivot_Forepaw_R",
+      "parent": "Pivot_Foreleg_R",
+      "world_position": [
+        -0.2919999957084656,
+        -0.41999998688697815,
+        0.07499998807907104
+      ]
+    },
+    {
+      "name": "Pivot_Hindpaw_L",
+      "parent": "Pivot_Hindleg_L",
+      "world_position": [
+        0.28299999237060547,
+        0.5149999856948853,
+        0.06999999284744263
+      ]
+    },
+    {
+      "name": "Pivot_Hindpaw_R",
+      "parent": "Pivot_Hindleg_R",
+      "world_position": [
+        -0.28299999237060547,
+        0.5149999856948853,
+        0.06999999284744263
+      ]
+    }
+  ],
+  "native_curve_records": [
+    {
+      "name": "Lion_Body_RedFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Body",
+      "native_fiber": true,
+      "emitter": "Lion_Body",
+      "strands": 3000,
+      "control_points": 10451,
+      "stored_strand_count": 3000,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 3000
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.00021999246382620186,
+      "radius_factor_min": 0.0354672446846962,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Body_Red_Trim_RedFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Body_Red_Trim",
+      "native_fiber": true,
+      "emitter": "Lion_Body_Red_Trim",
+      "strands": 20000,
+      "control_points": 70002,
+      "stored_strand_count": 20000,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 20000
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.0002199971058871597,
+      "radius_factor_min": 0.03545600548386574,
+      "radius_factor_max": 0.9999916553497314,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Body_Red_Trim_RedFiber_2",
+      "type": "CURVE",
+      "parent": "Lion_Body_Red_Trim",
+      "native_fiber": true,
+      "emitter": "Lion_Body_Red_Trim",
+      "strands": 20000,
+      "control_points": 69949,
+      "stored_strand_count": 20000,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 20000
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.0002199971058871597,
+      "radius_factor_min": 0.03545849770307541,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Body_Red_Trim_RedFiber_3",
+      "type": "CURVE",
+      "parent": "Lion_Body_Red_Trim",
+      "native_fiber": true,
+      "emitter": "Lion_Body_Red_Trim",
+      "strands": 6000,
+      "control_points": 20993,
+      "stored_strand_count": 6000,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 6000
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.0002199971058871597,
+      "radius_factor_min": 0.03546033427119255,
+      "radius_factor_max": 0.9998651146888733,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Foreleg_L_RedFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Foreleg_L",
+      "native_fiber": true,
+      "emitter": "Lion_Foreleg_L",
+      "strands": 4000,
+      "control_points": 13960,
+      "stored_strand_count": 4000,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 4000
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.00021999000455252826,
+      "radius_factor_min": 0.035507682710886,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Forepaw_L_RedFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Forepaw_L",
+      "native_fiber": true,
+      "emitter": "Lion_Forepaw_L",
+      "strands": 1200,
+      "control_points": 4204,
+      "stored_strand_count": 1200,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 1200
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.00021993982954882085,
+      "radius_factor_min": 0.03546836972236633,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Forepaw_L_WhiteFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Forepaw_L",
+      "native_fiber": true,
+      "emitter": "Lion_Forepaw_L",
+      "strands": 2600,
+      "control_points": 10381,
+      "stored_strand_count": 2600,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 2600
+      },
+      "materials": [
+        "Fiber_Warm_Ivory"
+      ],
+      "bevel_depth_local": 0.00019992998568341136,
+      "radius_factor_min": 0.036025919020175934,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 5
+    },
+    {
+      "name": "Lion_Foreleg_R_RedFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Foreleg_R",
+      "native_fiber": true,
+      "emitter": "Lion_Foreleg_R",
+      "strands": 4000,
+      "control_points": 13991,
+      "stored_strand_count": 4000,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 4000
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.00021999898308422416,
+      "radius_factor_min": 0.035460807383060455,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Forepaw_R_RedFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Forepaw_R",
+      "native_fiber": true,
+      "emitter": "Lion_Forepaw_R",
+      "strands": 1200,
+      "control_points": 4194,
+      "stored_strand_count": 1200,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 1200
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.0002199435402872041,
+      "radius_factor_min": 0.035467591136693954,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Forepaw_R_WhiteFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Forepaw_R",
+      "native_fiber": true,
+      "emitter": "Lion_Forepaw_R",
+      "strands": 2600,
+      "control_points": 10380,
+      "stored_strand_count": 2600,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 2600
+      },
+      "materials": [
+        "Fiber_Warm_Ivory"
+      ],
+      "bevel_depth_local": 0.0001999419619096443,
+      "radius_factor_min": 0.03601045534014702,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 5
+    },
+    {
+      "name": "Lion_Head_RedFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Head",
+      "native_fiber": true,
+      "emitter": "Lion_Head",
+      "strands": 10000,
+      "control_points": 34996,
+      "stored_strand_count": 10000,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 10000
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.0002199979207944125,
+      "radius_factor_min": 0.03545689582824707,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Brow_L_RedFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Brow_L",
+      "native_fiber": true,
+      "emitter": "Lion_Brow_L",
+      "strands": 12000,
+      "control_points": 41957,
+      "stored_strand_count": 12000,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 12000
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.00021999106684233993,
+      "radius_factor_min": 0.035459212958812714,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Brow_R_RedFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Brow_R",
+      "native_fiber": true,
+      "emitter": "Lion_Brow_R",
+      "strands": 12000,
+      "control_points": 41969,
+      "stored_strand_count": 12000,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 12000
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.00021999902673996985,
+      "radius_factor_min": 0.03545728698372841,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Crown_RedFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Crown",
+      "native_fiber": true,
+      "emitter": "Lion_Crown",
+      "strands": 1400,
+      "control_points": 4886,
+      "stored_strand_count": 1400,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 1400
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.00021999691671226174,
+      "radius_factor_min": 0.035523682832717896,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Ear_L_RedFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Ear_L",
+      "native_fiber": true,
+      "emitter": "Lion_Ear_L",
+      "strands": 6000,
+      "control_points": 21001,
+      "stored_strand_count": 6000,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 6000
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.00021998188458383083,
+      "radius_factor_min": 0.03546018525958061,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Ear_L_WhiteFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Ear_L",
+      "native_fiber": true,
+      "emitter": "Lion_Ear_L",
+      "strands": 1500,
+      "control_points": 5966,
+      "stored_strand_count": 1500,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 1500
+      },
+      "materials": [
+        "Fiber_Warm_Ivory"
+      ],
+      "bevel_depth_local": 0.00019995948241557926,
+      "radius_factor_min": 0.03600778803229332,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 5
+    },
+    {
+      "name": "Lion_Ear_R_RedFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Ear_R",
+      "native_fiber": true,
+      "emitter": "Lion_Ear_R",
+      "strands": 6000,
+      "control_points": 21003,
+      "stored_strand_count": 6000,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 6000
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.0002199917216785252,
+      "radius_factor_min": 0.035471491515636444,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Ear_R_WhiteFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Ear_R",
+      "native_fiber": true,
+      "emitter": "Lion_Ear_R",
+      "strands": 1500,
+      "control_points": 6011,
+      "stored_strand_count": 1500,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 1500
+      },
+      "materials": [
+        "Fiber_Warm_Ivory"
+      ],
+      "bevel_depth_local": 0.00019997975323349237,
+      "radius_factor_min": 0.03601018339395523,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 5
+    },
+    {
+      "name": "Lion_Jaw_RedFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Jaw",
+      "native_fiber": true,
+      "emitter": "Lion_Jaw",
+      "strands": 7000,
+      "control_points": 24475,
+      "stored_strand_count": 7000,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 7000
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.00021993594418745488,
+      "radius_factor_min": 0.03546890243887901,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Beard_WhiteFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Beard",
+      "native_fiber": true,
+      "emitter": "Lion_Beard",
+      "strands": 16000,
+      "control_points": 64035,
+      "stored_strand_count": 16000,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 16000
+      },
+      "materials": [
+        "Fiber_Warm_Ivory"
+      ],
+      "bevel_depth_local": 0.0001999947999138385,
+      "radius_factor_min": 0.03600184991955757,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 5
+    },
+    {
+      "name": "Lion_Nose_RedFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Nose",
+      "native_fiber": true,
+      "emitter": "Lion_Nose",
+      "strands": 2200,
+      "control_points": 7757,
+      "stored_strand_count": 2200,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 2200
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.0002198268484789878,
+      "radius_factor_min": 0.03549797832965851,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Tassel_L_RedFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Tassel_Collar_L",
+      "native_fiber": true,
+      "emitter": "Lion_Tassel_Collar_L",
+      "strands": 1800,
+      "control_points": 6303,
+      "stored_strand_count": 1800,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 1800
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.00021990766981616616,
+      "radius_factor_min": 0.03819912299513817,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Tassel_R_RedFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Tassel_Collar_R",
+      "native_fiber": true,
+      "emitter": "Lion_Tassel_Collar_R",
+      "strands": 1800,
+      "control_points": 6326,
+      "stored_strand_count": 1800,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 1800
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.00021997015574015677,
+      "radius_factor_min": 0.03819309175014496,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Hindleg_L_RedFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Hindleg_L",
+      "native_fiber": true,
+      "emitter": "Lion_Hindleg_L",
+      "strands": 4000,
+      "control_points": 14030,
+      "stored_strand_count": 4000,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 4000
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.00021999984164722264,
+      "radius_factor_min": 0.03546536713838577,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Hindpaw_L_RedFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Hindpaw_L",
+      "native_fiber": true,
+      "emitter": "Lion_Hindpaw_L",
+      "strands": 1200,
+      "control_points": 4222,
+      "stored_strand_count": 1200,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 1200
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.00021989113884046674,
+      "radius_factor_min": 0.035489894449710846,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Hindpaw_L_WhiteFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Hindpaw_L",
+      "native_fiber": true,
+      "emitter": "Lion_Hindpaw_L",
+      "strands": 2600,
+      "control_points": 10490,
+      "stored_strand_count": 2600,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 2600
+      },
+      "materials": [
+        "Fiber_Warm_Ivory"
+      ],
+      "bevel_depth_local": 0.00019992972374893725,
+      "radius_factor_min": 0.036020535975694656,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 5
+    },
+    {
+      "name": "Lion_Hindleg_R_RedFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Hindleg_R",
+      "native_fiber": true,
+      "emitter": "Lion_Hindleg_R",
+      "strands": 4000,
+      "control_points": 13977,
+      "stored_strand_count": 4000,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 4000
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.00021994824055582285,
+      "radius_factor_min": 0.035466574132442474,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Hindpaw_R_RedFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Hindpaw_R",
+      "native_fiber": true,
+      "emitter": "Lion_Hindpaw_R",
+      "strands": 1200,
+      "control_points": 4190,
+      "stored_strand_count": 1200,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 1200
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.0002198910660808906,
+      "radius_factor_min": 0.03547530621290207,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Hindpaw_R_WhiteFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Hindpaw_R",
+      "native_fiber": true,
+      "emitter": "Lion_Hindpaw_R",
+      "strands": 2600,
+      "control_points": 10372,
+      "stored_strand_count": 2600,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 2600
+      },
+      "materials": [
+        "Fiber_Warm_Ivory"
+      ],
+      "bevel_depth_local": 0.00019996082119178027,
+      "radius_factor_min": 0.03602099046111107,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 5
+    },
+    {
+      "name": "Lion_Tail_RedFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Tail",
+      "native_fiber": true,
+      "emitter": "Lion_Tail",
+      "strands": 4000,
+      "control_points": 14004,
+      "stored_strand_count": 4000,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 4000
+      },
+      "materials": [
+        "Fiber_Red_Scarlet"
+      ],
+      "bevel_depth_local": 0.00021999697491992265,
+      "radius_factor_min": 0.035461608320474625,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 4
+    },
+    {
+      "name": "Lion_Tail_WhiteFiber_1",
+      "type": "CURVE",
+      "parent": "Lion_Tail",
+      "native_fiber": true,
+      "emitter": "Lion_Tail",
+      "strands": 20000,
+      "control_points": 80024,
+      "stored_strand_count": 20000,
+      "finite_coordinates_handles_radii": true,
+      "spline_types": {
+        "BEZIER": 20000
+      },
+      "materials": [
+        "Fiber_Warm_Ivory"
+      ],
+      "bevel_depth_local": 0.00019997867639176548,
+      "radius_factor_min": 0.03600645810365677,
+      "radius_factor_max": 1.0,
+      "points_per_spline_min": 3,
+      "points_per_spline_max": 5
+    }
+  ],
+  "native_fiber_object_count": 31,
+  "native_fiber_strand_count": 183400,
+  "native_fiber_control_point_count": 666499,
+  "independent_eye_controls": {
+    "L": {
+      "status": "found",
+      "name": "Pivot_Eye_L",
+      "parent": "Pivot_Head",
+      "world_position": [
+        0.13699999451637268,
+        -0.5889999866485596,
+        0.6759999990463257
+      ],
+      "globe_meshes": [
+        "Lion_EyeBall_L"
+      ],
+      "descendants": [
+        "Lion_EyeBall_L",
+        "Lion_Iris_Copper_L",
+        "Lion_Iris_InnerGold_L",
+        "Lion_Pupil_L"
+      ],
+      "rotation_does_not_move_head_or_other_eye": true,
+      "rotation_changes_own_globe_world_matrix": true
+    },
+    "R": {
+      "status": "found",
+      "name": "Pivot_Eye_R",
+      "parent": "Pivot_Head",
+      "world_position": [
+        -0.13699999451637268,
+        -0.5929999947547913,
+        0.6759999990463257
+      ],
+      "globe_meshes": [
+        "Lion_EyeBall_R"
+      ],
+      "descendants": [
+        "Lion_EyeBall_R",
+        "Lion_Iris_Copper_R",
+        "Lion_Iris_InnerGold_R",
+        "Lion_Pupil_R"
+      ],
+      "rotation_does_not_move_head_or_other_eye": true,
+      "rotation_changes_own_globe_world_matrix": true
+    }
+  },
+  "added_metal_feature_controls": [
+    {
+      "name": "Pivot_Forehead_Metal",
+      "status": "present",
+      "parent": "Pivot_Head",
+      "world_position": [
+        0.0,
+        -0.7413071393966675,
+        0.8159175515174866
+      ],
+      "mesh_descendants": [
+        "Lion_Forehead_Bead_00",
+        "Lion_Forehead_Bead_01",
+        "Lion_Forehead_Bead_02",
+        "Lion_Forehead_Bead_03",
+        "Lion_Forehead_Bead_04",
+        "Lion_Forehead_Bead_05",
+        "Lion_Forehead_Bead_06",
+        "Lion_Forehead_Bead_07",
+        "Lion_Forehead_Bead_08",
+        "Lion_Forehead_Bead_09",
+        "Lion_Forehead_Bead_10",
+        "Lion_Forehead_Bead_11",
+        "Lion_Forehead_Bead_12",
+        "Lion_Forehead_Bead_13",
+        "Lion_Forehead_Bead_14",
+        "Lion_Forehead_Bead_15",
+        "Lion_Forehead_Bead_16",
+        "Lion_Forehead_Bead_17",
+        "Lion_Forehead_Bead_18",
+        "Lion_Forehead_Bead_19",
+        "Lion_Forehead_Bead_20",
+        "Lion_Forehead_Bead_21",
+        "Lion_Forehead_Bead_22",
+        "Lion_Forehead_Bead_23",
+        "Lion_Forehead_Bead_24",
+        "Lion_Forehead_Bead_25",
+        "Lion_Forehead_Bead_26",
+        "Lion_Forehead_Bead_27",
+        "Lion_Forehead_Bead_28",
+        "Lion_Forehead_Bead_29",
+        "Lion_Forehead_Bead_30",
+        "Lion_Forehead_Bead_31",
+        "Lion_Forehead_Brass_Rim",
+        "Lion_Forehead_Convex_Brass"
+      ],
+      "mesh_world_bbox": {
+        "min": [
+          -0.04959999967832118,
+          -0.7743578277295455,
+          0.7780428800033405
+        ],
+        "max": [
+          0.04960000014398247,
+          -0.7097355391821403,
+          0.8550706234527752
+        ],
+        "dimensions": [
+          0.09919999982230365,
+          0.06462228854740526,
+          0.07702774344943464
+        ],
+        "center": [
+          2.3283064365386963e-10,
+          -0.7420466834558429,
+          0.8165567517280579
+        ]
+      },
+      "scope": "Added metal feature and editable transform control verified. This does not prove an internal mechanism, seam-free attachment or absence of overlap with the preserved source."
+    },
+    {
+      "name": "Pivot_SideMedallion_L",
+      "status": "present",
+      "parent": "Pivot_Head",
+      "world_position": [
+        0.3270993232727051,
+        -0.3998401165008545,
+        0.6746323704719543
+      ],
+      "mesh_descendants": [
+        "Lion_SideMedallion_Rim_L"
+      ],
+      "mesh_world_bbox": {
+        "min": [
+          0.3144403960333379,
+          -0.44289273423309905,
+          0.6327392832379789
+        ],
+        "max": [
+          0.3397582506175058,
+          -0.3567874986925208,
+          0.71652545770593
+        ],
+        "dimensions": [
+          0.02531785458416791,
+          0.08610523554057825,
+          0.08378617446795111
+        ],
+        "center": [
+          0.32709932332542185,
+          -0.3998401164628099,
+          0.6746323704719545
+        ]
+      },
+      "scope": "Added metal feature and editable transform control verified. This does not prove an internal mechanism, seam-free attachment or absence of overlap with the preserved source."
+    },
+    {
+      "name": "Pivot_SideMedallion_R",
+      "status": "present",
+      "parent": "Pivot_Head",
+      "world_position": [
+        -0.3293538987636566,
+        -0.39988788962364197,
+        0.6673378348350525
+      ],
+      "mesh_descendants": [
+        "Lion_SideMedallion_Rim_R"
+      ],
+      "mesh_world_bbox": {
+        "min": [
+          -0.33868145436717245,
+          -0.44288416816659826,
+          0.6246003847480592
+        ],
+        "max": [
+          -0.3200263431647411,
+          -0.3568916110272198,
+          0.7100752849220457
+        ],
+        "dimensions": [
+          0.01865511120243135,
+          0.08599255713937848,
+          0.08547490017398651
+        ],
+        "center": [
+          -0.3293538987659568,
+          -0.399887889596909,
+          0.6673378348350525
+        ]
+      },
+      "scope": "Added metal feature and editable transform control verified. This does not prove an internal mechanism, seam-free attachment or absence of overlap with the preserved source."
+    },
+    {
+      "name": "Pivot_CheekBell_L",
+      "status": "present",
+      "parent": "Pivot_Head",
+      "world_position": [
+        0.3310000002384186,
+        -0.4560000002384186,
+        0.5699999928474426
+      ],
+      "mesh_descendants": [
+        "Lion_CheekBell_L_Clapper",
+        "Lion_CheekBell_L_Loop",
+        "Lion_CheekBell_L_Shell"
+      ],
+      "mesh_world_bbox": {
+        "min": [
+          0.30700311064720154,
+          -0.4799968898296356,
+          0.5467460751533508
+        ],
+        "max": [
+          0.3549968898296356,
+          -0.43200311064720154,
+          0.6044399868696928
+        ],
+        "dimensions": [
+          0.04799377918243408,
+          0.04799377918243408,
+          0.05769391171634197
+        ],
+        "center": [
+          0.3310000002384186,
+          -0.4560000002384186,
+          0.5755930310115218
+        ]
+      },
+      "scope": "Added metal feature and editable transform control verified. This does not prove an internal mechanism, seam-free attachment or absence of overlap with the preserved source."
+    },
+    {
+      "name": "Pivot_CheekBell_R",
+      "status": "present",
+      "parent": "Pivot_Head",
+      "world_position": [
+        -0.3310000002384186,
+        -0.4560000002384186,
+        0.5699999928474426
+      ],
+      "mesh_descendants": [
+        "Lion_CheekBell_R_Clapper",
+        "Lion_CheekBell_R_Loop",
+        "Lion_CheekBell_R_Shell"
+      ],
+      "mesh_world_bbox": {
+        "min": [
+          -0.3549968898296356,
+          -0.4799968898296356,
+          0.5467460751533508
+        ],
+        "max": [
+          -0.30700311064720154,
+          -0.43200311064720154,
+          0.6044399868696928
+        ],
+        "dimensions": [
+          0.04799377918243408,
+          0.04799377918243408,
+          0.05769391171634197
+        ],
+        "center": [
+          -0.3310000002384186,
+          -0.4560000002384186,
+          0.5755930310115218
+        ]
+      },
+      "scope": "Added metal feature and editable transform control verified. This does not prove an internal mechanism, seam-free attachment or absence of overlap with the preserved source."
+    },
+    {
+      "name": "Pivot_TailBell_L",
+      "status": "present",
+      "parent": "Pivot_Tail",
+      "world_position": [
+        0.11410000175237656,
+        0.6729999780654907,
+        0.5936999917030334
+      ],
+      "mesh_descendants": [
+        "Lion_TailBell_L_Clapper",
+        "Lion_TailBell_L_Loop",
+        "Lion_TailBell_L_Shell"
+      ],
+      "mesh_world_bbox": {
+        "min": [
+          0.07910454273223877,
+          0.6380045413970947,
+          0.5597880482673645
+        ],
+        "max": [
+          0.14909546077251434,
+          0.7079954147338867,
+          0.6439249981194735
+        ],
+        "dimensions": [
+          0.06999091804027557,
+          0.06999087333679199,
+          0.08413694985210896
+        ],
+        "center": [
+          0.11410000175237656,
+          0.6729999780654907,
+          0.601856523193419
+        ]
+      },
+      "scope": "Added metal feature and editable transform control verified. This does not prove an internal mechanism, seam-free attachment or absence of overlap with the preserved source."
+    },
+    {
+      "name": "Pivot_TailBell_R",
+      "status": "present",
+      "parent": "Pivot_Tail",
+      "world_position": [
+        -0.1161699965596199,
+        0.6729999780654907,
+        0.5936999917030334
+      ],
+      "mesh_descendants": [
+        "Lion_TailBell_R_Clapper",
+        "Lion_TailBell_R_Loop",
+        "Lion_TailBell_R_Shell"
+      ],
+      "mesh_world_bbox": {
+        "min": [
+          -0.1511654555797577,
+          0.6380045413970947,
+          0.5597880482673645
+        ],
+        "max": [
+          -0.08117453753948212,
+          0.7079954147338867,
+          0.6439249981194735
+        ],
+        "dimensions": [
+          0.06999091804027557,
+          0.06999087333679199,
+          0.08413694985210896
+        ],
+        "center": [
+          -0.1161699965596199,
+          0.6729999780654907,
+          0.601856523193419
+        ]
+      },
+      "scope": "Added metal feature and editable transform control verified. This does not prove an internal mechanism, seam-free attachment or absence of overlap with the preserved source."
+    }
+  ],
+  "dependencies": {
+    "referenced_images": [
+      {
+        "name": "Lion_Atlas_Color_Scarlet",
+        "size": [
+          2048,
+          2048
+        ],
+        "source": "FILE",
+        "packed": true,
+        "filepath": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\textures\\generated\\lion_basecolor_scarlet.png",
+        "resolved_file": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\textures\\generated\\lion_basecolor_scarlet.png",
+        "dependency_available": true,
+        "color_space": "sRGB"
+      },
+      {
+        "name": "lion_metallic_color_inferred.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "source": "FILE",
+        "packed": true,
+        "filepath": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\textures\\generated\\lion_metallic_color_inferred.png",
+        "resolved_file": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\textures\\generated\\lion_metallic_color_inferred.png",
+        "dependency_available": true,
+        "color_space": "Non-Color"
+      },
+      {
+        "name": "lion_roughness_color_inferred.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "source": "FILE",
+        "packed": true,
+        "filepath": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\textures\\generated\\lion_roughness_color_inferred.png",
+        "resolved_file": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\textures\\generated\\lion_roughness_color_inferred.png",
+        "dependency_available": true,
+        "color_space": "Non-Color"
+      },
+      {
+        "name": "lion_weave_appearance_mask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "source": "FILE",
+        "packed": true,
+        "filepath": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\textures\\generated\\lion_weave_appearance_mask.png",
+        "resolved_file": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\textures\\generated\\lion_weave_appearance_mask.png",
+        "dependency_available": true,
+        "color_space": "Non-Color"
+      }
+    ],
+    "referenced_image_count": 4,
+    "all_referenced_images_packed": true,
+    "linked_libraries": [],
+    "unused_image_count": 0
+  },
+  "glb_container": null,
+  "master_export_bounds_comparison": null,
+  "render_configuration": {
+    "engine": "CYCLES",
+    "resolution": [
+      1400,
+      1000
+    ],
+    "resolution_percentage": 100,
+    "active_camera": "Presentation_Camera",
+    "camera_count": 1,
+    "light_count": 3,
+    "samples": 48
+  },
+  "objects_excluded_from_asset_counts": [
+    {
+      "name": "Presentation_Camera",
+      "type": "CAMERA"
+    },
+    {
+      "name": "Studio_Fill",
+      "type": "LIGHT"
+    },
+    {
+      "name": "Studio_Floor",
+      "type": "MESH"
+    },
+    {
+      "name": "Studio_Key",
+      "type": "LIGHT"
+    },
+    {
+      "name": "Studio_Rim",
+      "type": "LIGHT"
+    }
+  ],
+  "additional_structure_review": {
+    "brows": {
+      "named_candidates": [
+        "Pivot_Brow_L",
+        "Lion_Brow_L",
+        "Lion_Brow_L_RedFiber_1",
+        "Pivot_Brow_R",
+        "Lion_Brow_R",
+        "Lion_Brow_R_RedFiber_1"
+      ],
+      "scope": "Name presence is indirect evidence. Independently editable structure and visual fidelity require inspection."
+    },
+    "nose_and_muzzle": {
+      "named_candidates": [
+        "Pivot_Nose",
+        "Lion_Nose",
+        "Lion_Nose_RedFiber_1"
+      ],
+      "scope": "Name presence is indirect evidence. Independently editable structure and visual fidelity require inspection."
+    },
+    "side_ornaments": {
+      "named_candidates": [
+        "Pivot_CheekBell_L",
+        "Lion_CheekBell_L_Clapper",
+        "Lion_CheekBell_L_Loop",
+        "Lion_CheekBell_L_Shell",
+        "Pivot_CheekBell_R",
+        "Lion_CheekBell_R_Clapper",
+        "Lion_CheekBell_R_Loop",
+        "Lion_CheekBell_R_Shell"
+      ],
+      "scope": "Name presence is indirect evidence. Independently editable structure and visual fidelity require inspection."
+    },
+    "wave_trims": {
+      "named_candidates": [
+        "Pivot_Body_Red_Trim",
+        "Lion_Body_Red_Trim",
+        "Lion_Body_Red_Trim_RedFiber_1",
+        "Lion_Body_Red_Trim_RedFiber_2",
+        "Lion_Body_Red_Trim_RedFiber_3"
+      ],
+      "scope": "Name presence is indirect evidence. Independently editable structure and visual fidelity require inspection."
+    },
+    "tassels": {
+      "named_candidates": [
+        "Pivot_Tassel_L",
+        "Lion_Tassel_Collar_L",
+        "Lion_Tassel_L_RedFiber_1",
+        "Pivot_Tassel_R",
+        "Lion_Tassel_Collar_R",
+        "Lion_Tassel_R_RedFiber_1"
+      ],
+      "scope": "Name presence is indirect evidence. Independently editable structure and visual fidelity require inspection."
+    },
+    "bells": {
+      "named_candidates": [
+        "Pivot_CheekBell_L",
+        "Lion_CheekBell_L_Clapper",
+        "Lion_CheekBell_L_Loop",
+        "Lion_CheekBell_L_Shell",
+        "Pivot_CheekBell_R",
+        "Lion_CheekBell_R_Clapper",
+        "Lion_CheekBell_R_Loop",
+        "Lion_CheekBell_R_Shell",
+        "Pivot_TailBell_L",
+        "Lion_TailBell_L_Clapper",
+        "Lion_TailBell_L_Loop",
+        "Lion_TailBell_L_Shell",
+        "Pivot_TailBell_R",
+        "Lion_TailBell_R_Clapper",
+        "Lion_TailBell_R_Loop",
+        "Lion_TailBell_R_Shell"
+      ],
+      "scope": "Name presence is indirect evidence. Independently editable structure and visual fidelity require inspection."
+    },
+    "eyelids_or_blink_control": {
+      "named_candidates": [],
+      "scope": "Name presence is indirect evidence. Independently editable structure and visual fidelity require inspection."
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "unverified_requirements": [
+    "Reference-view shape, color, embroidery and fur fidelity require actual multi-angle image review.",
+    "No collision-free jaw/ear/head/tail motion or skin deformation is established by hierarchy checks.",
+    "Native fiber splines do not by themselves prove appropriate strand density, root placement or realistic fur.",
+    "Source non-manifold edges and intentional open partitions are reported; printability and watertightness are not claimed.",
+    "Names do not prove independent sculptural detail for brows, nose, eyelids, side ornaments or wave-trim bases.",
+    "GLB container and bounds checks do not establish viewport/render appearance parity."
+  ]
+}

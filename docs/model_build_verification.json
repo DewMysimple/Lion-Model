@@ -1,0 +1,314 @@
+{
+  "schema": "lion-project.model-build-verification/v1",
+  "verified_at": "2026-10-13T18:38:45.5858427+08:00",
+  "status": "pass",
+  "command": "build_model.cmd \"F:\\Blender\\blender.exe\" \"cache\\Lion_Builder_Final_Proof.blend\" -NoLfsPull",
+  "environment": "Windows CMD, Windows PowerShell 5.1, Blender 5.0.0",
+  "output": "cache/Lion_Builder_Final_Proof.blend",
+  "output_bytes": 194703053,
+  "output_sha256": "8e0fffeb3915d8e7b2b7c83d22bb87f52afb59aaa628d8d01d90da21d17d9f60",
+  "elapsed_seconds": 117.62118009999999,
+  "data_input_count": 12,
+  "tracked_python_modules": 15,
+  "input_and_recipe_hashes_checked": 29,
+  "input_files": [
+    {
+      "path": "blender/checkpoints/Lion_Body_Quality_Stage.blend",
+      "bytes": 113453657,
+      "sha256": "f451b9fbc30f4671c456c552a0cbdc833dbc92d84cd196deac9df2ea953c96a1"
+    },
+    {
+      "path": "blender/checkpoints/Lion_Head_Quality_Stage_v2.blend",
+      "bytes": 94456584,
+      "sha256": "519c5acd480367ecf7058e32b9337d6e12e244e5cfccd56ff8c624a2cfdd7c60"
+    },
+    {
+      "path": "blender/checkpoints/Lion_Detailed_Parts.blend",
+      "bytes": 21951541,
+      "sha256": "723e895e39e4a7a3ca33d5f5c0f2425227fc3483f5332218970f8ddd09aff25a"
+    },
+    {
+      "path": "generated/Lux3D_Lion_Base_glb.glb",
+      "bytes": 20796400,
+      "sha256": "10868714d52a4a4dbea9511ea4986738fdac4b39ba19ad858393f13b7255c3d4"
+    },
+    {
+      "path": "generated/candidates/head_highdetail/Lion_head_highdetail_glb.glb",
+      "bytes": 25041688,
+      "sha256": "a32adcf39afbf971106d0ad6661ea32eee4dc783cfa2e45e11a7643e82a6fe13"
+    },
+    {
+      "path": "textures/brocade_new/brocade_reference_synthesis.png",
+      "bytes": 4302336,
+      "sha256": "75b4c86681f9363c622f8ec33b537efa8d08e8a282523a7d8a70ba37a705496c"
+    },
+    {
+      "path": "textures/brocade_new/body_micro_weave_normal_2048.png",
+      "bytes": 471651,
+      "sha256": "05e235ab9f36ac80f09c3bb74625edad708faefe1e8fd482533c599baa4b62ea"
+    },
+    {
+      "path": "docs/head_candidate_parts_report_v3.json",
+      "bytes": 32646,
+      "sha256": "f6b742a077858bfe6c2598d6d1890f23f992e66b3b546630d79d398d26ffb7d7"
+    },
+    {
+      "path": "docs/brocade_uv_study_clear_v2_reimport.json",
+      "bytes": 4344,
+      "sha256": "250796b48451b8c4ab94f23d7e859e992e4b465ea3e123451b884897912d8548"
+    },
+    {
+      "path": "docs/trim_cloth_recovery_mask.npy",
+      "bytes": 24881,
+      "sha256": "03a2003515ff1de67a13aa39572506790225de183ab55d608390ba0289aaae62"
+    },
+    {
+      "path": "docs/trim_cloth_recovery_source_ids.npy",
+      "bytes": 99140,
+      "sha256": "4c4eeb3639f858f0e5c1f8ded331791e2489fc398a82fb3de339578346ef7e58"
+    },
+    {
+      "path": "docs/trim_geometry_features.npz",
+      "bytes": 2048489,
+      "sha256": "068fedc7868f34b8e6428103ad051e11d03a12f70a2a4e78c30becd4039eed6d"
+    },
+    {
+      "path": "scripts/project_paths.py",
+      "bytes": 3863,
+      "sha256": "b272915b2885684bb3d92b1cbb1f08628233b3028ac38a6c5654e6ac4e59475c"
+    },
+    {
+      "path": "scripts/build_native_model.py",
+      "bytes": 4730,
+      "sha256": "7a3198830ac67b6d557729ce10032022e6bd6e368f556831f42ace9b6fefc312"
+    },
+    {
+      "path": "scripts/refine_lion_master.py",
+      "bytes": 20586,
+      "sha256": "09d9da7d7b67d75bb246a0706d18adcb1ac40ea399a13b13c899de9838ac68b4"
+    },
+    {
+      "path": "scripts/assemble_quality_revision.py",
+      "bytes": 11360,
+      "sha256": "3bb999785845610c334cde2be0160692bc357cb749d663e5df52e02eeb1bc7b4"
+    },
+    {
+      "path": "scripts/correct_quality_material_boundaries.py",
+      "bytes": 4580,
+      "sha256": "fbde232291d572dd7a19a738893da4c099f45051278e83ba020d4a891f2701e9"
+    },
+    {
+      "path": "scripts/finalize_quality_revision.py",
+      "bytes": 3890,
+      "sha256": "203071300a9717e5665ae9edd7f8807daa1cbced3920ec33002b023b6ce6de91"
+    },
+    {
+      "path": "scripts/apply_final_head_detail.py",
+      "bytes": 3617,
+      "sha256": "dccf1c32818c75313ca83d40f96f16eda65b13161cea63ba75e4ffe09fec9c2c"
+    },
+    {
+      "path": "scripts/fiber_tools.py",
+      "bytes": 16400,
+      "sha256": "84ba721a142edb8bdd3b307652737edda3720c6e8fbac52ba0fcdd3a91a51d95"
+    },
+    {
+      "path": "scripts/lion_material_tools.py",
+      "bytes": 14520,
+      "sha256": "0c8daeab970af58d6f49a8b57c71106267e636ab564fa2db30b93876b077b438"
+    },
+    {
+      "path": "scripts/study_brocade_cylinder.py",
+      "bytes": 15328,
+      "sha256": "736ff90b24b0739dc72bec887f6e9ff5cca8be728f977a63f2e1f7c6a3952274"
+    },
+    {
+      "path": "scripts/study_head_forehead_brocade.py",
+      "bytes": 10806,
+      "sha256": "be2d8b79c97ba1b021e94442a2bbcd4efbeb9f9f8950219092b5c10789509c29"
+    },
+    {
+      "path": "scripts/recover_trim_cloth.py",
+      "bytes": 16376,
+      "sha256": "d21e2d3cfbdf004236dff6fffeffc144b33bad04952d988343984f03d9abd364"
+    },
+    {
+      "path": "scripts/probe_trim_cloth_recovery.py",
+      "bytes": 8355,
+      "sha256": "77762b880c27b78ef7faaec1a1b6206875d5b8cc4305ddaecb65f8a15ac09f0e"
+    },
+    {
+      "path": "scripts/add_fitted_details.py",
+      "bytes": 7230,
+      "sha256": "17ce5a823189cea5a71da1891d23037a06d39efe0affc3e7777a0d11774ca379"
+    },
+    {
+      "path": "scripts/verify_final_lion.py",
+      "bytes": 55158,
+      "sha256": "e364cdb868f6ef3ff0cef7ac5fed0eaf4048d45c5b9543e8578a0aacf0925047"
+    },
+    {
+      "path": "build_model.cmd",
+      "bytes": 138,
+      "sha256": "d9dc4a85aad0661e4fcababd36218c770a1f585679c1cb507247f12b1dd801f3"
+    },
+    {
+      "path": "scripts/build_model.ps1",
+      "bytes": 13142,
+      "sha256": "ea7dc29e5efb88b908be4f3b52bf7d4cbd5e29760a522f4862e42711f827d209"
+    }
+  ],
+  "staging_contained_no_existing_master": true,
+  "staging_removed_before_published_verification": true,
+  "native_status": "pass",
+  "native_errors": [],
+  "native_warnings": [],
+  "asset_objects": 256,
+  "source_parts": 20,
+  "retained_source_faces": 528398,
+  "native_fiber_strands": 980957,
+  "native_control_points": 3121088,
+  "packed_images": [
+    {
+      "name": "body_micro_weave_normal_2048.png",
+      "filepath": "//../textures/brocade_new/body_micro_weave_normal_2048.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "body_micro_weave_normal_2048.png.001",
+      "filepath": "//../textures/brocade_new/body_micro_weave_normal_2048.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "body_micro_weave_normal_2048.png.002",
+      "filepath": "//../textures/brocade_new/body_micro_weave_normal_2048.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "brocade_reference_synthesis.png",
+      "filepath": "//../textures/brocade_new/brocade_reference_synthesis.png",
+      "packed": true,
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "brocade_reference_synthesis.png.001",
+      "filepath": "//../textures/brocade_new/brocade_reference_synthesis.png",
+      "packed": true,
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "brocade_reference_synthesis.png.002",
+      "filepath": "//../textures/brocade_new/brocade_reference_synthesis.png",
+      "packed": true,
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "Lion_Atlas_Color_Refined",
+      "filepath": "//../textures/highdetail_head/lion_basecolor_refined.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "Lion_Atlas_Color_Scarlet",
+      "filepath": "//../textures/generated/lion_basecolor_scarlet.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "Lion_Color_Derived_Metallic",
+      "filepath": "//../textures/highdetail_head/lion_metallic_color_inferred.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "Lion_Color_Derived_Roughness",
+      "filepath": "//../textures/highdetail_head/lion_roughness_color_inferred.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "lion_metallic_color_inferred.png",
+      "filepath": "//../textures/generated/lion_metallic_color_inferred.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "lion_roughness_color_inferred.png",
+      "filepath": "//../textures/generated/lion_roughness_color_inferred.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "Lion_Weave_Appearance_Mask",
+      "filepath": "//../textures/highdetail_head/lion_weave_appearance_mask.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "lion_weave_appearance_mask.png",
+      "filepath": "//../textures/generated/lion_weave_appearance_mask.png",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "linked_libraries": [],
+  "linked_ids": [],
+  "original_master_sha256": "60eac7eda5fc8b44ead32cf2507e13b076c6dd2833d285aceaa9c1cab9901cbe",
+  "original_master_preserved": true,
+  "semantic_comparison": {
+    "status": "pass",
+    "report": "docs/native_reconstruction_comparison.json",
+    "portable_reference": "docs/native_reference_signature.json",
+    "scope": "Exact source geometry/UV/custom normals, native curves, transforms, controls, shaders and decoded image pixels; generated topology storage permutations proven equivalent",
+    "generated_normal_maximum_absolute_roundoff": 1.1920928955078125e-7,
+    "generated_tooth_uv_maximum_absolute_roundoff": 5.960464477539063e-8,
+    "errors": 0,
+    "warnings": 0
+  },
+  "limitations": "No cloud regeneration, animation or new quality improvements. No rendering. Constructed and verified with the recorded Blender version."
+}

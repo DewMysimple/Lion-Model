@@ -1,0 +1,371 @@
+[
+  {
+    "decoded_index": 119319,
+    "native_corner_matches": [
+      {
+        "native_face_index": 127997,
+        "source_face_index": 170867,
+        "native_vertex_index": 71830,
+        "native_polygon_vertex_indices": [
+          71830,
+          85036,
+          85159
+        ],
+        "native_uvs": [
+          0.9146901369094849,
+          0.0908045768737793,
+          0.7258428335189819,
+          2.4989125728607178
+        ],
+        "max_uv_diff": 2.0384788513183594e-05,
+        "material_index": 0,
+        "native_corner_normal": [
+          -0.8292324542999268,
+          -0.04747147858142853,
+          0.556884229183197
+        ],
+        "decoded_normal": [
+          -0.8292697072029114,
+          0.5568154454231262,
+          0.04762696847319603
+        ],
+        "normal_angle_degrees": 0.0,
+        "actual_decoded_triangles_with_vertex": [
+          [
+            119319,
+            119320,
+            119321
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "decoded_index": 119320,
+    "native_corner_matches": [
+      {
+        "native_face_index": 127997,
+        "source_face_index": 170867,
+        "native_vertex_index": 85036,
+        "native_polygon_vertex_indices": [
+          71830,
+          85036,
+          85159
+        ],
+        "native_uvs": [
+          0.9146901369094849,
+          0.08927202224731445,
+          0.7378733158111572,
+          2.479372024536133
+        ],
+        "max_uv_diff": 1.2874603271484375e-05,
+        "material_index": 0,
+        "native_corner_normal": [
+          -0.8292324542999268,
+          -0.04747147858142853,
+          0.556884229183197
+        ],
+        "decoded_normal": [
+          -0.8292697072029114,
+          0.5568154454231262,
+          0.04762696847319603
+        ],
+        "normal_angle_degrees": 0.0,
+        "actual_decoded_triangles_with_vertex": [
+          [
+            119319,
+            119320,
+            119321
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "decoded_index": 119321,
+    "native_corner_matches": [
+      {
+        "native_face_index": 127997,
+        "source_face_index": 170867,
+        "native_vertex_index": 85159,
+        "native_polygon_vertex_indices": [
+          71830,
+          85036,
+          85159
+        ],
+        "native_uvs": [
+          0.9139249920845032,
+          0.09008711576461792,
+          0.7297827005386353,
+          2.4919984340667725
+        ],
+        "max_uv_diff": 1.5020370483398438e-05,
+        "material_index": 0,
+        "native_corner_normal": [
+          -0.8292324542999268,
+          -0.04747147858142853,
+          0.556884229183197
+        ],
+        "decoded_normal": [
+          -0.8292697072029114,
+          0.5568154454231262,
+          0.04762696847319603
+        ],
+        "normal_angle_degrees": 0.0,
+        "actual_decoded_triangles_with_vertex": [
+          [
+            119319,
+            119320,
+            119321
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "decoded_index": 195845,
+    "native_corner_matches": [
+      {
+        "native_face_index": 70962,
+        "source_face_index": 101833,
+        "native_vertex_index": 40229,
+        "native_polygon_vertex_indices": [
+          40229,
+          45365,
+          45366
+        ],
+        "native_uvs": [
+          0.37528690695762634,
+          0.009578526020050049,
+          -0.19074302911758423,
+          2.208439588546753
+        ],
+        "max_uv_diff": 1.0251998901367188e-05,
+        "material_index": 0,
+        "native_corner_normal": [
+          -0.9949625134468079,
+          -0.047991421073675156,
+          -0.08801450580358505
+        ],
+        "decoded_normal": [
+          -0.9949743151664734,
+          -0.08784057199954987,
+          0.04806371033191681
+        ],
+        "normal_angle_degrees": 0.0,
+        "actual_decoded_triangles_with_vertex": [
+          [
+            195845,
+            195846,
+            195847
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "decoded_index": 195846,
+    "native_corner_matches": [
+      {
+        "native_face_index": 70962,
+        "source_face_index": 101833,
+        "native_vertex_index": 45365,
+        "native_polygon_vertex_indices": [
+          40229,
+          45365,
+          45366
+        ],
+        "native_uvs": [
+          0.37528690695762634,
+          0.008045971393585205,
+          -0.19307193160057068,
+          2.1820297241210938
+        ],
+        "max_uv_diff": 1.7404556274414062e-05,
+        "material_index": 0,
+        "native_corner_normal": [
+          -0.9949625134468079,
+          -0.047991421073675156,
+          -0.08801450580358505
+        ],
+        "decoded_normal": [
+          -0.9949743151664734,
+          -0.08784057199954987,
+          0.04806371033191681
+        ],
+        "normal_angle_degrees": 0.0,
+        "actual_decoded_triangles_with_vertex": [
+          [
+            195845,
+            195846,
+            195847
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "decoded_index": 195847,
+    "native_corner_matches": [
+      {
+        "native_face_index": 70962,
+        "source_face_index": 101833,
+        "native_vertex_index": 45366,
+        "native_polygon_vertex_indices": [
+          40229,
+          45365,
+          45366
+        ],
+        "native_uvs": [
+          0.37452179193496704,
+          0.009364426136016846,
+          -0.19171153008937836,
+          2.204729914665222
+        ],
+        "max_uv_diff": 2.016127109527588e-05,
+        "material_index": 0,
+        "native_corner_normal": [
+          -0.9949625134468079,
+          -0.047991421073675156,
+          -0.08801450580358505
+        ],
+        "decoded_normal": [
+          -0.9949743151664734,
+          -0.08784057199954987,
+          0.04806371033191681
+        ],
+        "normal_angle_degrees": 0.0,
+        "actual_decoded_triangles_with_vertex": [
+          [
+            195845,
+            195846,
+            195847
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "decoded_index": 222677,
+    "native_corner_matches": [
+      {
+        "native_face_index": 50050,
+        "source_face_index": 75119,
+        "native_vertex_index": 25191,
+        "native_polygon_vertex_indices": [
+          25191,
+          25192,
+          25138
+        ],
+        "native_uvs": [
+          0.2505738437175751,
+          0.004980862140655518,
+          -0.48302119970321655,
+          2.863464117050171
+        ],
+        "max_uv_diff": 1.5795230865478516e-05,
+        "material_index": 0,
+        "native_corner_normal": [
+          0.6685420870780945,
+          -0.5926780700683594,
+          -0.4492039680480957
+        ],
+        "decoded_normal": [
+          0.6684970855712891,
+          -0.4495643079280853,
+          0.5924556255340576
+        ],
+        "normal_angle_degrees": 0.015256132334574795,
+        "actual_decoded_triangles_with_vertex": [
+          [
+            222677,
+            222678,
+            222679
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "decoded_index": 222678,
+    "native_corner_matches": [
+      {
+        "native_face_index": 50050,
+        "source_face_index": 75119,
+        "native_vertex_index": 25192,
+        "native_polygon_vertex_indices": [
+          25191,
+          25192,
+          25138
+        ],
+        "native_uvs": [
+          0.25032269954681396,
+          0.0057471394538879395,
+          -0.4813680648803711,
+          2.874289870262146
+        ],
+        "max_uv_diff": 2.7298927307128906e-05,
+        "material_index": 0,
+        "native_corner_normal": [
+          0.6685420870780945,
+          -0.5926780700683594,
+          -0.4492039680480957
+        ],
+        "decoded_normal": [
+          0.6684970855712891,
+          -0.4495643079280853,
+          0.5924556255340576
+        ],
+        "normal_angle_degrees": 0.015256132334574795,
+        "actual_decoded_triangles_with_vertex": [
+          [
+            222677,
+            222678,
+            222679
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "decoded_index": 222679,
+    "native_corner_matches": [
+      {
+        "native_face_index": 50050,
+        "source_face_index": 75119,
+        "native_vertex_index": 25138,
+        "native_polygon_vertex_indices": [
+          25191,
+          25192,
+          25138
+        ],
+        "native_uvs": [
+          0.24904361367225647,
+          0.004980862140655518,
+          -0.4652966260910034,
+          2.856091260910034
+        ],
+        "max_uv_diff": 2.6226043701171875e-05,
+        "material_index": 0,
+        "native_corner_normal": [
+          0.6685420870780945,
+          -0.5926780700683594,
+          -0.4492039680480957
+        ],
+        "decoded_normal": [
+          0.6684970855712891,
+          -0.4495643079280853,
+          0.5924556255340576
+        ],
+        "normal_angle_degrees": 0.015256132334574795,
+        "actual_decoded_triangles_with_vertex": [
+          [
+            222677,
+            222678,
+            222679
+          ]
+        ]
+      }
+    ]
+  }
+]

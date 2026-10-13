@@ -1,0 +1,142 @@
+{
+  "source_sha256_before": "10868714d52a4a4dbea9511ea4986738fdac4b39ba19ad858393f13b7255c3d4",
+  "source_material_links": [
+    {
+      "from_node": "Principled BSDF",
+      "from_socket": "BSDF",
+      "to_node": "Material Output",
+      "to_socket": "Surface"
+    },
+    {
+      "from_node": "Image Texture",
+      "from_socket": "Color",
+      "to_node": "Principled BSDF",
+      "to_socket": "Base Color"
+    },
+    {
+      "from_node": "Separate Color",
+      "from_socket": "Blue",
+      "to_node": "Principled BSDF",
+      "to_socket": "Metallic"
+    },
+    {
+      "from_node": "Separate Color",
+      "from_socket": "Green",
+      "to_node": "Principled BSDF",
+      "to_socket": "Roughness"
+    },
+    {
+      "from_node": "Image Texture.001",
+      "from_socket": "Color",
+      "to_node": "Separate Color",
+      "to_socket": "Color"
+    }
+  ],
+  "original_zip_files": [
+    {
+      "archive_entry": "MODEL.glb",
+      "path": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\generated\\original_zip\\MODEL.glb",
+      "bytes": 12695156,
+      "sha256": "b25dc3e77c3b57954450345db192a19b2c2c1c1a19763e35617d0231e729aeda",
+      "interpretation": "Unmodified source; channel semantics unverified"
+    },
+    {
+      "archive_entry": "RawDiffuseFilter.png",
+      "path": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\generated\\original_zip\\RawDiffuseFilter.png",
+      "bytes": 5124818,
+      "sha256": "3da0572ad2b2da656d65fe0381c97b87108da701760481bf9ce9addcafa1fe58",
+      "interpretation": "Unmodified source; channel semantics unverified"
+    },
+    {
+      "archive_entry": "RawReflectFilter.png",
+      "path": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\generated\\original_zip\\RawReflectFilter.png",
+      "bytes": 3180281,
+      "sha256": "594580b38d9b191139a3d95b96c8938d49dcfdd895c012ec276147e4ece48b35",
+      "interpretation": "Unmodified source; channel semantics unverified"
+    },
+    {
+      "archive_entry": "RawReflectGlossFilter.png",
+      "path": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\generated\\original_zip\\RawReflectGlossFilter.png",
+      "bytes": 789055,
+      "sha256": "76de6efe64cb91245c90acb7eb0b6546b801622bdd237924d6d456dcaa4bfb14",
+      "interpretation": "Unmodified source; channel semantics unverified"
+    },
+    {
+      "archive_entry": "RawFresnelIorFilter.png",
+      "path": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\generated\\original_zip\\RawFresnelIorFilter.png",
+      "bytes": 543503,
+      "sha256": "b9f820466b770fe1c44135025a948c455102957b7efc89b749596cebd4347ec1",
+      "interpretation": "Unmodified source; channel semantics unverified"
+    },
+    {
+      "archive_entry": "RawRefractFilter.png",
+      "path": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\generated\\original_zip\\RawRefractFilter.png",
+      "bytes": 318892,
+      "sha256": "7352e32fee12e0978b82d1b65c30c780fc98f2f571296575b6797fa747e07418",
+      "interpretation": "Unmodified source; channel semantics unverified"
+    },
+    {
+      "archive_entry": "RawRefractGlossFilter.png",
+      "path": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\generated\\original_zip\\RawRefractGlossFilter.png",
+      "bytes": 1051678,
+      "sha256": "1ce9632dcaa7294867dfa7f44be5b70b56f8fbcc5fb44b0023dcd3f67d15ffbe",
+      "interpretation": "Unmodified source; channel semantics unverified"
+    }
+  ],
+  "auxiliary_source_maps": [
+    {
+      "source_image": "Image_1",
+      "path": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\generated\\original_metallicroughness_atlas.png",
+      "verified_source_channels": "G=roughness, B=metallic; verified material node links"
+    }
+  ],
+  "material": {
+    "source_material": "Designer_Logic_PBR",
+    "source_image": "Image_0",
+    "source_atlas": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\generated\\original_basecolor_atlas.png",
+    "source_atlas_sha256": "5961b033ce0f76e01f97709366a11b539b9f1bbcf2c649782c2369198c7c8ff7",
+    "size": [
+      2048,
+      2048
+    ],
+    "source_pixels_space": "Stored encoded sRGB RGBA, bottom-left origin; empirically checked against original PNG bytes",
+    "derived_maps": {
+      "basecolor": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\generated\\lion_basecolor_refined.png",
+      "roughness": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\generated\\lion_roughness_color_inferred.png",
+      "metallic": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\generated\\lion_metallic_color_inferred.png",
+      "weave_mask": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\textures\\generated\\lion_weave_appearance_mask.png"
+    },
+    "classification": "Soft masks derived from original perceptual RGB; same atlas and UVs",
+    "roughness_range": [
+      0.4700000286102295,
+      0.8600000143051147
+    ],
+    "metallic_range": [
+      0.0,
+      0.47999998927116394
+    ],
+    "mask_mean": {
+      "red": 0.4639120399951935,
+      "gold": 0.01039966568350792,
+      "white": 0.19422726333141327
+    },
+    "limitations": [
+      "Color cannot distinguish red fur from red embroidered cloth without spatial part classification.",
+      "Gold color suggests partial metallic thread response; it does not prove metal composition.",
+      "Baked highlights and shadows remain in original texture; exact reflectance cannot be recovered.",
+      "Original 2048px motif atlas is retained; this does not reconstruct original embroidery stitches.",
+      "Regular UV weave is a subtle generic microstructure; generated UV islands lack true textile warp directions."
+    ]
+  },
+  "renders": [
+    "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\renders\\material_study\\original_front_minus_y.png",
+    "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\renders\\material_study\\original_left_minus_x.png",
+    "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\renders\\material_study\\refined_front_minus_y.png",
+    "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\renders\\material_study\\refined_left_minus_x.png"
+  ],
+  "saved_color_roundtrip_max_encoded_error": 0.0,
+  "saved_color_roundtrip_mean_encoded_error": 0.0,
+  "source_sha256_after": "10868714d52a4a4dbea9511ea4986738fdac4b39ba19ad858393f13b7255c3d4",
+  "source_preserved": true,
+  "blend": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\blender\\Lion_Material_Study.blend"
+}

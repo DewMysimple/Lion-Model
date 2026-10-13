@@ -1,0 +1,34 @@
+{
+  "scope": "Actual clear_v2 native before/after images and independently reimported Body-only GLB rendering, inspected visually.",
+  "nativeStudy": "blender/Lion_Brocade_UV_Study_clear_v2.blend",
+  "colorTile": "textures/brocade_new/brocade_reference_synthesis.png",
+  "colorTileOrigin": "New AI-synthesized reference-inspired floral brocade; not an exact restoration of the source embroidery.",
+  "nativeEvidence": [
+    "renders/brocade_uv_study_clear_v2/before_cloth_detail.png",
+    "renders/brocade_uv_study_clear_v2/after_cloth_detail.png",
+    "renders/brocade_uv_study_clear_v2/after_whole_side.png"
+  ],
+  "observedBodyImprovement": "Selected Body cloth displays substantially sharper red, gold and dark floral motifs than the original blurred atlas. Physical long-axis tile length is 0.20m.",
+  "remainingNativeIssue": "Large old-atlas triangles still interrupt the cloth. Actual ray casts show the sampled interruptions belong to Lion_Body_Red_Trim, which this Body-only prototype intentionally leaves unchanged. The existing Trim classification includes flat cloth patches.",
+  "actualRayCastEvidence": {
+    "tool": "exec_command",
+    "callRecord": "264e3c",
+    "view": "after_cloth_detail.png, 960x640, positive X orthographic",
+    "samples": [
+      {"pixel": [470,425], "worldYZ": [0.1829166710,0.3856250048], "object": "Lion_Body_Red_Trim", "nativeFace": 23181},
+      {"pixel": [480,380], "worldYZ": [0.1899999976,0.4174999893], "object": "Lion_Body_Red_Trim", "nativeFace": 23996},
+      {"pixel": [350,420], "worldYZ": [0.0979166701,0.3891666532], "object": "Lion_Body", "nativeFace": 120490, "material": "Brocade_Clear_Tile_Cloth_Study"}
+    ]
+  },
+  "glbEvidence": "renders/brocade_uv_study_clear_v2/reimport_cloth_detail.png",
+  "glbObserved": "New floral motif remains visible after actual standard GLB reimport. Body-only export has gaps where separate Trim geometry was omitted by design; this is a material/UV export test, not a complete lion scene.",
+  "glbChecksReport": "docs/brocade_uv_study_clear_v2_reimport.json",
+  "normalComparisonEvidence": [
+    "renders/brocade_uv_study_clear_v2/micro_normal_strength_0.png",
+    "renders/brocade_uv_study_clear_v2/micro_normal_strength_0p18.png",
+    "renders/brocade_uv_study_clear_v2/micro_normal_strength_0p25.png"
+  ],
+  "normalComparisonObserved": "At a real 0.06m horizontal macro width, strengths 0, 0.18 and 0.25 show very subtle differences under this studio lighting. The 2048 tangent normal is embedded, imported as Non-Color, and connected through NormalMap with UV1. The motif color itself already depicts fine woven linework; no claim of photometric thread reconstruction is made.",
+  "finalModelAccepted": false,
+  "nextRequiredWork": "Correct verified flat cloth patches misclassified into Trim, then inspect complete combined native and exported scenes. Exact original embroidery and seam-free reconstruction are not demonstrated."
+}

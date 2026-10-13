@@ -1,0 +1,23 @@
+{
+  "schema": "lux3d.delivery-spec/v2",
+  "title": "广府醒狮：最终精修模型（压缩网页版）与原始生成源",
+  "items": [
+    {
+      "id": "lion-base",
+      "label": "原始生成源：完整醒狮底模（非最终精修）",
+      "selectedAttemptId": "lion-base-generation",
+      "attempts": [{"id": "lion-base-generation", "statePath": "lux3d_state_base.json"}]
+    },
+    {
+      "id": "lion-head",
+      "label": "原始生成源：独立狮头（非完整最终模型）",
+      "selectedAttemptId": "lion-head-generation",
+      "attempts": [{"id": "lion-head-generation", "statePath": "lux3d_state_head.json"}]
+    }
+  ],
+  "scene": {
+    "status": "ready",
+    "artifactPath": "../exports/scene_draco.glb",
+    "evidencePath": "scene_execution_draco.json"
+  }
+}

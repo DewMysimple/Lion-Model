@@ -1,0 +1,38 @@
+{
+  "recordedAt": "2026-10-11T15:27:37.249981+00:00",
+  "studyBlend": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\blender\\Lion_Cloth_Projection_Study.blend",
+  "reference": "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\references\\left.png",
+  "renders": [
+    "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\renders\\cloth_projection_study\\before_whole_side.png",
+    "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\renders\\cloth_projection_study\\before_cloth_detail.png",
+    "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\renders\\cloth_projection_study\\after_whole_side.png",
+    "C:\\Users\\Administrator\\Desktop\\\u6a21\u578b2\\Lion_3D_Project\\renders\\cloth_projection_study\\after_cloth_detail.png"
+  ],
+  "changedObject": "Lion_Body",
+  "unchangedTrim": "Lion_Body_Red_Trim",
+  "trimMaterialAssignmentsPreserved": true,
+  "sourceHashesBefore": {
+    "master": "37dc72d10c886e5bc43f1a0aed54c1c1f55ab627758d212c159dfdc054a4a627",
+    "reference": "7ee1f40cd68a5bb24149b6629c8330d073de5f464460c4ef66ca58e5a9f11ef2"
+  },
+  "sourceHashesAfter": {
+    "master": "37dc72d10c886e5bc43f1a0aed54c1c1f55ab627758d212c159dfdc054a4a627",
+    "reference": "7ee1f40cd68a5bb24149b6629c8330d073de5f464460c4ef66ca58e5a9f11ef2"
+  },
+  "sourcesPreserved": true,
+  "referenceMaskNonzeroPixelFraction": 0.15812861836958222,
+  "projectionUV": "ReferenceClothWorldYZ_PositiveX",
+  "mapping": {
+    "pixelX": "471.857142857 + 485.714285714 * worldY",
+    "pixelYFromTop": "566 - 525 * worldZ"
+  },
+  "landmarkStatus": "Estimated shoulder, rear and belly correspondences; visual comparison is required.",
+  "limitations": [
+    "Only photographed +X-facing cloth is projected.",
+    "Reference contains baked lighting; this is not measured albedo.",
+    "Opposite/occluded faces, gray backdrop and strong red-fur pixels fall back to the original atlas.",
+    "The original low-resolution reference limits achievable detail.",
+    "No unseen motif or original embroidery stitch geometry is reconstructed."
+  ],
+  "visualAcceptance": "Pending actual image inspection; no improvement is claimed yet."
+}

@@ -1,0 +1,688 @@
+{
+  "recorded_at_utc": "2026-10-11T13:40:08.244345+00:00",
+  "scope": "Local eye/ring/bell component GLB only; not cloud generation or full-lion acceptance. Checks compare node hierarchy, mesh triangles/material slots and standard PBR factors; native procedural micro-bump is not present in this GLB.",
+  "source_sha256": "3103a3b07c1d8dc506f53b4514230c9772f71123b3b51486c9c433d1a5fd2c18",
+  "objects": [
+    {
+      "node": "Black_Inner_Eye_Socket_L",
+      "expected_parent": "Eye_Assembly_L",
+      "actual_parent": "Eye_Assembly_L",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Black_Lacquer"
+      ],
+      "actual_materials": [
+        "Black_Lacquer"
+      ],
+      "expected_triangles": 4096,
+      "actual_triangles": 4096,
+      "passed": true
+    },
+    {
+      "node": "Black_Outer_Eye_Outline_L",
+      "expected_parent": "Eye_Assembly_L",
+      "actual_parent": "Eye_Assembly_L",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Black_Lacquer"
+      ],
+      "actual_materials": [
+        "Black_Lacquer"
+      ],
+      "expected_triangles": 4096,
+      "actual_triangles": 4096,
+      "passed": true
+    },
+    {
+      "node": "Copper_Iris_L",
+      "expected_parent": "EyeBall_Rotation_L",
+      "actual_parent": "EyeBall_Rotation_L",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Copper_Red_Eye_Ring"
+      ],
+      "actual_materials": [
+        "Copper_Red_Eye_Ring"
+      ],
+      "expected_triangles": 4096,
+      "actual_triangles": 4096,
+      "passed": true
+    },
+    {
+      "node": "EyeBall_L",
+      "expected_parent": "EyeBall_Rotation_L",
+      "actual_parent": "EyeBall_Rotation_L",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Black_Polished_Eye"
+      ],
+      "actual_materials": [
+        "Black_Polished_Eye"
+      ],
+      "expected_triangles": 3968,
+      "actual_triangles": 3968,
+      "passed": true
+    },
+    {
+      "node": "Glossy_Black_Pupil_L",
+      "expected_parent": "EyeBall_Rotation_L",
+      "actual_parent": "EyeBall_Rotation_L",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Black_Polished_Eye"
+      ],
+      "actual_materials": [
+        "Black_Polished_Eye"
+      ],
+      "expected_triangles": 3968,
+      "actual_triangles": 3968,
+      "passed": true
+    },
+    {
+      "node": "Inner_Brass_Iris_L",
+      "expected_parent": "EyeBall_Rotation_L",
+      "actual_parent": "EyeBall_Rotation_L",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Brass_Warm_Polished"
+      ],
+      "actual_materials": [
+        "Brass_Warm_Polished"
+      ],
+      "expected_triangles": 4096,
+      "actual_triangles": 4096,
+      "passed": true
+    },
+    {
+      "node": "Outer_Brass_Iris_L",
+      "expected_parent": "EyeBall_Rotation_L",
+      "actual_parent": "EyeBall_Rotation_L",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Brass_Warm_Polished"
+      ],
+      "actual_materials": [
+        "Brass_Warm_Polished"
+      ],
+      "expected_triangles": 4096,
+      "actual_triangles": 4096,
+      "passed": true
+    },
+    {
+      "node": "EyeBall_Rotation_L",
+      "expected_parent": "Eye_Assembly_L",
+      "actual_parent": "Eye_Assembly_L",
+      "expected_type": "EMPTY",
+      "actual_type": "EMPTY",
+      "expected_materials": [],
+      "actual_materials": [],
+      "expected_triangles": null,
+      "actual_triangles": null,
+      "passed": true
+    },
+    {
+      "node": "Outer_Red_Growth_Base_L",
+      "expected_parent": "Eye_Assembly_L",
+      "actual_parent": "Eye_Assembly_L",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Red_Velour_Growth_Base"
+      ],
+      "actual_materials": [
+        "Red_Velour_Growth_Base"
+      ],
+      "expected_triangles": 4096,
+      "actual_triangles": 4096,
+      "passed": true
+    },
+    {
+      "node": "Outer_White_Painted_Rim_L",
+      "expected_parent": "Eye_Assembly_L",
+      "actual_parent": "Eye_Assembly_L",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Ivory_White_Painted_Rim"
+      ],
+      "actual_materials": [
+        "Ivory_White_Painted_Rim"
+      ],
+      "expected_triangles": 4096,
+      "actual_triangles": 4096,
+      "passed": true
+    },
+    {
+      "node": "Red_Inner_Eye_Outline_L",
+      "expected_parent": "Eye_Assembly_L",
+      "actual_parent": "Eye_Assembly_L",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Red_Painted_Edge"
+      ],
+      "actual_materials": [
+        "Red_Painted_Edge"
+      ],
+      "expected_triangles": 4096,
+      "actual_triangles": 4096,
+      "passed": true
+    },
+    {
+      "node": "White_Inner_Painted_Rim_L",
+      "expected_parent": "Eye_Assembly_L",
+      "actual_parent": "Eye_Assembly_L",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Ivory_White_Painted_Rim"
+      ],
+      "actual_materials": [
+        "Ivory_White_Painted_Rim"
+      ],
+      "expected_triangles": 4096,
+      "actual_triangles": 4096,
+      "passed": true
+    },
+    {
+      "node": "Eye_Assembly_L",
+      "expected_parent": null,
+      "actual_parent": null,
+      "expected_type": "EMPTY",
+      "actual_type": "EMPTY",
+      "expected_materials": [],
+      "actual_materials": [],
+      "expected_triangles": null,
+      "actual_triangles": null,
+      "passed": true
+    },
+    {
+      "node": "Black_Inner_Eye_Socket_R",
+      "expected_parent": "Eye_Assembly_R",
+      "actual_parent": "Eye_Assembly_R",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Black_Lacquer"
+      ],
+      "actual_materials": [
+        "Black_Lacquer"
+      ],
+      "expected_triangles": 4096,
+      "actual_triangles": 4096,
+      "passed": true
+    },
+    {
+      "node": "Black_Outer_Eye_Outline_R",
+      "expected_parent": "Eye_Assembly_R",
+      "actual_parent": "Eye_Assembly_R",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Black_Lacquer"
+      ],
+      "actual_materials": [
+        "Black_Lacquer"
+      ],
+      "expected_triangles": 4096,
+      "actual_triangles": 4096,
+      "passed": true
+    },
+    {
+      "node": "Copper_Iris_R",
+      "expected_parent": "EyeBall_Rotation_R",
+      "actual_parent": "EyeBall_Rotation_R",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Copper_Red_Eye_Ring"
+      ],
+      "actual_materials": [
+        "Copper_Red_Eye_Ring"
+      ],
+      "expected_triangles": 4096,
+      "actual_triangles": 4096,
+      "passed": true
+    },
+    {
+      "node": "EyeBall_R",
+      "expected_parent": "EyeBall_Rotation_R",
+      "actual_parent": "EyeBall_Rotation_R",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Black_Polished_Eye"
+      ],
+      "actual_materials": [
+        "Black_Polished_Eye"
+      ],
+      "expected_triangles": 3968,
+      "actual_triangles": 3968,
+      "passed": true
+    },
+    {
+      "node": "Glossy_Black_Pupil_R",
+      "expected_parent": "EyeBall_Rotation_R",
+      "actual_parent": "EyeBall_Rotation_R",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Black_Polished_Eye"
+      ],
+      "actual_materials": [
+        "Black_Polished_Eye"
+      ],
+      "expected_triangles": 3968,
+      "actual_triangles": 3968,
+      "passed": true
+    },
+    {
+      "node": "Inner_Brass_Iris_R",
+      "expected_parent": "EyeBall_Rotation_R",
+      "actual_parent": "EyeBall_Rotation_R",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Brass_Warm_Polished"
+      ],
+      "actual_materials": [
+        "Brass_Warm_Polished"
+      ],
+      "expected_triangles": 4096,
+      "actual_triangles": 4096,
+      "passed": true
+    },
+    {
+      "node": "Outer_Brass_Iris_R",
+      "expected_parent": "EyeBall_Rotation_R",
+      "actual_parent": "EyeBall_Rotation_R",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Brass_Warm_Polished"
+      ],
+      "actual_materials": [
+        "Brass_Warm_Polished"
+      ],
+      "expected_triangles": 4096,
+      "actual_triangles": 4096,
+      "passed": true
+    },
+    {
+      "node": "EyeBall_Rotation_R",
+      "expected_parent": "Eye_Assembly_R",
+      "actual_parent": "Eye_Assembly_R",
+      "expected_type": "EMPTY",
+      "actual_type": "EMPTY",
+      "expected_materials": [],
+      "actual_materials": [],
+      "expected_triangles": null,
+      "actual_triangles": null,
+      "passed": true
+    },
+    {
+      "node": "Outer_Red_Growth_Base_R",
+      "expected_parent": "Eye_Assembly_R",
+      "actual_parent": "Eye_Assembly_R",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Red_Velour_Growth_Base"
+      ],
+      "actual_materials": [
+        "Red_Velour_Growth_Base"
+      ],
+      "expected_triangles": 4096,
+      "actual_triangles": 4096,
+      "passed": true
+    },
+    {
+      "node": "Outer_White_Painted_Rim_R",
+      "expected_parent": "Eye_Assembly_R",
+      "actual_parent": "Eye_Assembly_R",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Ivory_White_Painted_Rim"
+      ],
+      "actual_materials": [
+        "Ivory_White_Painted_Rim"
+      ],
+      "expected_triangles": 4096,
+      "actual_triangles": 4096,
+      "passed": true
+    },
+    {
+      "node": "Red_Inner_Eye_Outline_R",
+      "expected_parent": "Eye_Assembly_R",
+      "actual_parent": "Eye_Assembly_R",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Red_Painted_Edge"
+      ],
+      "actual_materials": [
+        "Red_Painted_Edge"
+      ],
+      "expected_triangles": 4096,
+      "actual_triangles": 4096,
+      "passed": true
+    },
+    {
+      "node": "White_Inner_Painted_Rim_R",
+      "expected_parent": "Eye_Assembly_R",
+      "actual_parent": "Eye_Assembly_R",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Ivory_White_Painted_Rim"
+      ],
+      "actual_materials": [
+        "Ivory_White_Painted_Rim"
+      ],
+      "expected_triangles": 4096,
+      "actual_triangles": 4096,
+      "passed": true
+    },
+    {
+      "node": "Eye_Assembly_R",
+      "expected_parent": null,
+      "actual_parent": null,
+      "expected_type": "EMPTY",
+      "actual_type": "EMPTY",
+      "expected_materials": [],
+      "actual_materials": [],
+      "expected_triangles": null,
+      "actual_triangles": null,
+      "passed": true
+    },
+    {
+      "node": "Bell_Internal_Clapper",
+      "expected_parent": "Bell_Assembly",
+      "actual_parent": "Bell_Assembly",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Copper_Red_Eye_Ring"
+      ],
+      "actual_materials": [
+        "Copper_Red_Eye_Ring"
+      ],
+      "expected_triangles": 3968,
+      "actual_triangles": 3968,
+      "passed": true
+    },
+    {
+      "node": "Bell_Suspension_Loop",
+      "expected_parent": "Bell_Assembly",
+      "actual_parent": "Bell_Assembly",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Brass_Warm_Polished"
+      ],
+      "actual_materials": [
+        "Brass_Warm_Polished"
+      ],
+      "expected_triangles": 1536,
+      "actual_triangles": 1536,
+      "passed": true
+    },
+    {
+      "node": "Bell_Thin_Brass_Shell",
+      "expected_parent": "Bell_Assembly",
+      "actual_parent": "Bell_Assembly",
+      "expected_type": "MESH",
+      "actual_type": "MESH",
+      "expected_materials": [
+        "Brass_Warm_Polished"
+      ],
+      "actual_materials": [
+        "Brass_Warm_Polished"
+      ],
+      "expected_triangles": 7192,
+      "actual_triangles": 7192,
+      "passed": true
+    },
+    {
+      "node": "Bell_Assembly",
+      "expected_parent": null,
+      "actual_parent": null,
+      "expected_type": "EMPTY",
+      "actual_type": "EMPTY",
+      "expected_materials": [],
+      "actual_materials": [],
+      "expected_triangles": null,
+      "actual_triangles": null,
+      "passed": true
+    }
+  ],
+  "materials": [
+    {
+      "name": "Black_Lacquer",
+      "source_pbr": {
+        "base_color": [
+          0.008999999612569809,
+          0.008999999612569809,
+          0.012000000104308128,
+          1
+        ],
+        "metallic": 0,
+        "roughness": 0.14000000059604645
+      },
+      "imported_pbr": {
+        "base_color": [
+          0.008999999612569809,
+          0.008999999612569809,
+          0.012000000104308128,
+          1.0
+        ],
+        "metallic": 0.0,
+        "roughness": 0.14000000059604645
+      },
+      "passed": true
+    },
+    {
+      "name": "Copper_Red_Eye_Ring",
+      "source_pbr": {
+        "base_color": [
+          0.3799999952316284,
+          0.07500000298023224,
+          0.024000000208616257,
+          1
+        ],
+        "metallic": 0.800000011920929,
+        "roughness": 0.25
+      },
+      "imported_pbr": {
+        "base_color": [
+          0.3799999952316284,
+          0.07500000298023224,
+          0.024000000208616257,
+          1.0
+        ],
+        "metallic": 0.800000011920929,
+        "roughness": 0.25
+      },
+      "passed": true
+    },
+    {
+      "name": "Black_Polished_Eye",
+      "source_pbr": {
+        "base_color": [
+          0.006000000052154064,
+          0.004000000189989805,
+          0.003000000026077032,
+          1
+        ],
+        "metallic": 0,
+        "roughness": 0.06499999761581421
+      },
+      "imported_pbr": {
+        "base_color": [
+          0.006000000052154064,
+          0.004000000189989805,
+          0.003000000026077032,
+          1.0
+        ],
+        "metallic": 0.0,
+        "roughness": 0.06499999761581421
+      },
+      "passed": true
+    },
+    {
+      "name": "Brass_Warm_Polished",
+      "source_pbr": {
+        "base_color": [
+          0.6499999761581421,
+          0.3700000047683716,
+          0.0949999988079071,
+          1
+        ],
+        "metallic": 1,
+        "roughness": 0.23000000417232513
+      },
+      "imported_pbr": {
+        "base_color": [
+          0.6499999761581421,
+          0.3700000047683716,
+          0.0949999988079071,
+          1.0
+        ],
+        "metallic": 1.0,
+        "roughness": 0.23000000417232513
+      },
+      "passed": true
+    },
+    {
+      "name": "Red_Velour_Growth_Base",
+      "source_pbr": {
+        "base_color": [
+          0.33000001311302185,
+          0.003000000026077032,
+          0.010999999940395355,
+          1
+        ],
+        "metallic": 0,
+        "roughness": 0.7300000190734863
+      },
+      "imported_pbr": {
+        "base_color": [
+          0.33000001311302185,
+          0.003000000026077032,
+          0.010999999940395355,
+          1.0
+        ],
+        "metallic": 0.0,
+        "roughness": 0.7300000190734863
+      },
+      "passed": true
+    },
+    {
+      "name": "Ivory_White_Painted_Rim",
+      "source_pbr": {
+        "base_color": [
+          0.8199999928474426,
+          0.7799999713897705,
+          0.6800000071525574,
+          1
+        ],
+        "metallic": 0,
+        "roughness": 0.28999999165534973
+      },
+      "imported_pbr": {
+        "base_color": [
+          0.8199999928474426,
+          0.7799999713897705,
+          0.6800000071525574,
+          1.0
+        ],
+        "metallic": 0.0,
+        "roughness": 0.28999999165534973
+      },
+      "passed": true
+    },
+    {
+      "name": "Red_Painted_Edge",
+      "source_pbr": {
+        "base_color": [
+          0.5,
+          0.010999999940395355,
+          0.01899999938905239,
+          1
+        ],
+        "metallic": 0,
+        "roughness": 0.36000001430511475
+      },
+      "imported_pbr": {
+        "base_color": [
+          0.5,
+          0.010999999940395355,
+          0.01899999938905239,
+          1.0
+        ],
+        "metallic": 0.0,
+        "roughness": 0.36000001430511475
+      },
+      "passed": true
+    }
+  ],
+  "render_images": [
+    {
+      "file": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\component_roundtrip_check\\renders\\back_plus_y.png",
+      "dimensions": [
+        384,
+        384
+      ],
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\component_roundtrip_check\\renders\\bottom_minus_z.png",
+      "dimensions": [
+        384,
+        384
+      ],
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\component_roundtrip_check\\renders\\front_minus_y.png",
+      "dimensions": [
+        384,
+        384
+      ],
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\component_roundtrip_check\\renders\\left_minus_x.png",
+      "dimensions": [
+        384,
+        384
+      ],
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\component_roundtrip_check\\renders\\right_plus_x.png",
+      "dimensions": [
+        384,
+        384
+      ],
+      "passed": true
+    },
+    {
+      "file": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\component_roundtrip_check\\renders\\top_plus_z.png",
+      "dimensions": [
+        384,
+        384
+      ],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

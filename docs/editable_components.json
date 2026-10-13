@@ -1,0 +1,31 @@
+{
+  "createdAt": "2026-10-11T21:37:24.758957+08:00",
+  "status": "local-component-kit-reopened-and-render-visually-reviewed",
+  "blend": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\blender\\components\\Lion_Editable_Components.blend",
+  "componentGlb": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\exports\\components\\Lion_Editable_Components.glb",
+  "blenderVersion": "5.0.0",
+  "assetMeshCount": 25,
+  "rawPolygonCount": 51468,
+  "rootObjects": [
+    "Eye_Assembly_L",
+    "Eye_Assembly_R",
+    "Bell_Assembly"
+  ],
+  "limits": [
+    "Not a complete lion model.",
+    "Components require fitting to the generated base.",
+    "Painted ring geometry and lacquer/brass materials are real; brows and hair are not included.",
+    "No rigging or animation acceptance is claimed.",
+    "The GLB keeps geometry and standard material factors; native procedural micro-bump is not baked.",
+    "Bell slit and clapper construction is a functional inference, not directly measured from the reference.",
+    "No external image texture dependencies are used."
+  ],
+  "render": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\renders\\components\\eye_and_bell_study.png",
+  "renderDimensions": [
+    1400,
+    1000
+  ],
+  "renderDevice": "OPTIX",
+  "reopenCheck": "C:\\Users\\Administrator\\Desktop\\模型2\\Lion_3D_Project\\docs\\editable_components_reopen_check.json",
+  "visualReview": "All components are visible in the corrected Cycles render. Eye frames are a normalized study; full head fitting, brow shape and hair remain pending."
+}

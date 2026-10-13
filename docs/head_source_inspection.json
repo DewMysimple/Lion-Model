@@ -1,0 +1,32 @@
+{
+  "schema": "lion.source-artifact-verification/v1",
+  "taskId": "4055287",
+  "scope": "Actual downloaded provider artifacts; container inspection is not a final model visual acceptance.",
+  "artifacts": [
+    {
+      "path": "generated/candidates/head_highdetail/Lion_head_highdetail_glb.glb",
+      "format": "glb",
+      "bytes": 25041688,
+      "sha256": "a32adcf39afbf971106d0ad6661ea32eee4dc783cfa2e45e11a7643e82a6fe13",
+      "validation": {"valid": true, "glbVersion": 2, "assetVersion": "2.0", "scenes": 1, "nodes": 1, "meshes": 1, "materials": 1},
+      "actualInspectionTool": "exec_command",
+      "callRecord": "452eb3",
+      "exitCode": 0
+    },
+    {
+      "path": "generated/candidates/head_highdetail/Lion_head_highdetail_zip.zip",
+      "format": "zip",
+      "bytes": 25082862,
+      "sha256": "caa7b3d30e370d4e2606965b713b4c1831653d3d5a1fc52632ec8953750f2b6f",
+      "validation": {"valid": true, "zipEntries": 7, "modelEntries": ["MODEL.glb"]},
+      "actualInspectionTool": "exec_command",
+      "callRecord": "28a2d9",
+      "exitCode": 0
+    }
+  ],
+  "submissionStartedAt": "2026-10-11T15:40:17.930422+00:00",
+  "providerSucceededAt": "2026-10-11T15:46:57.670979+00:00",
+  "downloadCompletedAt": "2026-10-11T15:47:00.233348+00:00",
+  "deliverySnapshotCreatedAtUsesSubmissionStartedAt": true,
+  "durationScope": "Source generation elapsed since actual submission; local scene assembly and rendering are separate."
+}
